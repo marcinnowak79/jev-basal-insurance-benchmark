@@ -1,0 +1,7 @@
+*.key
+*_key.txt
+.secrets/
+.env
+serve_*.log
+.znacznik
+__pycache__/

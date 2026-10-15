@@ -1,0 +1,11 @@
+The dataset (zestaw.jsonl) and the results (wyniki/*.json) are licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0).
+To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/
+
+Copyright (c) 2026 Marcin Nowak
+
+The dataset quotes short fragments of the general terms and conditions
+"Ogólne Warunki Ubezpieczenia Autocasco Standard" (symbol C6205) of
+Towarzystwo Ubezpieczeń i Reasekuracji "WARTA" S.A. as the source of the rules.
+Rights to the text of those terms remain with their owner. All persons, vehicles
+and dates in the dataset are fictional.

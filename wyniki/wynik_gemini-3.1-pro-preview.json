@@ -1,0 +1,8682 @@
+{
+ "label": "gemini-3.1-pro-preview",
+ "url": "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-pro-preview:generateContent",
+ "wyniki": [
+  {
+   "id": "poczatek_ochrony-0198",
+   "family": "poczatek_ochrony",
+   "group": "O-14",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 7478.276968002319,
+   "meta": {
+    "zawarcie": "2026-08-26",
+    "zaplata": "2026-08-31",
+    "szkoda": "2026-09-01"
+   },
+   "usage": {
+    "promptTokenCount": 345,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 984,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 345
+     }
+    ],
+    "thoughtsTokenCount": 632,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0068",
+   "family": "kradziez_policja_12h",
+   "group": "P12-5",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6634.021997451782,
+   "meta": {
+    "minuty": 1800
+   },
+   "usage": {
+    "promptTokenCount": 382,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 916,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 382
+     }
+    ],
+    "thoughtsTokenCount": 525,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0104",
+   "family": "kradziez_policja_12h",
+   "group": "P12-21",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4778.634071350098,
+   "meta": {
+    "minuty": 1800
+   },
+   "usage": {
+    "promptTokenCount": 381,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 635,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 381
+     }
+    ],
+    "thoughtsTokenCount": 245,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0114",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-4",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4893.892288208008,
+   "meta": {
+    "dzien": "2026-10-02",
+    "termin": "2026-10-05",
+    "zgloszenie": "2026-10-06"
+   },
+   "usage": {
+    "promptTokenCount": 394,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 594,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 394
+     }
+    ],
+    "thoughtsTokenCount": 191,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0020",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-9",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6577.010869979858,
+   "meta": {
+    "dni": 2
+   },
+   "usage": {
+    "promptTokenCount": 304,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 749,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 304
+     }
+    ],
+    "thoughtsTokenCount": 436,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0074",
+   "family": "kradziez_policja_12h",
+   "group": "P12-8",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5911.110877990723,
+   "meta": {
+    "minuty": 745
+   },
+   "usage": {
+    "promptTokenCount": 381,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 808,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 381
+     }
+    ],
+    "thoughtsTokenCount": 418,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0094",
+   "family": "kradziez_policja_12h",
+   "group": "P12-17",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6504.731893539429,
+   "meta": {
+    "minuty": 90
+   },
+   "usage": {
+    "promptTokenCount": 377,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 885,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 377
+     }
+    ],
+    "thoughtsTokenCount": 499,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0231",
+   "family": "szkoda_calkowita_70",
+   "group": "C-8",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6742.091178894043,
+   "meta": {
+    "W": 58000,
+    "S": 58000,
+    "K": 39400,
+    "proc": 67.9
+   },
+   "usage": {
+    "promptTokenCount": 305,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 776,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 305
+     }
+    ],
+    "thoughtsTokenCount": 463,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0069",
+   "family": "kradziez_policja_12h",
+   "group": "P12-6",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6388.819932937622,
+   "meta": {
+    "minuty": 700
+   },
+   "usage": {
+    "promptTokenCount": 380,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 947,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 380
+     }
+    ],
+    "thoughtsTokenCount": 558,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0310",
+   "family": "wylaczenia_par4",
+   "group": "X-2-2",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8224.261999130249,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1051,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1655,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1051
+     }
+    ],
+    "thoughtsTokenCount": 591,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0032",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-14",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4961.493015289307,
+   "meta": {
+    "dni": 8
+   },
+   "usage": {
+    "promptTokenCount": 305,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 556,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 305
+     }
+    ],
+    "thoughtsTokenCount": 242,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0121",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-8",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5342.756032943726,
+   "meta": {
+    "dzien": "2026-07-08",
+    "termin": "2026-07-09",
+    "zgloszenie": "2026-07-09"
+   },
+   "usage": {
+    "promptTokenCount": 397,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 794,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 397
+     }
+    ],
+    "thoughtsTokenCount": 388,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0314",
+   "family": "wylaczenia_par4",
+   "group": "X-4-2",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5703.79638671875,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1061,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1410,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1061
+     }
+    ],
+    "thoughtsTokenCount": 336,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0129",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-12",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4983.023166656494,
+   "meta": {
+    "dzien": "2026-08-08",
+    "termin": "2026-08-10",
+    "zgloszenie": "2026-08-10"
+   },
+   "usage": {
+    "promptTokenCount": 396,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 672,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 396
+     }
+    ],
+    "thoughtsTokenCount": 267,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0085",
+   "family": "kradziez_policja_12h",
+   "group": "P12-13",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5516.125917434692,
+   "meta": {
+    "minuty": 400
+   },
+   "usage": {
+    "promptTokenCount": 383,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 767,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 383
+     }
+    ],
+    "thoughtsTokenCount": 375,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0100",
+   "family": "kradziez_policja_12h",
+   "group": "P12-20",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5630.400896072388,
+   "meta": {
+    "minuty": 700
+   },
+   "usage": {
+    "promptTokenCount": 383,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 820,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 383
+     }
+    ],
+    "thoughtsTokenCount": 428,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0036",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-16",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6042.497873306274,
+   "meta": {
+    "dni": 7
+   },
+   "usage": {
+    "promptTokenCount": 308,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 828,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 308
+     }
+    ],
+    "thoughtsTokenCount": 511,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0262",
+   "family": "szkoda_calkowita_70",
+   "group": "C-23",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4391.260862350464,
+   "meta": {
+    "W": 113000,
+    "S": 113000,
+    "K": 81300,
+    "proc": 71.9
+   },
+   "usage": {
+    "promptTokenCount": 308,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 607,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 308
+     }
+    ],
+    "thoughtsTokenCount": 290,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0170",
+   "family": "poczatek_ochrony",
+   "group": "O-2",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4451.013088226318,
+   "meta": {
+    "zawarcie": "2026-07-22",
+    "zaplata": "2026-07-22",
+    "szkoda": "2026-07-22"
+   },
+   "usage": {
+    "promptTokenCount": 347,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 589,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 347
+     }
+    ],
+    "thoughtsTokenCount": 232,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0056",
+   "family": "kradziez_policja_12h",
+   "group": "P12-0",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6114.7730350494385,
+   "meta": {
+    "minuty": 745
+   },
+   "usage": {
+    "promptTokenCount": 380,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 773,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 380
+     }
+    ],
+    "thoughtsTokenCount": 384,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0207",
+   "family": "poczatek_ochrony",
+   "group": "O-18",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6587.316036224365,
+   "meta": {
+    "zawarcie": "2026-10-20",
+    "zaplata": "2026-10-25",
+    "szkoda": "2026-10-26"
+   },
+   "usage": {
+    "promptTokenCount": 344,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 946,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 344
+     }
+    ],
+    "thoughtsTokenCount": 595,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0080",
+   "family": "kradziez_policja_12h",
+   "group": "P12-11",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 7613.048076629639,
+   "meta": {
+    "minuty": 400
+   },
+   "usage": {
+    "promptTokenCount": 381,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 848,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 381
+     }
+    ],
+    "thoughtsTokenCount": 458,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0233",
+   "family": "szkoda_calkowita_70",
+   "group": "C-9",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 7041.8901443481445,
+   "meta": {
+    "W": 141000,
+    "S": 126900,
+    "K": 93700,
+    "proc": 73.8
+   },
+   "usage": {
+    "promptTokenCount": 307,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 956,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 307
+     }
+    ],
+    "thoughtsTokenCount": 639,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0162",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-28",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5644.982814788818,
+   "meta": {
+    "dzien": "2026-11-14",
+    "termin": "2026-11-16",
+    "zgloszenie": "2026-11-17"
+   },
+   "usage": {
+    "promptTokenCount": 397,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 809,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 397
+     }
+    ],
+    "thoughtsTokenCount": 403,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0304",
+   "family": "wylaczenia_par4",
+   "group": "X-9-1",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4716.568946838379,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1041,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 1261,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1041
+     }
+    ],
+    "thoughtsTokenCount": 212,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0013",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-5",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 7100.508213043213,
+   "meta": {
+    "dni": null
+   },
+   "usage": {
+    "promptTokenCount": 313,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 809,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 313
+     }
+    ],
+    "thoughtsTokenCount": 487,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0234",
+   "family": "szkoda_calkowita_70",
+   "group": "C-9",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 7204.395771026611,
+   "meta": {
+    "W": 141000,
+    "S": 126900,
+    "K": 83700,
+    "proc": 66.0
+   },
+   "usage": {
+    "promptTokenCount": 307,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 878,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 307
+     }
+    ],
+    "thoughtsTokenCount": 563,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0291",
+   "family": "wylaczenia_par4",
+   "group": "X-3-1",
+   "gold": "woda",
+   "pred": "woda",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5882.155895233154,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1072,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 1479,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1072
+     }
+    ],
+    "thoughtsTokenCount": 400,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0078",
+   "family": "kradziez_policja_12h",
+   "group": "P12-10",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6175.948143005371,
+   "meta": {
+    "minuty": 700
+   },
+   "usage": {
+    "promptTokenCount": 385,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 911,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 385
+     }
+    ],
+    "thoughtsTokenCount": 517,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0297",
+   "family": "wylaczenia_par4",
+   "group": "X-6-1",
+   "gold": "wyscigi",
+   "pred": "wyscigi",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6907.416105270386,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1057,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 1561,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1057
+     }
+    ],
+    "thoughtsTokenCount": 496,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0023",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-10",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 3885.1852416992188,
+   "meta": {
+    "dni": 8
+   },
+   "usage": {
+    "promptTokenCount": 306,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 495,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 306
+     }
+    ],
+    "thoughtsTokenCount": 180,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0319",
+   "family": "wylaczenia_par4",
+   "group": "X-7-2",
+   "gold": "kluczyki",
+   "pred": "kluczyki",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4610.379934310913,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1079,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 1373,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1079
+     }
+    ],
+    "thoughtsTokenCount": 279,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0296",
+   "family": "wylaczenia_par4",
+   "group": "X-5-1",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 7376.495122909546,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1058,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 1411,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1058
+     }
+    ],
+    "thoughtsTokenCount": 346,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0060",
+   "family": "kradziez_policja_12h",
+   "group": "P12-2",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8186.270236968994,
+   "meta": {
+    "minuty": 700
+   },
+   "usage": {
+    "promptTokenCount": 379,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 810,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 379
+     }
+    ],
+    "thoughtsTokenCount": 422,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0277",
+   "family": "wylaczenia_par4",
+   "group": "X-6-0",
+   "gold": "wyscigi",
+   "pred": "wyscigi",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 7278.832912445068,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1055,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 1662,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1055
+     }
+    ],
+    "thoughtsTokenCount": 599,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0200",
+   "family": "poczatek_ochrony",
+   "group": "O-15",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5081.557989120483,
+   "meta": {
+    "zawarcie": "2026-08-04",
+    "zaplata": "2026-08-07",
+    "szkoda": "2026-08-08"
+   },
+   "usage": {
+    "promptTokenCount": 343,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 715,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 343
+     }
+    ],
+    "thoughtsTokenCount": 365,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0320",
+   "family": "wylaczenia_par4",
+   "group": "X-7-2",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4783.625364303589,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1075,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1374,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1075
+     }
+    ],
+    "thoughtsTokenCount": 286,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0125",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-10",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5897.86696434021,
+   "meta": {
+    "dzien": "2026-11-25",
+    "termin": "2026-11-26",
+    "zgloszenie": "2026-11-26"
+   },
+   "usage": {
+    "promptTokenCount": 396,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 899,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 396
+     }
+    ],
+    "thoughtsTokenCount": 494,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0281",
+   "family": "wylaczenia_par4",
+   "group": "X-8-0",
+   "gold": "terytorium",
+   "pred": "terytorium",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6500.537157058716,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1038,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 1602,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1038
+     }
+    ],
+    "thoughtsTokenCount": 556,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0145",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-20",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4834.485054016113,
+   "meta": {
+    "dzien": "2026-08-21",
+    "termin": "2026-08-24",
+    "zgloszenie": "2026-08-24"
+   },
+   "usage": {
+    "promptTokenCount": 399,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 843,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 399
+     }
+    ],
+    "thoughtsTokenCount": 435,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0159",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-27",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 37144.95801925659,
+   "meta": {
+    "dzien": "2026-10-17",
+    "termin": "2026-10-19",
+    "zgloszenie": "2026-10-19"
+   },
+   "usage": {
+    "promptTokenCount": 388,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 2160,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 388
+     }
+    ],
+    "thoughtsTokenCount": 1762,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0249",
+   "family": "szkoda_calkowita_70",
+   "group": "C-17",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5941.936731338501,
+   "meta": {
+    "W": 127000,
+    "S": 127000,
+    "K": 86300,
+    "proc": 68.0
+   },
+   "usage": {
+    "promptTokenCount": 306,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 796,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 306
+     }
+    ],
+    "thoughtsTokenCount": 482,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0110",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-2",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5350.034952163696,
+   "meta": {
+    "dzien": "2026-11-08",
+    "termin": "2026-11-09",
+    "zgloszenie": "2026-11-10"
+   },
+   "usage": {
+    "promptTokenCount": 394,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 943,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 394
+     }
+    ],
+    "thoughtsTokenCount": 540,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0033",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-15",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 3567.1780109405518,
+   "meta": {
+    "dni": 1
+   },
+   "usage": {
+    "promptTokenCount": 306,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 449,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 306
+     }
+    ],
+    "thoughtsTokenCount": 128,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0186",
+   "family": "poczatek_ochrony",
+   "group": "O-9",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4928.835153579712,
+   "meta": {
+    "zawarcie": "2026-12-02",
+    "zaplata": "2026-12-04",
+    "szkoda": "2026-12-04"
+   },
+   "usage": {
+    "promptTokenCount": 341,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 642,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 341
+     }
+    ],
+    "thoughtsTokenCount": 291,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0163",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-29",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4875.338077545166,
+   "meta": {
+    "dzien": "2026-10-29",
+    "termin": "2026-10-30",
+    "zgloszenie": "2026-10-30"
+   },
+   "usage": {
+    "promptTokenCount": 386,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 626,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 386
+     }
+    ],
+    "thoughtsTokenCount": 230,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0208",
+   "family": "poczatek_ochrony",
+   "group": "O-19",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6902.955055236816,
+   "meta": {
+    "zawarcie": "2026-09-08",
+    "zaplata": "2026-09-08",
+    "szkoda": "2026-09-08"
+   },
+   "usage": {
+    "promptTokenCount": 343,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 944,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 343
+     }
+    ],
+    "thoughtsTokenCount": 591,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0256",
+   "family": "szkoda_calkowita_70",
+   "group": "C-20",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4671.111106872559,
+   "meta": {
+    "W": 141000,
+    "S": 141000,
+    "K": 101500,
+    "proc": 72.0
+   },
+   "usage": {
+    "promptTokenCount": 307,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 576,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 307
+     }
+    ],
+    "thoughtsTokenCount": 260,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0187",
+   "family": "poczatek_ochrony",
+   "group": "O-9",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5911.600112915039,
+   "meta": {
+    "zawarcie": "2026-12-02",
+    "zaplata": "2026-12-04",
+    "szkoda": "2026-12-05"
+   },
+   "usage": {
+    "promptTokenCount": 341,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 774,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 341
+     }
+    ],
+    "thoughtsTokenCount": 420,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0055",
+   "family": "kradziez_policja_12h",
+   "group": "P12-0",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5994.386911392212,
+   "meta": {
+    "minuty": 700
+   },
+   "usage": {
+    "promptTokenCount": 380,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 865,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 380
+     }
+    ],
+    "thoughtsTokenCount": 475,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0151",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-23",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8160.084962844849,
+   "meta": {
+    "dzien": "2026-08-09",
+    "termin": "2026-08-10",
+    "zgloszenie": "2026-08-10"
+   },
+   "usage": {
+    "promptTokenCount": 387,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 944,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 387
+     }
+    ],
+    "thoughtsTokenCount": 548,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0308",
+   "family": "wylaczenia_par4",
+   "group": "X-1-2",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4095.4103469848633,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1094,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1335,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1094
+     }
+    ],
+    "thoughtsTokenCount": 228,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0237",
+   "family": "szkoda_calkowita_70",
+   "group": "C-11",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6728.791952133179,
+   "meta": {
+    "W": 82000,
+    "S": 82000,
+    "K": 55700,
+    "proc": 67.9
+   },
+   "usage": {
+    "promptTokenCount": 306,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 879,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 306
+     }
+    ],
+    "thoughtsTokenCount": 565,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0116",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-5",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8998.131036758423,
+   "meta": {
+    "dzien": "2026-10-06",
+    "termin": "2026-10-07",
+    "zgloszenie": "2026-10-08"
+   },
+   "usage": {
+    "promptTokenCount": 389,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 1103,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 389
+     }
+    ],
+    "thoughtsTokenCount": 705,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0084",
+   "family": "kradziez_policja_12h",
+   "group": "P12-12",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4104.437828063965,
+   "meta": {
+    "minuty": null
+   },
+   "usage": {
+    "promptTokenCount": 378,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 617,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 378
+     }
+    ],
+    "thoughtsTokenCount": 230,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0149",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-22",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6012.185096740723,
+   "meta": {
+    "dzien": "2026-10-01",
+    "termin": "2026-10-02",
+    "zgloszenie": "2026-10-02"
+   },
+   "usage": {
+    "promptTokenCount": 394,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 747,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 394
+     }
+    ],
+    "thoughtsTokenCount": 344,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0246",
+   "family": "szkoda_calkowita_70",
+   "group": "C-15",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6428.9391040802,
+   "meta": {
+    "W": 93000,
+    "S": 83700,
+    "K": 55200,
+    "proc": 65.9
+   },
+   "usage": {
+    "promptTokenCount": 306,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 886,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 306
+     }
+    ],
+    "thoughtsTokenCount": 572,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0006",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-2",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 7404.87003326416,
+   "meta": {
+    "dni": 8
+   },
+   "usage": {
+    "promptTokenCount": 302,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 683,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 302
+     }
+    ],
+    "thoughtsTokenCount": 372,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0113",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-4",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5473.122119903564,
+   "meta": {
+    "dzien": "2026-10-02",
+    "termin": "2026-10-05",
+    "zgloszenie": "2026-10-05"
+   },
+   "usage": {
+    "promptTokenCount": 396,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 872,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 396
+     }
+    ],
+    "thoughtsTokenCount": 467,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0166",
+   "family": "poczatek_ochrony",
+   "group": "O-0",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8219.451189041138,
+   "meta": {
+    "zawarcie": "2026-06-18",
+    "zaplata": "2026-06-19",
+    "szkoda": "2026-06-20"
+   },
+   "usage": {
+    "promptTokenCount": 346,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 1119,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 346
+     }
+    ],
+    "thoughtsTokenCount": 766,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0105",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-0",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4719.202041625977,
+   "meta": {
+    "dzien": "2026-10-18",
+    "termin": "2026-10-19",
+    "zgloszenie": "2026-10-19"
+   },
+   "usage": {
+    "promptTokenCount": 399,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 645,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 399
+     }
+    ],
+    "thoughtsTokenCount": 237,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0098",
+   "family": "kradziez_policja_12h",
+   "group": "P12-19",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5254.267930984497,
+   "meta": {
+    "minuty": 30
+   },
+   "usage": {
+    "promptTokenCount": 382,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 780,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 382
+     }
+    ],
+    "thoughtsTokenCount": 389,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0322",
+   "family": "wylaczenia_par4",
+   "group": "X-8-2",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6466.372013092041,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1040,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 1300,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1040
+     }
+    ],
+    "thoughtsTokenCount": 252,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0210",
+   "family": "poczatek_ochrony",
+   "group": "O-20",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 14682.486057281494,
+   "meta": {
+    "zawarcie": "2026-07-18",
+    "zaplata": "2026-07-21",
+    "szkoda": "2026-07-21"
+   },
+   "usage": {
+    "promptTokenCount": 346,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 981,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 346
+     }
+    ],
+    "thoughtsTokenCount": 625,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0072",
+   "family": "kradziez_policja_12h",
+   "group": "P12-7",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4606.50897026062,
+   "meta": {
+    "minuty": 840
+   },
+   "usage": {
+    "promptTokenCount": 383,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 713,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 383
+     }
+    ],
+    "thoughtsTokenCount": 321,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0061",
+   "family": "kradziez_policja_12h",
+   "group": "P12-2",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 10050.10199546814,
+   "meta": {
+    "minuty": 745
+   },
+   "usage": {
+    "promptTokenCount": 379,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 594,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 379
+     }
+    ],
+    "thoughtsTokenCount": 206,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0318",
+   "family": "wylaczenia_par4",
+   "group": "X-6-2",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5626.023292541504,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1063,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1465,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1063
+     }
+    ],
+    "thoughtsTokenCount": 389,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0180",
+   "family": "poczatek_ochrony",
+   "group": "O-6",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 7276.738166809082,
+   "meta": {
+    "zawarcie": "2026-08-06",
+    "zaplata": "2026-08-11",
+    "szkoda": "2026-08-12"
+   },
+   "usage": {
+    "promptTokenCount": 346,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 913,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 346
+     }
+    ],
+    "thoughtsTokenCount": 560,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0002",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-0",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5143.517971038818,
+   "meta": {
+    "dni": null
+   },
+   "usage": {
+    "promptTokenCount": 315,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 641,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 315
+     }
+    ],
+    "thoughtsTokenCount": 317,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0196",
+   "family": "poczatek_ochrony",
+   "group": "O-13",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8270.07508277893,
+   "meta": {
+    "zawarcie": "2026-06-21",
+    "zaplata": "2026-06-26",
+    "szkoda": "2026-06-27"
+   },
+   "usage": {
+    "promptTokenCount": 345,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 1087,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 345
+     }
+    ],
+    "thoughtsTokenCount": 735,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0199",
+   "family": "poczatek_ochrony",
+   "group": "O-15",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5601.186990737915,
+   "meta": {
+    "zawarcie": "2026-08-04",
+    "zaplata": "2026-08-07",
+    "szkoda": "2026-08-07"
+   },
+   "usage": {
+    "promptTokenCount": 343,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 688,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 343
+     }
+    ],
+    "thoughtsTokenCount": 335,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0251",
+   "family": "szkoda_calkowita_70",
+   "group": "C-18",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5934.369087219238,
+   "meta": {
+    "W": 71000,
+    "S": 56800,
+    "K": 44700,
+    "proc": 78.7
+   },
+   "usage": {
+    "promptTokenCount": 304,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 811,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 304
+     }
+    ],
+    "thoughtsTokenCount": 498,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0141",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-18",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5471.609830856323,
+   "meta": {
+    "dzien": "2026-11-22",
+    "termin": "2026-11-23",
+    "zgloszenie": "2026-11-23"
+   },
+   "usage": {
+    "promptTokenCount": 401,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 754,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 401
+     }
+    ],
+    "thoughtsTokenCount": 344,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0025",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-11",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5360.36491394043,
+   "meta": {
+    "dni": 5
+   },
+   "usage": {
+    "promptTokenCount": 308,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 725,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 308
+     }
+    ],
+    "thoughtsTokenCount": 408,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0054",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-24",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 3654.482841491699,
+   "meta": {
+    "dni": 8
+   },
+   "usage": {
+    "promptTokenCount": 305,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 475,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 305
+     }
+    ],
+    "thoughtsTokenCount": 155,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0122",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-8",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5464.201927185059,
+   "meta": {
+    "dzien": "2026-07-08",
+    "termin": "2026-07-09",
+    "zgloszenie": "2026-07-10"
+   },
+   "usage": {
+    "promptTokenCount": 398,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 853,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 398
+     }
+    ],
+    "thoughtsTokenCount": 445,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0206",
+   "family": "poczatek_ochrony",
+   "group": "O-18",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5753.2031536102295,
+   "meta": {
+    "zawarcie": "2026-10-20",
+    "zaplata": "2026-10-25",
+    "szkoda": "2026-10-25"
+   },
+   "usage": {
+    "promptTokenCount": 344,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 605,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 344
+     }
+    ],
+    "thoughtsTokenCount": 251,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0065",
+   "family": "kradziez_policja_12h",
+   "group": "P12-4",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5814.151048660278,
+   "meta": {
+    "minuty": 745
+   },
+   "usage": {
+    "promptTokenCount": 381,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 874,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 381
+     }
+    ],
+    "thoughtsTokenCount": 484,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0311",
+   "family": "wylaczenia_par4",
+   "group": "X-3-2",
+   "gold": "woda",
+   "pred": "woda",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6883.01420211792,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1071,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 1697,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1071
+     }
+    ],
+    "thoughtsTokenCount": 619,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0099",
+   "family": "kradziez_policja_12h",
+   "group": "P12-19",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6993.610858917236,
+   "meta": {
+    "minuty": 840
+   },
+   "usage": {
+    "promptTokenCount": 382,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 1040,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 382
+     }
+    ],
+    "thoughtsTokenCount": 649,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0005",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-2",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4186.587810516357,
+   "meta": {
+    "dni": 7
+   },
+   "usage": {
+    "promptTokenCount": 302,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 507,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 302
+     }
+    ],
+    "thoughtsTokenCount": 196,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0021",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-9",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4927.937984466553,
+   "meta": {
+    "dni": 12
+   },
+   "usage": {
+    "promptTokenCount": 305,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 661,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 305
+     }
+    ],
+    "thoughtsTokenCount": 347,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0247",
+   "family": "szkoda_calkowita_70",
+   "group": "C-16",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6182.456731796265,
+   "meta": {
+    "W": 154000,
+    "S": 154000,
+    "K": 104700,
+    "proc": 68.0
+   },
+   "usage": {
+    "promptTokenCount": 307,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 820,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 307
+     }
+    ],
+    "thoughtsTokenCount": 505,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0261",
+   "family": "szkoda_calkowita_70",
+   "group": "C-23",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4007.6489448547363,
+   "meta": {
+    "W": 113000,
+    "S": 113000,
+    "K": 76800,
+    "proc": 68.0
+   },
+   "usage": {
+    "promptTokenCount": 308,
+    "candidatesTokenCount": 14,
+    "totalTokenCount": 590,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 308
+     }
+    ],
+    "thoughtsTokenCount": 268,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0092",
+   "family": "kradziez_policja_12h",
+   "group": "P12-16",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8058.029651641846,
+   "meta": {
+    "minuty": 745
+   },
+   "usage": {
+    "promptTokenCount": 381,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 778,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 381
+     }
+    ],
+    "thoughtsTokenCount": 388,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0179",
+   "family": "poczatek_ochrony",
+   "group": "O-6",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6480.7469844818115,
+   "meta": {
+    "zawarcie": "2026-08-06",
+    "zaplata": "2026-08-11",
+    "szkoda": "2026-08-11"
+   },
+   "usage": {
+    "promptTokenCount": 346,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 909,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 346
+     }
+    ],
+    "thoughtsTokenCount": 553,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0271",
+   "family": "wylaczenia_par4",
+   "group": "X-3-0",
+   "gold": "woda",
+   "pred": "woda",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 17686.11788749695,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1073,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 1272,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1073
+     }
+    ],
+    "thoughtsTokenCount": 192,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0133",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-14",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4056.162118911743,
+   "meta": {
+    "dzien": "2026-09-15",
+    "termin": "2026-09-16",
+    "zgloszenie": "2026-09-16"
+   },
+   "usage": {
+    "promptTokenCount": 397,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 520,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 397
+     }
+    ],
+    "thoughtsTokenCount": 108,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0323",
+   "family": "wylaczenia_par4",
+   "group": "X-9-2",
+   "gold": "terytorium",
+   "pred": "terytorium",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5441.54691696167,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1045,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 1450,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1045
+     }
+    ],
+    "thoughtsTokenCount": 397,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0026",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-11",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 3749.613046646118,
+   "meta": {
+    "dni": 21
+   },
+   "usage": {
+    "promptTokenCount": 307,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 491,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 307
+     }
+    ],
+    "thoughtsTokenCount": 175,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0216",
+   "family": "szkoda_calkowita_70",
+   "group": "C-0",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6140.958309173584,
+   "meta": {
+    "W": 63000,
+    "S": 56700,
+    "K": 37400,
+    "proc": 66.0
+   },
+   "usage": {
+    "promptTokenCount": 308,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 887,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 308
+     }
+    ],
+    "thoughtsTokenCount": 571,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0102",
+   "family": "kradziez_policja_12h",
+   "group": "P12-20",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5868.962049484253,
+   "meta": {
+    "minuty": null
+   },
+   "usage": {
+    "promptTokenCount": 378,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 841,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 378
+     }
+    ],
+    "thoughtsTokenCount": 454,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0214",
+   "family": "poczatek_ochrony",
+   "group": "O-21",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4710.81018447876,
+   "meta": {
+    "zawarcie": "2026-08-12",
+    "zaplata": "2026-08-14",
+    "szkoda": "2026-08-15"
+   },
+   "usage": {
+    "promptTokenCount": 348,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 666,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 348
+     }
+    ],
+    "thoughtsTokenCount": 311,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0138",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-16",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5400.398969650269,
+   "meta": {
+    "dzien": "2026-09-12",
+    "termin": "2026-09-14",
+    "zgloszenie": "2026-09-15"
+   },
+   "usage": {
+    "promptTokenCount": 395,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 884,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 395
+     }
+    ],
+    "thoughtsTokenCount": 480,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0088",
+   "family": "kradziez_policja_12h",
+   "group": "P12-14",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4185.596942901611,
+   "meta": {
+    "minuty": 745
+   },
+   "usage": {
+    "promptTokenCount": 377,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 633,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 377
+     }
+    ],
+    "thoughtsTokenCount": 247,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0153",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-24",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5597.305059432983,
+   "meta": {
+    "dzien": "2026-09-04",
+    "termin": "2026-09-07",
+    "zgloszenie": "2026-09-07"
+   },
+   "usage": {
+    "promptTokenCount": 394,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 824,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 394
+     }
+    ],
+    "thoughtsTokenCount": 421,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0171",
+   "family": "poczatek_ochrony",
+   "group": "O-2",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6231.942892074585,
+   "meta": {
+    "zawarcie": "2026-07-22",
+    "zaplata": "2026-07-22",
+    "szkoda": "2026-07-23"
+   },
+   "usage": {
+    "promptTokenCount": 347,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 854,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 347
+     }
+    ],
+    "thoughtsTokenCount": 500,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0309",
+   "family": "wylaczenia_par4",
+   "group": "X-2-2",
+   "gold": "ucieczka",
+   "pred": "ucieczka",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4174.429893493652,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1064,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1315,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1064
+     }
+    ],
+    "thoughtsTokenCount": 238,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0190",
+   "family": "poczatek_ochrony",
+   "group": "O-11",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6909.186840057373,
+   "meta": {
+    "zawarcie": "2026-11-13",
+    "zaplata": "2026-11-14",
+    "szkoda": "2026-11-14"
+   },
+   "usage": {
+    "promptTokenCount": 344,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 858,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 344
+     }
+    ],
+    "thoughtsTokenCount": 504,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0063",
+   "family": "kradziez_policja_12h",
+   "group": "P12-3",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4802.862882614136,
+   "meta": {
+    "minuty": 1200
+   },
+   "usage": {
+    "promptTokenCount": 379,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 701,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 379
+     }
+    ],
+    "thoughtsTokenCount": 313,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0101",
+   "family": "kradziez_policja_12h",
+   "group": "P12-20",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 3587.038993835449,
+   "meta": {
+    "minuty": 745
+   },
+   "usage": {
+    "promptTokenCount": 383,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 591,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 383
+     }
+    ],
+    "thoughtsTokenCount": 193,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0282",
+   "family": "wylaczenia_par4",
+   "group": "X-8-0",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 3227.3788452148438,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1042,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1229,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1042
+     }
+    ],
+    "thoughtsTokenCount": 174,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0035",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-15",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 3917.9577827453613,
+   "meta": {
+    "dni": null
+   },
+   "usage": {
+    "promptTokenCount": 313,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 527,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 313
+     }
+    ],
+    "thoughtsTokenCount": 199,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0197",
+   "family": "poczatek_ochrony",
+   "group": "O-14",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6079.38289642334,
+   "meta": {
+    "zawarcie": "2026-08-26",
+    "zaplata": "2026-08-31",
+    "szkoda": "2026-08-31"
+   },
+   "usage": {
+    "promptTokenCount": 346,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 905,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 346
+     }
+    ],
+    "thoughtsTokenCount": 549,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0316",
+   "family": "wylaczenia_par4",
+   "group": "X-5-2",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6560.1489543914795,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1057,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 1610,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1057
+     }
+    ],
+    "thoughtsTokenCount": 546,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0134",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-14",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5018.635034561157,
+   "meta": {
+    "dzien": "2026-09-15",
+    "termin": "2026-09-16",
+    "zgloszenie": "2026-09-17"
+   },
+   "usage": {
+    "promptTokenCount": 398,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 775,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 398
+     }
+    ],
+    "thoughtsTokenCount": 368,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0082",
+   "family": "kradziez_policja_12h",
+   "group": "P12-12",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 3719.316005706787,
+   "meta": {
+    "minuty": 700
+   },
+   "usage": {
+    "promptTokenCount": 382,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 633,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 382
+     }
+    ],
+    "thoughtsTokenCount": 236,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0213",
+   "family": "poczatek_ochrony",
+   "group": "O-21",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5055.055856704712,
+   "meta": {
+    "zawarcie": "2026-08-12",
+    "zaplata": "2026-08-14",
+    "szkoda": "2026-08-14"
+   },
+   "usage": {
+    "promptTokenCount": 348,
+    "candidatesTokenCount": 16,
+    "totalTokenCount": 654,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 348
+     }
+    ],
+    "thoughtsTokenCount": 290,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0008",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-3",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 3230.426073074341,
+   "meta": {
+    "dni": 12
+   },
+   "usage": {
+    "promptTokenCount": 309,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 460,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 309
+     }
+    ],
+    "thoughtsTokenCount": 142,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0192",
+   "family": "poczatek_ochrony",
+   "group": "O-12",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6275.207281112671,
+   "meta": {
+    "zawarcie": "2026-11-30",
+    "zaplata": "2026-12-01",
+    "szkoda": "2026-12-01"
+   },
+   "usage": {
+    "promptTokenCount": 344,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 987,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 344
+     }
+    ],
+    "thoughtsTokenCount": 633,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0157",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-26",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5260.352849960327,
+   "meta": {
+    "dzien": "2026-11-17",
+    "termin": "2026-11-18",
+    "zgloszenie": "2026-11-18"
+   },
+   "usage": {
+    "promptTokenCount": 398,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 871,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 398
+     }
+    ],
+    "thoughtsTokenCount": 464,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0001",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-0",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 3580.915927886963,
+   "meta": {
+    "dni": 8
+   },
+   "usage": {
+    "promptTokenCount": 310,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 505,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 310
+     }
+    ],
+    "thoughtsTokenCount": 180,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0254",
+   "family": "szkoda_calkowita_70",
+   "group": "C-19",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4060.8320236206055,
+   "meta": {
+    "W": 106000,
+    "S": 106000,
+    "K": 76300,
+    "proc": 72.0
+   },
+   "usage": {
+    "promptTokenCount": 307,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 560,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 307
+     }
+    ],
+    "thoughtsTokenCount": 244,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0039",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-17",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5702.862024307251,
+   "meta": {
+    "dni": 10
+   },
+   "usage": {
+    "promptTokenCount": 303,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 819,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 303
+     }
+    ],
+    "thoughtsTokenCount": 507,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0042",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-19",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5059.008836746216,
+   "meta": {
+    "dni": 2
+   },
+   "usage": {
+    "promptTokenCount": 302,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 622,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 302
+     }
+    ],
+    "thoughtsTokenCount": 311,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0194",
+   "family": "poczatek_ochrony",
+   "group": "O-12",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5034.116268157959,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 331,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 647,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 331
+     }
+    ],
+    "thoughtsTokenCount": 307,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0185",
+   "family": "poczatek_ochrony",
+   "group": "O-8",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5198.984861373901,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 330,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 667,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 330
+     }
+    ],
+    "thoughtsTokenCount": 327,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0172",
+   "family": "poczatek_ochrony",
+   "group": "O-3",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4847.698926925659,
+   "meta": {
+    "zawarcie": "2026-06-11",
+    "zaplata": "2026-06-12",
+    "szkoda": "2026-06-12"
+   },
+   "usage": {
+    "promptTokenCount": 348,
+    "candidatesTokenCount": 11,
+    "totalTokenCount": 708,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 348
+     }
+    ],
+    "thoughtsTokenCount": 349,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0041",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-18",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 3983.8340282440186,
+   "meta": {
+    "dni": 8
+   },
+   "usage": {
+    "promptTokenCount": 307,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 519,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 307
+     }
+    ],
+    "thoughtsTokenCount": 203,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0211",
+   "family": "poczatek_ochrony",
+   "group": "O-20",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 11587.81099319458,
+   "meta": {
+    "zawarcie": "2026-07-18",
+    "zaplata": "2026-07-21",
+    "szkoda": "2026-07-22"
+   },
+   "usage": {
+    "promptTokenCount": 346,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 898,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 346
+     }
+    ],
+    "thoughtsTokenCount": 545,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0124",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-9",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8105.788230895996,
+   "meta": {
+    "dzien": "2026-08-21",
+    "termin": "2026-08-24",
+    "zgloszenie": "2026-08-25"
+   },
+   "usage": {
+    "promptTokenCount": 387,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 1156,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 387
+     }
+    ],
+    "thoughtsTokenCount": 754,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0022",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-10",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6009.891986846924,
+   "meta": {
+    "dni": 7
+   },
+   "usage": {
+    "promptTokenCount": 306,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 812,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 306
+     }
+    ],
+    "thoughtsTokenCount": 497,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0317",
+   "family": "wylaczenia_par4",
+   "group": "X-6-2",
+   "gold": "wyscigi",
+   "pred": "wyscigi",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 3198.3659267425537,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1059,
+    "candidatesTokenCount": 14,
+    "totalTokenCount": 1243,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1059
+     }
+    ],
+    "thoughtsTokenCount": 170,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0031",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-14",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4895.2929973602295,
+   "meta": {
+    "dni": 7
+   },
+   "usage": {
+    "promptTokenCount": 305,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 579,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 305
+     }
+    ],
+    "thoughtsTokenCount": 264,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0229",
+   "family": "szkoda_calkowita_70",
+   "group": "C-7",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4791.57018661499,
+   "meta": {
+    "W": 52000,
+    "S": 52000,
+    "K": 35300,
+    "proc": 67.9
+   },
+   "usage": {
+    "promptTokenCount": 306,
+    "candidatesTokenCount": 14,
+    "totalTokenCount": 625,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 306
+     }
+    ],
+    "thoughtsTokenCount": 305,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0037",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-16",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4920.740842819214,
+   "meta": {
+    "dni": 8
+   },
+   "usage": {
+    "promptTokenCount": 308,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 779,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 308
+     }
+    ],
+    "thoughtsTokenCount": 462,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0052",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-23",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 2759.1419219970703,
+   "meta": {
+    "dni": 10
+   },
+   "usage": {
+    "promptTokenCount": 306,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 406,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 306
+     }
+    ],
+    "thoughtsTokenCount": 90,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0269",
+   "family": "wylaczenia_par4",
+   "group": "X-2-0",
+   "gold": "ucieczka",
+   "pred": "ucieczka",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5948.383092880249,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1062,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1563,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1062
+     }
+    ],
+    "thoughtsTokenCount": 488,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0238",
+   "family": "szkoda_calkowita_70",
+   "group": "C-11",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 11087.94903755188,
+   "meta": {
+    "W": 82000,
+    "S": 82000,
+    "K": 59000,
+    "proc": 72.0
+   },
+   "usage": {
+    "promptTokenCount": 306,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 809,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 306
+     }
+    ],
+    "thoughtsTokenCount": 494,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0024",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-10",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 3205.132246017456,
+   "meta": {
+    "dni": null
+   },
+   "usage": {
+    "promptTokenCount": 312,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 515,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 312
+     }
+    ],
+    "thoughtsTokenCount": 194,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0205",
+   "family": "poczatek_ochrony",
+   "group": "O-17",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6199.898242950439,
+   "meta": {
+    "zawarcie": "2026-11-29",
+    "zaplata": "2026-11-29",
+    "szkoda": "2026-11-30"
+   },
+   "usage": {
+    "promptTokenCount": 347,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 883,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 347
+     }
+    ],
+    "thoughtsTokenCount": 529,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0003",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-1",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 3922.091007232666,
+   "meta": {
+    "dni": 5
+   },
+   "usage": {
+    "promptTokenCount": 311,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 456,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 311
+     }
+    ],
+    "thoughtsTokenCount": 136,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0265",
+   "family": "wylaczenia_par4",
+   "group": "X-0-0",
+   "gold": "alkohol",
+   "pred": "alkohol",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 10326.894044876099,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1074,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1272,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1074
+     }
+    ],
+    "thoughtsTokenCount": 185,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0289",
+   "family": "wylaczenia_par4",
+   "group": "X-2-1",
+   "gold": "ucieczka",
+   "pred": "ucieczka",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4726.844072341919,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1062,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 1262,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1062
+     }
+    ],
+    "thoughtsTokenCount": 192,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0301",
+   "family": "wylaczenia_par4",
+   "group": "X-8-1",
+   "gold": "terytorium",
+   "pred": "terytorium",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8742.636680603027,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1041,
+    "candidatesTokenCount": 14,
+    "totalTokenCount": 1201,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1041
+     }
+    ],
+    "thoughtsTokenCount": 146,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0293",
+   "family": "wylaczenia_par4",
+   "group": "X-4-1",
+   "gold": "awaria",
+   "pred": "awaria",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 3808.0739974975586,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1060,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1251,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1060
+     }
+    ],
+    "thoughtsTokenCount": 178,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0076",
+   "family": "kradziez_policja_12h",
+   "group": "P12-9",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 9544.168949127197,
+   "meta": {
+    "minuty": 30
+   },
+   "usage": {
+    "promptTokenCount": 380,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 566,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 380
+     }
+    ],
+    "thoughtsTokenCount": 177,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0148",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-21",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 18109.2689037323,
+   "meta": {
+    "dzien": "2026-09-26",
+    "termin": "2026-09-28",
+    "zgloszenie": "2026-09-29"
+   },
+   "usage": {
+    "promptTokenCount": 389,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 2703,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 389
+     }
+    ],
+    "thoughtsTokenCount": 2305,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0209",
+   "family": "poczatek_ochrony",
+   "group": "O-19",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6367.1441078186035,
+   "meta": {
+    "zawarcie": "2026-09-08",
+    "zaplata": "2026-09-08",
+    "szkoda": "2026-09-09"
+   },
+   "usage": {
+    "promptTokenCount": 343,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 725,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 343
+     }
+    ],
+    "thoughtsTokenCount": 375,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0147",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-21",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 12154.102087020874,
+   "meta": {
+    "dzien": "2026-09-26",
+    "termin": "2026-09-28",
+    "zgloszenie": "2026-09-28"
+   },
+   "usage": {
+    "promptTokenCount": 389,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 1786,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 389
+     }
+    ],
+    "thoughtsTokenCount": 1382,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0276",
+   "family": "wylaczenia_par4",
+   "group": "X-5-0",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4980.206251144409,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1059,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1396,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1059
+     }
+    ],
+    "thoughtsTokenCount": 324,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0201",
+   "family": "poczatek_ochrony",
+   "group": "O-16",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4537.601947784424,
+   "meta": {
+    "zawarcie": "2026-07-05",
+    "zaplata": "2026-07-05",
+    "szkoda": "2026-07-05"
+   },
+   "usage": {
+    "promptTokenCount": 344,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 653,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 344
+     }
+    ],
+    "thoughtsTokenCount": 299,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0266",
+   "family": "wylaczenia_par4",
+   "group": "X-0-0",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4815.4919147491455,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1097,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1355,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1097
+     }
+    ],
+    "thoughtsTokenCount": 245,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0167",
+   "family": "poczatek_ochrony",
+   "group": "O-0",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 27067.605018615723,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 332,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 656,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 332
+     }
+    ],
+    "thoughtsTokenCount": 309,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0142",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-18",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5632.602214813232,
+   "meta": {
+    "dzien": "2026-11-22",
+    "termin": "2026-11-23",
+    "zgloszenie": "2026-11-24"
+   },
+   "usage": {
+    "promptTokenCount": 399,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 797,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 399
+     }
+    ],
+    "thoughtsTokenCount": 389,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0117",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-6",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5961.351156234741,
+   "meta": {
+    "dzien": "2026-07-03",
+    "termin": "2026-07-06",
+    "zgloszenie": "2026-07-06"
+   },
+   "usage": {
+    "promptTokenCount": 394,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 805,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 394
+     }
+    ],
+    "thoughtsTokenCount": 402,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0004",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-1",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4091.5160179138184,
+   "meta": {
+    "dni": 21
+   },
+   "usage": {
+    "promptTokenCount": 312,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 510,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 312
+     }
+    ],
+    "thoughtsTokenCount": 189,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0219",
+   "family": "szkoda_calkowita_70",
+   "group": "C-2",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5388.818979263306,
+   "meta": {
+    "W": 97000,
+    "S": 97000,
+    "K": 65900,
+    "proc": 67.9
+   },
+   "usage": {
+    "promptTokenCount": 304,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 751,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 304
+     }
+    ],
+    "thoughtsTokenCount": 439,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0062",
+   "family": "kradziez_policja_12h",
+   "group": "P12-3",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5999.569892883301,
+   "meta": {
+    "minuty": 30
+   },
+   "usage": {
+    "promptTokenCount": 379,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 586,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 379
+     }
+    ],
+    "thoughtsTokenCount": 192,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0158",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-26",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6138.840198516846,
+   "meta": {
+    "dzien": "2026-11-17",
+    "termin": "2026-11-18",
+    "zgloszenie": "2026-11-19"
+   },
+   "usage": {
+    "promptTokenCount": 399,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 914,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 399
+     }
+    ],
+    "thoughtsTokenCount": 506,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0027",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-12",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 3846.341848373413,
+   "meta": {
+    "dni": 7
+   },
+   "usage": {
+    "promptTokenCount": 308,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 507,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 308
+     }
+    ],
+    "thoughtsTokenCount": 189,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0109",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-2",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5212.8589153289795,
+   "meta": {
+    "dzien": "2026-11-08",
+    "termin": "2026-11-09",
+    "zgloszenie": "2026-11-09"
+   },
+   "usage": {
+    "promptTokenCount": 395,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 815,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 395
+     }
+    ],
+    "thoughtsTokenCount": 411,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0103",
+   "family": "kradziez_policja_12h",
+   "group": "P12-21",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4944.530248641968,
+   "meta": {
+    "minuty": 90
+   },
+   "usage": {
+    "promptTokenCount": 381,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 748,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 381
+     }
+    ],
+    "thoughtsTokenCount": 358,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0302",
+   "family": "wylaczenia_par4",
+   "group": "X-8-1",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4848.543882369995,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1045,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 1273,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1045
+     }
+    ],
+    "thoughtsTokenCount": 221,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0000",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-0",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5517.966747283936,
+   "meta": {
+    "dni": 7
+   },
+   "usage": {
+    "promptTokenCount": 310,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 780,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 310
+     }
+    ],
+    "thoughtsTokenCount": 461,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0241",
+   "family": "szkoda_calkowita_70",
+   "group": "C-13",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4402.18710899353,
+   "meta": {
+    "W": 86000,
+    "S": 86000,
+    "K": 58400,
+    "proc": 67.9
+   },
+   "usage": {
+    "promptTokenCount": 306,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 559,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 306
+     }
+    ],
+    "thoughtsTokenCount": 245,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0226",
+   "family": "szkoda_calkowita_70",
+   "group": "C-5",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5404.805898666382,
+   "meta": {
+    "W": 55000,
+    "S": 55000,
+    "K": 39600,
+    "proc": 72.0
+   },
+   "usage": {
+    "promptTokenCount": 306,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 618,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 306
+     }
+    ],
+    "thoughtsTokenCount": 303,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0128",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-11",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8388.069868087769,
+   "meta": {
+    "dzien": "2026-11-26",
+    "termin": "2026-11-27",
+    "zgloszenie": "2026-11-30"
+   },
+   "usage": {
+    "promptTokenCount": 388,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 1337,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 388
+     }
+    ],
+    "thoughtsTokenCount": 934,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0034",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-15",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4736.772060394287,
+   "meta": {
+    "dni": 21
+   },
+   "usage": {
+    "promptTokenCount": 307,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 668,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 307
+     }
+    ],
+    "thoughtsTokenCount": 352,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0252",
+   "family": "szkoda_calkowita_70",
+   "group": "C-18",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6801.078796386719,
+   "meta": {
+    "W": 71000,
+    "S": 56800,
+    "K": 37400,
+    "proc": 65.8
+   },
+   "usage": {
+    "promptTokenCount": 304,
+    "candidatesTokenCount": 14,
+    "totalTokenCount": 973,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 304
+     }
+    ],
+    "thoughtsTokenCount": 655,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0202",
+   "family": "poczatek_ochrony",
+   "group": "O-16",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4490.641355514526,
+   "meta": {
+    "zawarcie": "2026-07-05",
+    "zaplata": "2026-07-05",
+    "szkoda": "2026-07-06"
+   },
+   "usage": {
+    "promptTokenCount": 344,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 621,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 344
+     }
+    ],
+    "thoughtsTokenCount": 270,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0108",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-1",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 13410.542726516724,
+   "meta": {
+    "dzien": "2026-05-30",
+    "termin": "2026-06-01",
+    "zgloszenie": "2026-06-02"
+   },
+   "usage": {
+    "promptTokenCount": 384,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 1920,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 384
+     }
+    ],
+    "thoughtsTokenCount": 1521,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0150",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-22",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5377.352952957153,
+   "meta": {
+    "dzien": "2026-10-01",
+    "termin": "2026-10-02",
+    "zgloszenie": "2026-10-05"
+   },
+   "usage": {
+    "promptTokenCount": 395,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 815,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 395
+     }
+    ],
+    "thoughtsTokenCount": 411,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0176",
+   "family": "poczatek_ochrony",
+   "group": "O-4",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5091.91107749939,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 328,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 719,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 328
+     }
+    ],
+    "thoughtsTokenCount": 376,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0168",
+   "family": "poczatek_ochrony",
+   "group": "O-1",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4149.532794952393,
+   "meta": {
+    "zawarcie": "2026-05-26",
+    "zaplata": "2026-05-29",
+    "szkoda": "2026-05-29"
+   },
+   "usage": {
+    "promptTokenCount": 346,
+    "candidatesTokenCount": 11,
+    "totalTokenCount": 568,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 346
+     }
+    ],
+    "thoughtsTokenCount": 211,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0048",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-21",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6022.098064422607,
+   "meta": {
+    "dni": 15
+   },
+   "usage": {
+    "promptTokenCount": 309,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 681,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 309
+     }
+    ],
+    "thoughtsTokenCount": 363,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0275",
+   "family": "wylaczenia_par4",
+   "group": "X-5-0",
+   "gold": "ogumienie",
+   "pred": "ogumienie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4558.4423542022705,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1056,
+    "candidatesTokenCount": 14,
+    "totalTokenCount": 1305,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1056
+     }
+    ],
+    "thoughtsTokenCount": 235,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0169",
+   "family": "poczatek_ochrony",
+   "group": "O-1",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4377.557992935181,
+   "meta": {
+    "zawarcie": "2026-05-26",
+    "zaplata": "2026-05-29",
+    "szkoda": "2026-05-30"
+   },
+   "usage": {
+    "promptTokenCount": 346,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 569,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 346
+     }
+    ],
+    "thoughtsTokenCount": 216,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0285",
+   "family": "wylaczenia_par4",
+   "group": "X-0-1",
+   "gold": "alkohol",
+   "pred": "alkohol",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 9716.408967971802,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1075,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1776,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1075
+     }
+    ],
+    "thoughtsTokenCount": 688,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0270",
+   "family": "wylaczenia_par4",
+   "group": "X-2-0",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5323.009014129639,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1049,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 1340,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1049
+     }
+    ],
+    "thoughtsTokenCount": 284,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0012",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-5",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5168.710947036743,
+   "meta": {
+    "dni": 10
+   },
+   "usage": {
+    "promptTokenCount": 308,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 691,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 308
+     }
+    ],
+    "thoughtsTokenCount": 374,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0303",
+   "family": "wylaczenia_par4",
+   "group": "X-9-1",
+   "gold": "terytorium",
+   "pred": "terytorium",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4047.640085220337,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1045,
+    "candidatesTokenCount": 14,
+    "totalTokenCount": 1311,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1045
+     }
+    ],
+    "thoughtsTokenCount": 252,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0228",
+   "family": "szkoda_calkowita_70",
+   "group": "C-6",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8972.35107421875,
+   "meta": {
+    "W": 159000,
+    "S": 143100,
+    "K": 94400,
+    "proc": 66.0
+   },
+   "usage": {
+    "promptTokenCount": 308,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 1225,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 308
+     }
+    ],
+    "thoughtsTokenCount": 909,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0090",
+   "family": "kradziez_policja_12h",
+   "group": "P12-15",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4475.082159042358,
+   "meta": {
+    "minuty": 1200
+   },
+   "usage": {
+    "promptTokenCount": 383,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 763,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 383
+     }
+    ],
+    "thoughtsTokenCount": 371,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0292",
+   "family": "wylaczenia_par4",
+   "group": "X-3-1",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4706.837177276611,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1071,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1370,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1071
+     }
+    ],
+    "thoughtsTokenCount": 286,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0173",
+   "family": "poczatek_ochrony",
+   "group": "O-3",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5576.99728012085,
+   "meta": {
+    "zawarcie": "2026-06-11",
+    "zaplata": "2026-06-12",
+    "szkoda": "2026-06-13"
+   },
+   "usage": {
+    "promptTokenCount": 348,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 794,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 348
+     }
+    ],
+    "thoughtsTokenCount": 439,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0156",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-25",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 16746.2477684021,
+   "meta": {
+    "dzien": "2026-10-04",
+    "termin": "2026-10-05",
+    "zgloszenie": "2026-10-06"
+   },
+   "usage": {
+    "promptTokenCount": 384,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 2339,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 384
+     }
+    ],
+    "thoughtsTokenCount": 1940,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0118",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-6",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5861.6979122161865,
+   "meta": {
+    "dzien": "2026-07-03",
+    "termin": "2026-07-06",
+    "zgloszenie": "2026-07-07"
+   },
+   "usage": {
+    "promptTokenCount": 392,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 836,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 392
+     }
+    ],
+    "thoughtsTokenCount": 435,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0193",
+   "family": "poczatek_ochrony",
+   "group": "O-12",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5713.279962539673,
+   "meta": {
+    "zawarcie": "2026-11-30",
+    "zaplata": "2026-12-01",
+    "szkoda": "2026-12-02"
+   },
+   "usage": {
+    "promptTokenCount": 344,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 810,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 344
+     }
+    ],
+    "thoughtsTokenCount": 459,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0075",
+   "family": "kradziez_policja_12h",
+   "group": "P12-8",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 30662.904977798462,
+   "meta": {
+    "minuty": null
+   },
+   "usage": {
+    "promptTokenCount": 377,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 893,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 377
+     }
+    ],
+    "thoughtsTokenCount": 507,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0267",
+   "family": "wylaczenia_par4",
+   "group": "X-1-0",
+   "gold": "uprawnienia",
+   "pred": "uprawnienia",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5303.945064544678,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1055,
+    "candidatesTokenCount": 14,
+    "totalTokenCount": 1376,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1055
+     }
+    ],
+    "thoughtsTokenCount": 307,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0115",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-5",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8433.527946472168,
+   "meta": {
+    "dzien": "2026-10-06",
+    "termin": "2026-10-07",
+    "zgloszenie": "2026-10-07"
+   },
+   "usage": {
+    "promptTokenCount": 389,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 1088,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 389
+     }
+    ],
+    "thoughtsTokenCount": 690,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0215",
+   "family": "szkoda_calkowita_70",
+   "group": "C-0",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4863.79075050354,
+   "meta": {
+    "W": 63000,
+    "S": 56700,
+    "K": 41800,
+    "proc": 73.7
+   },
+   "usage": {
+    "promptTokenCount": 308,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 643,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 308
+     }
+    ],
+    "thoughtsTokenCount": 326,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0111",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-3",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8264.988899230957,
+   "meta": {
+    "dzien": "2026-05-30",
+    "termin": "2026-06-01",
+    "zgloszenie": "2026-06-01"
+   },
+   "usage": {
+    "promptTokenCount": 388,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 1323,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 388
+     }
+    ],
+    "thoughtsTokenCount": 926,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0274",
+   "family": "wylaczenia_par4",
+   "group": "X-4-0",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5165.4322147369385,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1056,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 1399,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1056
+     }
+    ],
+    "thoughtsTokenCount": 335,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0222",
+   "family": "szkoda_calkowita_70",
+   "group": "C-3",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 10760.496854782104,
+   "meta": {
+    "W": 76000,
+    "S": 64600,
+    "K": 42600,
+    "proc": 65.9
+   },
+   "usage": {
+    "promptTokenCount": 308,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 1114,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 308
+     }
+    ],
+    "thoughtsTokenCount": 798,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0248",
+   "family": "szkoda_calkowita_70",
+   "group": "C-16",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8216.365098953247,
+   "meta": {
+    "W": 154000,
+    "S": 154000,
+    "K": 110800,
+    "proc": 71.9
+   },
+   "usage": {
+    "promptTokenCount": 307,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 632,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 307
+     }
+    ],
+    "thoughtsTokenCount": 316,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0223",
+   "family": "szkoda_calkowita_70",
+   "group": "C-4",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6364.622116088867,
+   "meta": {
+    "W": 27000,
+    "S": 27000,
+    "K": 18300,
+    "proc": 67.8
+   },
+   "usage": {
+    "promptTokenCount": 306,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 841,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 306
+     }
+    ],
+    "thoughtsTokenCount": 527,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0016",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-7",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 72889.04404640198,
+   "meta": {
+    "dni": 1
+   },
+   "usage": {
+    "promptTokenCount": 307,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 725,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 307
+     }
+    ],
+    "thoughtsTokenCount": 409,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0112",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-3",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6807.853937149048,
+   "meta": {
+    "dzien": "2026-05-30",
+    "termin": "2026-06-01",
+    "zgloszenie": "2026-06-02"
+   },
+   "usage": {
+    "promptTokenCount": 388,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 974,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 388
+     }
+    ],
+    "thoughtsTokenCount": 576,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0011",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-5",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 7722.080945968628,
+   "meta": {
+    "dni": 2
+   },
+   "usage": {
+    "promptTokenCount": 308,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 462,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 308
+     }
+    ],
+    "thoughtsTokenCount": 145,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0295",
+   "family": "wylaczenia_par4",
+   "group": "X-5-1",
+   "gold": "ogumienie",
+   "pred": "ogumienie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4006.3819885253906,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1055,
+    "candidatesTokenCount": 14,
+    "totalTokenCount": 1292,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1055
+     }
+    ],
+    "thoughtsTokenCount": 223,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0029",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-13",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 3312.112808227539,
+   "meta": {
+    "dni": 5
+   },
+   "usage": {
+    "promptTokenCount": 304,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 457,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 304
+     }
+    ],
+    "thoughtsTokenCount": 144,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0161",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-28",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 3961.005926132202,
+   "meta": {
+    "dzien": "2026-11-14",
+    "termin": "2026-11-16",
+    "zgloszenie": "2026-11-16"
+   },
+   "usage": {
+    "promptTokenCount": 399,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 636,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 399
+     }
+    ],
+    "thoughtsTokenCount": 228,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0259",
+   "family": "szkoda_calkowita_70",
+   "group": "C-22",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8676.891803741455,
+   "meta": {
+    "W": 113000,
+    "S": 113000,
+    "K": 76800,
+    "proc": 68.0
+   },
+   "usage": {
+    "promptTokenCount": 311,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 817,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 311
+     }
+    ],
+    "thoughtsTokenCount": 497,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0191",
+   "family": "poczatek_ochrony",
+   "group": "O-11",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5734.473943710327,
+   "meta": {
+    "zawarcie": "2026-11-13",
+    "zaplata": "2026-11-14",
+    "szkoda": "2026-11-15"
+   },
+   "usage": {
+    "promptTokenCount": 344,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 848,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 344
+     }
+    ],
+    "thoughtsTokenCount": 497,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0164",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-29",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 22526.392698287964,
+   "meta": {
+    "dzien": "2026-10-29",
+    "termin": "2026-10-30",
+    "zgloszenie": "2026-11-02"
+   },
+   "usage": {
+    "promptTokenCount": 385,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 1164,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 385
+     }
+    ],
+    "thoughtsTokenCount": 770,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0287",
+   "family": "wylaczenia_par4",
+   "group": "X-1-1",
+   "gold": "uprawnienia",
+   "pred": "uprawnienia",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4808.441162109375,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1054,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 1364,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1054
+     }
+    ],
+    "thoughtsTokenCount": 302,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0232",
+   "family": "szkoda_calkowita_70",
+   "group": "C-8",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 9990.862131118774,
+   "meta": {
+    "W": 58000,
+    "S": 58000,
+    "K": 41700,
+    "proc": 71.9
+   },
+   "usage": {
+    "promptTokenCount": 305,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 804,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 305
+     }
+    ],
+    "thoughtsTokenCount": 490,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0203",
+   "family": "poczatek_ochrony",
+   "group": "O-16",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 27690.29688835144,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 331,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 634,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 331
+     }
+    ],
+    "thoughtsTokenCount": 293,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0243",
+   "family": "szkoda_calkowita_70",
+   "group": "C-14",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5616.1463260650635,
+   "meta": {
+    "W": 148000,
+    "S": 148000,
+    "K": 100600,
+    "proc": 68.0
+   },
+   "usage": {
+    "promptTokenCount": 309,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 874,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 309
+     }
+    ],
+    "thoughtsTokenCount": 557,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0299",
+   "family": "wylaczenia_par4",
+   "group": "X-7-1",
+   "gold": "kluczyki",
+   "pred": "kluczyki",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8960.951089859009,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1075,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 1226,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1075
+     }
+    ],
+    "thoughtsTokenCount": 136,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0280",
+   "family": "wylaczenia_par4",
+   "group": "X-7-0",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4821.588039398193,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1070,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1305,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1070
+     }
+    ],
+    "thoughtsTokenCount": 222,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0067",
+   "family": "kradziez_policja_12h",
+   "group": "P12-5",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 12251.71184539795,
+   "meta": {
+    "minuty": 30
+   },
+   "usage": {
+    "promptTokenCount": 382,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 653,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 382
+     }
+    ],
+    "thoughtsTokenCount": 262,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0130",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-12",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 7223.259210586548,
+   "meta": {
+    "dzien": "2026-08-08",
+    "termin": "2026-08-10",
+    "zgloszenie": "2026-08-11"
+   },
+   "usage": {
+    "promptTokenCount": 394,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 801,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 394
+     }
+    ],
+    "thoughtsTokenCount": 398,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0049",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-22",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8299.196720123291,
+   "meta": {
+    "dni": 7
+   },
+   "usage": {
+    "promptTokenCount": 306,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 464,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 306
+     }
+    ],
+    "thoughtsTokenCount": 143,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0290",
+   "family": "wylaczenia_par4",
+   "group": "X-2-1",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4116.760015487671,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1049,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1241,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1049
+     }
+    ],
+    "thoughtsTokenCount": 179,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0007",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-3",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5324.64599609375,
+   "meta": {
+    "dni": 3
+   },
+   "usage": {
+    "promptTokenCount": 309,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 728,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 309
+     }
+    ],
+    "thoughtsTokenCount": 409,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0146",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-20",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 10291.852235794067,
+   "meta": {
+    "dzien": "2026-08-21",
+    "termin": "2026-08-24",
+    "zgloszenie": "2026-08-25"
+   },
+   "usage": {
+    "promptTokenCount": 397,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 576,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 397
+     }
+    ],
+    "thoughtsTokenCount": 170,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0071",
+   "family": "kradziez_policja_12h",
+   "group": "P12-7",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5401.58224105835,
+   "meta": {
+    "minuty": 30
+   },
+   "usage": {
+    "promptTokenCount": 383,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 868,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 383
+     }
+    ],
+    "thoughtsTokenCount": 476,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0224",
+   "family": "szkoda_calkowita_70",
+   "group": "C-4",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 9434.701204299927,
+   "meta": {
+    "W": 27000,
+    "S": 27000,
+    "K": 19400,
+    "proc": 71.9
+   },
+   "usage": {
+    "promptTokenCount": 306,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 847,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 306
+     }
+    ],
+    "thoughtsTokenCount": 532,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0136",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-15",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 17601.76706314087,
+   "meta": {
+    "dzien": "2026-09-05",
+    "termin": "2026-09-07",
+    "zgloszenie": "2026-09-08"
+   },
+   "usage": {
+    "promptTokenCount": 384,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 1925,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 384
+     }
+    ],
+    "thoughtsTokenCount": 1532,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0188",
+   "family": "poczatek_ochrony",
+   "group": "O-10",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4586.529016494751,
+   "meta": {
+    "zawarcie": "2026-06-15",
+    "zaplata": "2026-06-17",
+    "szkoda": "2026-06-17"
+   },
+   "usage": {
+    "promptTokenCount": 346,
+    "candidatesTokenCount": 16,
+    "totalTokenCount": 719,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 346
+     }
+    ],
+    "thoughtsTokenCount": 357,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0089",
+   "family": "kradziez_policja_12h",
+   "group": "P12-15",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6704.095840454102,
+   "meta": {
+    "minuty": 90
+   },
+   "usage": {
+    "promptTokenCount": 383,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 898,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 383
+     }
+    ],
+    "thoughtsTokenCount": 506,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0131",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-13",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6839.992046356201,
+   "meta": {
+    "dzien": "2026-10-26",
+    "termin": "2026-10-27",
+    "zgloszenie": "2026-10-27"
+   },
+   "usage": {
+    "promptTokenCount": 387,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 997,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 387
+     }
+    ],
+    "thoughtsTokenCount": 601,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0095",
+   "family": "kradziez_policja_12h",
+   "group": "P12-17",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6673.717021942139,
+   "meta": {
+    "minuty": 1200
+   },
+   "usage": {
+    "promptTokenCount": 377,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 943,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 377
+     }
+    ],
+    "thoughtsTokenCount": 557,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0189",
+   "family": "poczatek_ochrony",
+   "group": "O-10",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8567.97480583191,
+   "meta": {
+    "zawarcie": "2026-06-15",
+    "zaplata": "2026-06-17",
+    "szkoda": "2026-06-18"
+   },
+   "usage": {
+    "promptTokenCount": 346,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 742,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 346
+     }
+    ],
+    "thoughtsTokenCount": 389,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0195",
+   "family": "poczatek_ochrony",
+   "group": "O-13",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6003.143310546875,
+   "meta": {
+    "zawarcie": "2026-06-21",
+    "zaplata": "2026-06-26",
+    "szkoda": "2026-06-26"
+   },
+   "usage": {
+    "promptTokenCount": 345,
+    "candidatesTokenCount": 11,
+    "totalTokenCount": 852,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 345
+     }
+    ],
+    "thoughtsTokenCount": 496,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0135",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-15",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 11659.288167953491,
+   "meta": {
+    "dzien": "2026-09-05",
+    "termin": "2026-09-07",
+    "zgloszenie": "2026-09-07"
+   },
+   "usage": {
+    "promptTokenCount": 384,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 1633,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 384
+     }
+    ],
+    "thoughtsTokenCount": 1234,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0077",
+   "family": "kradziez_policja_12h",
+   "group": "P12-9",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4695.896148681641,
+   "meta": {
+    "minuty": 1200
+   },
+   "usage": {
+    "promptTokenCount": 380,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 677,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 380
+     }
+    ],
+    "thoughtsTokenCount": 287,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0086",
+   "family": "kradziez_policja_12h",
+   "group": "P12-13",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 20669.612646102905,
+   "meta": {
+    "minuty": 840
+   },
+   "usage": {
+    "promptTokenCount": 383,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 547,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 383
+     }
+    ],
+    "thoughtsTokenCount": 149,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0079",
+   "family": "kradziez_policja_12h",
+   "group": "P12-10",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5920.562982559204,
+   "meta": {
+    "minuty": 745
+   },
+   "usage": {
+    "promptTokenCount": 385,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 645,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 385
+     }
+    ],
+    "thoughtsTokenCount": 251,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0227",
+   "family": "szkoda_calkowita_70",
+   "group": "C-6",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8614.516973495483,
+   "meta": {
+    "W": 159000,
+    "S": 143100,
+    "K": 105700,
+    "proc": 73.9
+   },
+   "usage": {
+    "promptTokenCount": 309,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 1200,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 309
+     }
+    ],
+    "thoughtsTokenCount": 882,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0057",
+   "family": "kradziez_policja_12h",
+   "group": "P12-0",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4168.263912200928,
+   "meta": {
+    "minuty": null
+   },
+   "usage": {
+    "promptTokenCount": 376,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 613,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 376
+     }
+    ],
+    "thoughtsTokenCount": 228,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0010",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-4",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 9231.693744659424,
+   "meta": {
+    "dni": 8
+   },
+   "usage": {
+    "promptTokenCount": 309,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 919,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 309
+     }
+    ],
+    "thoughtsTokenCount": 601,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0257",
+   "family": "szkoda_calkowita_70",
+   "group": "C-21",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5712.383985519409,
+   "meta": {
+    "W": 142000,
+    "S": 113600,
+    "K": 89400,
+    "proc": 78.7
+   },
+   "usage": {
+    "promptTokenCount": 308,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 798,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 308
+     }
+    ],
+    "thoughtsTokenCount": 481,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0152",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-23",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 14971.919775009155,
+   "meta": {
+    "dzien": "2026-08-09",
+    "termin": "2026-08-10",
+    "zgloszenie": "2026-08-11"
+   },
+   "usage": {
+    "promptTokenCount": 387,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 2191,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 387
+     }
+    ],
+    "thoughtsTokenCount": 1789,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0321",
+   "family": "wylaczenia_par4",
+   "group": "X-8-2",
+   "gold": "terytorium",
+   "pred": "terytorium",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4058.995008468628,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1036,
+    "candidatesTokenCount": 14,
+    "totalTokenCount": 1250,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1036
+     }
+    ],
+    "thoughtsTokenCount": 200,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0212",
+   "family": "poczatek_ochrony",
+   "group": "O-20",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5616.819143295288,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 332,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 718,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 332
+     }
+    ],
+    "thoughtsTokenCount": 376,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0127",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-11",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 10366.092920303345,
+   "meta": {
+    "dzien": "2026-11-26",
+    "termin": "2026-11-27",
+    "zgloszenie": "2026-11-27"
+   },
+   "usage": {
+    "promptTokenCount": 388,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 1023,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 388
+     }
+    ],
+    "thoughtsTokenCount": 626,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0139",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-17",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 7468.994140625,
+   "meta": {
+    "dzien": "2026-06-11",
+    "termin": "2026-06-12",
+    "zgloszenie": "2026-06-12"
+   },
+   "usage": {
+    "promptTokenCount": 385,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 781,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 385
+     }
+    ],
+    "thoughtsTokenCount": 381,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0081",
+   "family": "kradziez_policja_12h",
+   "group": "P12-11",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6491.797685623169,
+   "meta": {
+    "minuty": 840
+   },
+   "usage": {
+    "promptTokenCount": 381,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 850,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 381
+     }
+    ],
+    "thoughtsTokenCount": 460,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0030",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-13",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5169.168949127197,
+   "meta": {
+    "dni": 21
+   },
+   "usage": {
+    "promptTokenCount": 303,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 515,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 303
+     }
+    ],
+    "thoughtsTokenCount": 197,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0154",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-24",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6252.148151397705,
+   "meta": {
+    "dzien": "2026-09-04",
+    "termin": "2026-09-07",
+    "zgloszenie": "2026-09-08"
+   },
+   "usage": {
+    "promptTokenCount": 392,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 854,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 392
+     }
+    ],
+    "thoughtsTokenCount": 453,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0096",
+   "family": "kradziez_policja_12h",
+   "group": "P12-18",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4743.903875350952,
+   "meta": {
+    "minuty": 700
+   },
+   "usage": {
+    "promptTokenCount": 381,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 607,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 381
+     }
+    ],
+    "thoughtsTokenCount": 211,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0091",
+   "family": "kradziez_policja_12h",
+   "group": "P12-16",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5670.411109924316,
+   "meta": {
+    "minuty": 700
+   },
+   "usage": {
+    "promptTokenCount": 381,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 570,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 381
+     }
+    ],
+    "thoughtsTokenCount": 180,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0236",
+   "family": "szkoda_calkowita_70",
+   "group": "C-10",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 7091.32719039917,
+   "meta": {
+    "W": 51000,
+    "S": 51000,
+    "K": 36700,
+    "proc": 72.0
+   },
+   "usage": {
+    "promptTokenCount": 304,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 703,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 304
+     }
+    ],
+    "thoughtsTokenCount": 390,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0268",
+   "family": "wylaczenia_par4",
+   "group": "X-1-0",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 7015.801906585693,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1095,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1352,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1095
+     }
+    ],
+    "thoughtsTokenCount": 244,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0009",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-4",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4348.223924636841,
+   "meta": {
+    "dni": 7
+   },
+   "usage": {
+    "promptTokenCount": 309,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 532,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 309
+     }
+    ],
+    "thoughtsTokenCount": 214,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0240",
+   "family": "szkoda_calkowita_70",
+   "group": "C-12",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 7958.75883102417,
+   "meta": {
+    "W": 71000,
+    "S": 63900,
+    "K": 42100,
+    "proc": 65.9
+   },
+   "usage": {
+    "promptTokenCount": 305,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 970,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 305
+     }
+    ],
+    "thoughtsTokenCount": 657,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0298",
+   "family": "wylaczenia_par4",
+   "group": "X-6-1",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8539.894104003906,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1061,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1408,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1061
+     }
+    ],
+    "thoughtsTokenCount": 334,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0315",
+   "family": "wylaczenia_par4",
+   "group": "X-5-2",
+   "gold": "ogumienie",
+   "pred": "ogumienie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6126.756191253662,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1054,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 1538,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1054
+     }
+    ],
+    "thoughtsTokenCount": 476,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0312",
+   "family": "wylaczenia_par4",
+   "group": "X-3-2",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5019.593954086304,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1070,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1401,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1070
+     }
+    ],
+    "thoughtsTokenCount": 318,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0177",
+   "family": "poczatek_ochrony",
+   "group": "O-5",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5493.111133575439,
+   "meta": {
+    "zawarcie": "2026-10-26",
+    "zaplata": "2026-10-29",
+    "szkoda": "2026-10-29"
+   },
+   "usage": {
+    "promptTokenCount": 344,
+    "candidatesTokenCount": 16,
+    "totalTokenCount": 574,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 344
+     }
+    ],
+    "thoughtsTokenCount": 214,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0278",
+   "family": "wylaczenia_par4",
+   "group": "X-6-0",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 7431.909084320068,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1059,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1365,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1059
+     }
+    ],
+    "thoughtsTokenCount": 293,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0107",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-1",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 13045.027017593384,
+   "meta": {
+    "dzien": "2026-05-30",
+    "termin": "2026-06-01",
+    "zgloszenie": "2026-06-01"
+   },
+   "usage": {
+    "promptTokenCount": 384,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 1696,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 384
+     }
+    ],
+    "thoughtsTokenCount": 1297,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0064",
+   "family": "kradziez_policja_12h",
+   "group": "P12-4",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4793.090105056763,
+   "meta": {
+    "minuty": 700
+   },
+   "usage": {
+    "promptTokenCount": 381,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 865,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 381
+     }
+    ],
+    "thoughtsTokenCount": 475,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0106",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-0",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6446.775197982788,
+   "meta": {
+    "dzien": "2026-10-18",
+    "termin": "2026-10-19",
+    "zgloszenie": "2026-10-20"
+   },
+   "usage": {
+    "promptTokenCount": 397,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 904,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 397
+     }
+    ],
+    "thoughtsTokenCount": 498,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0245",
+   "family": "szkoda_calkowita_70",
+   "group": "C-15",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5246.600151062012,
+   "meta": {
+    "W": 93000,
+    "S": 83700,
+    "K": 61800,
+    "proc": 73.8
+   },
+   "usage": {
+    "promptTokenCount": 306,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 583,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 306
+     }
+    ],
+    "thoughtsTokenCount": 267,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0255",
+   "family": "szkoda_calkowita_70",
+   "group": "C-20",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5627.4049282073975,
+   "meta": {
+    "W": 141000,
+    "S": 141000,
+    "K": 95800,
+    "proc": 67.9
+   },
+   "usage": {
+    "promptTokenCount": 306,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 672,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 306
+     }
+    ],
+    "thoughtsTokenCount": 358,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0155",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-25",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 7688.652992248535,
+   "meta": {
+    "dzien": "2026-10-04",
+    "termin": "2026-10-05",
+    "zgloszenie": "2026-10-05"
+   },
+   "usage": {
+    "promptTokenCount": 384,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 1047,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 384
+     }
+    ],
+    "thoughtsTokenCount": 648,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0279",
+   "family": "wylaczenia_par4",
+   "group": "X-7-0",
+   "gold": "kluczyki",
+   "pred": "kluczyki",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 10558.732748031616,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1071,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 1447,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1071
+     }
+    ],
+    "thoughtsTokenCount": 367,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0073",
+   "family": "kradziez_policja_12h",
+   "group": "P12-8",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4038.8553142547607,
+   "meta": {
+    "minuty": 700
+   },
+   "usage": {
+    "promptTokenCount": 381,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 560,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 381
+     }
+    ],
+    "thoughtsTokenCount": 170,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0043",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-19",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5271.613836288452,
+   "meta": {
+    "dni": 15
+   },
+   "usage": {
+    "promptTokenCount": 303,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 720,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 303
+     }
+    ],
+    "thoughtsTokenCount": 408,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0273",
+   "family": "wylaczenia_par4",
+   "group": "X-4-0",
+   "gold": "awaria",
+   "pred": "awaria",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5227.560043334961,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1059,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 1310,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1059
+     }
+    ],
+    "thoughtsTokenCount": 244,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0250",
+   "family": "szkoda_calkowita_70",
+   "group": "C-17",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 3950.0887393951416,
+   "meta": {
+    "W": 127000,
+    "S": 127000,
+    "K": 91400,
+    "proc": 72.0
+   },
+   "usage": {
+    "promptTokenCount": 306,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 583,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 306
+     }
+    ],
+    "thoughtsTokenCount": 262,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0165",
+   "family": "poczatek_ochrony",
+   "group": "O-0",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6125.675916671753,
+   "meta": {
+    "zawarcie": "2026-06-18",
+    "zaplata": "2026-06-19",
+    "szkoda": "2026-06-19"
+   },
+   "usage": {
+    "promptTokenCount": 346,
+    "candidatesTokenCount": 16,
+    "totalTokenCount": 814,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 346
+     }
+    ],
+    "thoughtsTokenCount": 452,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0028",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-12",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4190.57297706604,
+   "meta": {
+    "dni": 8
+   },
+   "usage": {
+    "promptTokenCount": 308,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 470,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 308
+     }
+    ],
+    "thoughtsTokenCount": 147,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0132",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-13",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8625.580072402954,
+   "meta": {
+    "dzien": "2026-10-26",
+    "termin": "2026-10-27",
+    "zgloszenie": "2026-10-28"
+   },
+   "usage": {
+    "promptTokenCount": 387,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 1265,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 387
+     }
+    ],
+    "thoughtsTokenCount": 863,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0242",
+   "family": "szkoda_calkowita_70",
+   "group": "C-13",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 9454.578876495361,
+   "meta": {
+    "W": 86000,
+    "S": 86000,
+    "K": 61900,
+    "proc": 72.0
+   },
+   "usage": {
+    "promptTokenCount": 306,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 587,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 306
+     }
+    ],
+    "thoughtsTokenCount": 266,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0047",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-21",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 10878.078937530518,
+   "meta": {
+    "dni": 2
+   },
+   "usage": {
+    "promptTokenCount": 310,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 731,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 310
+     }
+    ],
+    "thoughtsTokenCount": 412,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0119",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-7",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4996.0572719573975,
+   "meta": {
+    "dzien": "2026-09-17",
+    "termin": "2026-09-18",
+    "zgloszenie": "2026-09-18"
+   },
+   "usage": {
+    "promptTokenCount": 386,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 696,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 386
+     }
+    ],
+    "thoughtsTokenCount": 300,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0017",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-7",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5721.550941467285,
+   "meta": {
+    "dni": 21
+   },
+   "usage": {
+    "promptTokenCount": 306,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 743,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 306
+     }
+    ],
+    "thoughtsTokenCount": 428,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0126",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-10",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5630.566835403442,
+   "meta": {
+    "dzien": "2026-11-25",
+    "termin": "2026-11-26",
+    "zgloszenie": "2026-11-27"
+   },
+   "usage": {
+    "promptTokenCount": 396,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 819,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 396
+     }
+    ],
+    "thoughtsTokenCount": 414,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0044",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-20",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5628.777027130127,
+   "meta": {
+    "dni": 7
+   },
+   "usage": {
+    "promptTokenCount": 307,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 857,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 307
+     }
+    ],
+    "thoughtsTokenCount": 541,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0087",
+   "family": "kradziez_policja_12h",
+   "group": "P12-14",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5459.885835647583,
+   "meta": {
+    "minuty": 700
+   },
+   "usage": {
+    "promptTokenCount": 377,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 815,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 377
+     }
+    ],
+    "thoughtsTokenCount": 429,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0059",
+   "family": "kradziez_policja_12h",
+   "group": "P12-1",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5555.79686164856,
+   "meta": {
+    "minuty": 1200
+   },
+   "usage": {
+    "promptTokenCount": 380,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 619,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 380
+     }
+    ],
+    "thoughtsTokenCount": 224,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0160",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-27",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 11530.19905090332,
+   "meta": {
+    "dzien": "2026-10-17",
+    "termin": "2026-10-19",
+    "zgloszenie": "2026-10-20"
+   },
+   "usage": {
+    "promptTokenCount": 388,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 1613,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 388
+     }
+    ],
+    "thoughtsTokenCount": 1216,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0220",
+   "family": "szkoda_calkowita_70",
+   "group": "C-2",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4655.740737915039,
+   "meta": {
+    "W": 97000,
+    "S": 97000,
+    "K": 69800,
+    "proc": 72.0
+   },
+   "usage": {
+    "promptTokenCount": 304,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 585,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 304
+     }
+    ],
+    "thoughtsTokenCount": 272,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0284",
+   "family": "wylaczenia_par4",
+   "group": "X-9-0",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 34471.17781639099,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1037,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 1609,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1037
+     }
+    ],
+    "thoughtsTokenCount": 565,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0046",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-20",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5010.92791557312,
+   "meta": {
+    "dni": null
+   },
+   "usage": {
+    "promptTokenCount": 312,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 440,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 312
+     }
+    ],
+    "thoughtsTokenCount": 113,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0272",
+   "family": "wylaczenia_par4",
+   "group": "X-3-0",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5299.118280410767,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1072,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 1387,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1072
+     }
+    ],
+    "thoughtsTokenCount": 307,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0019",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-8",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 7323.45175743103,
+   "meta": {
+    "dni": 8
+   },
+   "usage": {
+    "promptTokenCount": 304,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 719,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 304
+     }
+    ],
+    "thoughtsTokenCount": 406,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0182",
+   "family": "poczatek_ochrony",
+   "group": "O-7",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 21873.86202812195,
+   "meta": {
+    "zawarcie": "2026-12-02",
+    "zaplata": "2026-12-03",
+    "szkoda": "2026-12-04"
+   },
+   "usage": {
+    "promptTokenCount": 346,
+    "candidatesTokenCount": 7,
+    "totalTokenCount": 841,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 346
+     }
+    ],
+    "thoughtsTokenCount": 488,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0066",
+   "family": "kradziez_policja_12h",
+   "group": "P12-4",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 3970.896005630493,
+   "meta": {
+    "minuty": null
+   },
+   "usage": {
+    "promptTokenCount": 376,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 554,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 376
+     }
+    ],
+    "thoughtsTokenCount": 169,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0181",
+   "family": "poczatek_ochrony",
+   "group": "O-7",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 10203.81212234497,
+   "meta": {
+    "zawarcie": "2026-12-02",
+    "zaplata": "2026-12-03",
+    "szkoda": "2026-12-03"
+   },
+   "usage": {
+    "promptTokenCount": 346,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 905,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 346
+     }
+    ],
+    "thoughtsTokenCount": 549,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0120",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-7",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 9742.02013015747,
+   "meta": {
+    "dzien": "2026-09-17",
+    "termin": "2026-09-18",
+    "zgloszenie": "2026-09-21"
+   },
+   "usage": {
+    "promptTokenCount": 386,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 1420,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 386
+     }
+    ],
+    "thoughtsTokenCount": 1025,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0313",
+   "family": "wylaczenia_par4",
+   "group": "X-4-2",
+   "gold": "awaria",
+   "pred": "awaria",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 9579.405069351196,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1064,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1318,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1064
+     }
+    ],
+    "thoughtsTokenCount": 241,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0058",
+   "family": "kradziez_policja_12h",
+   "group": "P12-1",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4583.8658809661865,
+   "meta": {
+    "minuty": 90
+   },
+   "usage": {
+    "promptTokenCount": 380,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 836,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 380
+     }
+    ],
+    "thoughtsTokenCount": 446,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0143",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-19",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 7903.423070907593,
+   "meta": {
+    "dzien": "2026-07-10",
+    "termin": "2026-07-13",
+    "zgloszenie": "2026-07-13"
+   },
+   "usage": {
+    "promptTokenCount": 386,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 1176,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 386
+     }
+    ],
+    "thoughtsTokenCount": 775,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0018",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-8",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8794.28482055664,
+   "meta": {
+    "dni": 7
+   },
+   "usage": {
+    "promptTokenCount": 304,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 819,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 304
+     }
+    ],
+    "thoughtsTokenCount": 506,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0015",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-6",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5899.712562561035,
+   "meta": {
+    "dni": 8
+   },
+   "usage": {
+    "promptTokenCount": 311,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 795,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 311
+     }
+    ],
+    "thoughtsTokenCount": 475,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0253",
+   "family": "szkoda_calkowita_70",
+   "group": "C-19",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4778.722047805786,
+   "meta": {
+    "W": 106000,
+    "S": 106000,
+    "K": 72000,
+    "proc": 67.9
+   },
+   "usage": {
+    "promptTokenCount": 307,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 452,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 307
+     }
+    ],
+    "thoughtsTokenCount": 137,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0300",
+   "family": "wylaczenia_par4",
+   "group": "X-7-1",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5612.18786239624,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1073,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1356,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1073
+     }
+    ],
+    "thoughtsTokenCount": 270,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0045",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-20",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 3764.0280723571777,
+   "meta": {
+    "dni": 8
+   },
+   "usage": {
+    "promptTokenCount": 307,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 491,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 307
+     }
+    ],
+    "thoughtsTokenCount": 175,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0286",
+   "family": "wylaczenia_par4",
+   "group": "X-0-1",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4703.356981277466,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1098,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 1357,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1098
+     }
+    ],
+    "thoughtsTokenCount": 251,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0306",
+   "family": "wylaczenia_par4",
+   "group": "X-0-2",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5374.395847320557,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1088,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1440,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1088
+     }
+    ],
+    "thoughtsTokenCount": 339,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0218",
+   "family": "szkoda_calkowita_70",
+   "group": "C-1",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4104.891777038574,
+   "meta": {
+    "W": 45000,
+    "S": 45000,
+    "K": 32400,
+    "proc": 72.0
+   },
+   "usage": {
+    "promptTokenCount": 304,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 551,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 304
+     }
+    ],
+    "thoughtsTokenCount": 232,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0051",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-23",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5245.244026184082,
+   "meta": {
+    "dni": 5
+   },
+   "usage": {
+    "promptTokenCount": 306,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 670,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 306
+     }
+    ],
+    "thoughtsTokenCount": 355,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0244",
+   "family": "szkoda_calkowita_70",
+   "group": "C-14",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6088.182210922241,
+   "meta": {
+    "W": 148000,
+    "S": 148000,
+    "K": 106500,
+    "proc": 72.0
+   },
+   "usage": {
+    "promptTokenCount": 309,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 854,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 309
+     }
+    ],
+    "thoughtsTokenCount": 536,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0307",
+   "family": "wylaczenia_par4",
+   "group": "X-1-2",
+   "gold": "uprawnienia",
+   "pred": "uprawnienia",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5033.10489654541,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1057,
+    "candidatesTokenCount": 14,
+    "totalTokenCount": 1338,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1057
+     }
+    ],
+    "thoughtsTokenCount": 267,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0283",
+   "family": "wylaczenia_par4",
+   "group": "X-9-0",
+   "gold": "terytorium",
+   "pred": "terytorium",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5396.420955657959,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1041,
+    "candidatesTokenCount": 14,
+    "totalTokenCount": 1343,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1041
+     }
+    ],
+    "thoughtsTokenCount": 288,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0083",
+   "family": "kradziez_policja_12h",
+   "group": "P12-12",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4637.594223022461,
+   "meta": {
+    "minuty": 745
+   },
+   "usage": {
+    "promptTokenCount": 382,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 780,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 382
+     }
+    ],
+    "thoughtsTokenCount": 389,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0038",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-17",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 16743.18289756775,
+   "meta": {
+    "dni": 1
+   },
+   "usage": {
+    "promptTokenCount": 303,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 732,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 303
+     }
+    ],
+    "thoughtsTokenCount": 420,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0263",
+   "family": "szkoda_calkowita_70",
+   "group": "C-24",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4741.111040115356,
+   "meta": {
+    "W": 87000,
+    "S": 73900,
+    "K": 56300,
+    "proc": 76.2
+   },
+   "usage": {
+    "promptTokenCount": 304,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 682,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 304
+     }
+    ],
+    "thoughtsTokenCount": 368,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0230",
+   "family": "szkoda_calkowita_70",
+   "group": "C-7",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6037.286043167114,
+   "meta": {
+    "W": 52000,
+    "S": 52000,
+    "K": 37400,
+    "proc": 71.9
+   },
+   "usage": {
+    "promptTokenCount": 306,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 565,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 306
+     }
+    ],
+    "thoughtsTokenCount": 250,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0040",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-18",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5496.383190155029,
+   "meta": {
+    "dni": 7
+   },
+   "usage": {
+    "promptTokenCount": 307,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 836,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 307
+     }
+    ],
+    "thoughtsTokenCount": 520,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0140",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-17",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 17845.396995544434,
+   "meta": {
+    "dzien": "2026-06-11",
+    "termin": "2026-06-12",
+    "zgloszenie": "2026-06-15"
+   },
+   "usage": {
+    "promptTokenCount": 385,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 2672,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 385
+     }
+    ],
+    "thoughtsTokenCount": 2272,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0050",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-22",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4355.7281494140625,
+   "meta": {
+    "dni": 8
+   },
+   "usage": {
+    "promptTokenCount": 306,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 469,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 306
+     }
+    ],
+    "thoughtsTokenCount": 153,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0070",
+   "family": "kradziez_policja_12h",
+   "group": "P12-6",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8290.3470993042,
+   "meta": {
+    "minuty": 745
+   },
+   "usage": {
+    "promptTokenCount": 380,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 585,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 380
+     }
+    ],
+    "thoughtsTokenCount": 196,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0123",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-9",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8986.24587059021,
+   "meta": {
+    "dzien": "2026-08-21",
+    "termin": "2026-08-24",
+    "zgloszenie": "2026-08-24"
+   },
+   "usage": {
+    "promptTokenCount": 387,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 1359,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 387
+     }
+    ],
+    "thoughtsTokenCount": 957,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0174",
+   "family": "poczatek_ochrony",
+   "group": "O-4",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6049.433708190918,
+   "meta": {
+    "zawarcie": "2026-12-06",
+    "zaplata": "2026-12-06",
+    "szkoda": "2026-12-06"
+   },
+   "usage": {
+    "promptTokenCount": 341,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 687,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 341
+     }
+    ],
+    "thoughtsTokenCount": 336,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0324",
+   "family": "wylaczenia_par4",
+   "group": "X-9-2",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4410.475015640259,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1041,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 1260,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1041
+     }
+    ],
+    "thoughtsTokenCount": 211,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0260",
+   "family": "szkoda_calkowita_70",
+   "group": "C-22",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 7206.060886383057,
+   "meta": {
+    "W": 113000,
+    "S": 113000,
+    "K": 81300,
+    "proc": 71.9
+   },
+   "usage": {
+    "promptTokenCount": 311,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 792,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 311
+     }
+    ],
+    "thoughtsTokenCount": 472,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0178",
+   "family": "poczatek_ochrony",
+   "group": "O-5",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5187.3579025268555,
+   "meta": {
+    "zawarcie": "2026-10-26",
+    "zaplata": "2026-10-29",
+    "szkoda": "2026-10-30"
+   },
+   "usage": {
+    "promptTokenCount": 344,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 802,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 344
+     }
+    ],
+    "thoughtsTokenCount": 445,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0097",
+   "family": "kradziez_policja_12h",
+   "group": "P12-18",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4947.2057819366455,
+   "meta": {
+    "minuty": 745
+   },
+   "usage": {
+    "promptTokenCount": 381,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 641,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 381
+     }
+    ],
+    "thoughtsTokenCount": 245,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0184",
+   "family": "poczatek_ochrony",
+   "group": "O-8",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6728.332042694092,
+   "meta": {
+    "zawarcie": "2026-08-09",
+    "zaplata": "2026-08-10",
+    "szkoda": "2026-08-11"
+   },
+   "usage": {
+    "promptTokenCount": 344,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 905,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 344
+     }
+    ],
+    "thoughtsTokenCount": 548,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0093",
+   "family": "kradziez_policja_12h",
+   "group": "P12-16",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 3940.450668334961,
+   "meta": {
+    "minuty": null
+   },
+   "usage": {
+    "promptTokenCount": 377,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 576,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 377
+     }
+    ],
+    "thoughtsTokenCount": 184,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0288",
+   "family": "wylaczenia_par4",
+   "group": "X-1-1",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6071.948766708374,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1093,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1480,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1093
+     }
+    ],
+    "thoughtsTokenCount": 374,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0183",
+   "family": "poczatek_ochrony",
+   "group": "O-8",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5184.869766235352,
+   "meta": {
+    "zawarcie": "2026-08-09",
+    "zaplata": "2026-08-10",
+    "szkoda": "2026-08-10"
+   },
+   "usage": {
+    "promptTokenCount": 344,
+    "candidatesTokenCount": 10,
+    "totalTokenCount": 688,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 344
+     }
+    ],
+    "thoughtsTokenCount": 334,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0053",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-24",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5027.273893356323,
+   "meta": {
+    "dni": 7
+   },
+   "usage": {
+    "promptTokenCount": 304,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 652,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 304
+     }
+    ],
+    "thoughtsTokenCount": 339,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0258",
+   "family": "szkoda_calkowita_70",
+   "group": "C-21",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 7478.609800338745,
+   "meta": {
+    "W": 142000,
+    "S": 113600,
+    "K": 74900,
+    "proc": 65.9
+   },
+   "usage": {
+    "promptTokenCount": 308,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 1071,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 308
+     }
+    ],
+    "thoughtsTokenCount": 755,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0225",
+   "family": "szkoda_calkowita_70",
+   "group": "C-5",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 7093.529939651489,
+   "meta": {
+    "W": 55000,
+    "S": 55000,
+    "K": 37400,
+    "proc": 68.0
+   },
+   "usage": {
+    "promptTokenCount": 306,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 723,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 306
+     }
+    ],
+    "thoughtsTokenCount": 409,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0175",
+   "family": "poczatek_ochrony",
+   "group": "O-4",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4765.639066696167,
+   "meta": {
+    "zawarcie": "2026-12-06",
+    "zaplata": "2026-12-06",
+    "szkoda": "2026-12-07"
+   },
+   "usage": {
+    "promptTokenCount": 341,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 634,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 341
+     }
+    ],
+    "thoughtsTokenCount": 285,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0264",
+   "family": "szkoda_calkowita_70",
+   "group": "C-24",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 15034.672975540161,
+   "meta": {
+    "W": 87000,
+    "S": 73900,
+    "K": 48700,
+    "proc": 65.9
+   },
+   "usage": {
+    "promptTokenCount": 304,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 973,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 304
+     }
+    ],
+    "thoughtsTokenCount": 661,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0204",
+   "family": "poczatek_ochrony",
+   "group": "O-17",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 6630.623817443848,
+   "meta": {
+    "zawarcie": "2026-11-29",
+    "zaplata": "2026-11-29",
+    "szkoda": "2026-11-29"
+   },
+   "usage": {
+    "promptTokenCount": 347,
+    "candidatesTokenCount": 16,
+    "totalTokenCount": 626,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 347
+     }
+    ],
+    "thoughtsTokenCount": 263,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0137",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-16",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4698.251008987427,
+   "meta": {
+    "dzien": "2026-09-12",
+    "termin": "2026-09-14",
+    "zgloszenie": "2026-09-14"
+   },
+   "usage": {
+    "promptTokenCount": 397,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 638,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 397
+     }
+    ],
+    "thoughtsTokenCount": 226,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0239",
+   "family": "szkoda_calkowita_70",
+   "group": "C-12",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5954.87380027771,
+   "meta": {
+    "W": 71000,
+    "S": 63900,
+    "K": 47200,
+    "proc": 73.9
+   },
+   "usage": {
+    "promptTokenCount": 305,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 808,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 305
+     }
+    ],
+    "thoughtsTokenCount": 494,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0235",
+   "family": "szkoda_calkowita_70",
+   "group": "C-10",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5473.241806030273,
+   "meta": {
+    "W": 51000,
+    "S": 51000,
+    "K": 34600,
+    "proc": 67.8
+   },
+   "usage": {
+    "promptTokenCount": 304,
+    "candidatesTokenCount": 8,
+    "totalTokenCount": 592,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 304
+     }
+    ],
+    "thoughtsTokenCount": 280,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0014",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-6",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 3604.072093963623,
+   "meta": {
+    "dni": 7
+   },
+   "usage": {
+    "promptTokenCount": 311,
+    "candidatesTokenCount": 15,
+    "totalTokenCount": 464,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 311
+     }
+    ],
+    "thoughtsTokenCount": 138,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0221",
+   "family": "szkoda_calkowita_70",
+   "group": "C-3",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 7007.986068725586,
+   "meta": {
+    "W": 76000,
+    "S": 64600,
+    "K": 49200,
+    "proc": 76.2
+   },
+   "usage": {
+    "promptTokenCount": 308,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 993,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 308
+     }
+    ],
+    "thoughtsTokenCount": 676,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0305",
+   "family": "wylaczenia_par4",
+   "group": "X-0-2",
+   "gold": "alkohol",
+   "pred": "alkohol",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 10867.286920547485,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1069,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1276,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1069
+     }
+    ],
+    "thoughtsTokenCount": 194,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0294",
+   "family": "wylaczenia_par4",
+   "group": "X-4-1",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 4363.986253738403,
+   "meta": {},
+   "usage": {
+    "promptTokenCount": 1057,
+    "candidatesTokenCount": 13,
+    "totalTokenCount": 1243,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 1057
+     }
+    ],
+    "thoughtsTokenCount": 173,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0217",
+   "family": "szkoda_calkowita_70",
+   "group": "C-1",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 5196.727991104126,
+   "meta": {
+    "W": 45000,
+    "S": 45000,
+    "K": 30600,
+    "proc": 68.0
+   },
+   "usage": {
+    "promptTokenCount": 304,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 684,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 304
+     }
+    ],
+    "thoughtsTokenCount": 371,
+    "serviceTier": "standard"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0144",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-19",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 1.0,
+   "probs": {},
+   "ms": 8319.159030914307,
+   "meta": {
+    "dzien": "2026-07-10",
+    "termin": "2026-07-13",
+    "zgloszenie": "2026-07-14"
+   },
+   "usage": {
+    "promptTokenCount": 386,
+    "candidatesTokenCount": 9,
+    "totalTokenCount": 1117,
+    "promptTokensDetails": [
+     {
+      "modality": "TEXT",
+      "tokenCount": 386
+     }
+    ],
+    "thoughtsTokenCount": 722,
+    "serviceTier": "standard"
+   }
+  }
+ ]
+}

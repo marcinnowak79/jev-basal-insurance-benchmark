@@ -1,0 +1,6127 @@
+{
+ "label": "Jev",
+ "url": "https://api.typesafe.ai/v1/systemone",
+ "wyniki": [
+  {
+   "id": "poczatek_ochrony-0198",
+   "family": "poczatek_ochrony",
+   "group": "O-14",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.73,
+   "probs": {
+    "objeta": 0.82,
+    "przed_ochrona": 0.18,
+    "brak_danych": 0.0
+   },
+   "ms": 233.4270477294922,
+   "meta": {
+    "zawarcie": "2026-08-26",
+    "zaplata": "2026-08-31",
+    "szkoda": "2026-09-01"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0068",
+   "family": "kradziez_policja_12h",
+   "group": "P12-5",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.88,
+   "probs": {
+    "w_terminie": 0.07,
+    "po_terminie": 0.92,
+    "brak_danych": 0.01
+   },
+   "ms": 258.286714553833,
+   "meta": {
+    "minuty": 1800
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0104",
+   "family": "kradziez_policja_12h",
+   "group": "P12-21",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.94,
+   "probs": {
+    "w_terminie": 0.04,
+    "po_terminie": 0.96,
+    "brak_danych": 0.0
+   },
+   "ms": 226.70984268188477,
+   "meta": {
+    "minuty": 1800
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0114",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-4",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.74,
+   "probs": {
+    "w_terminie": 0.17,
+    "po_terminie": 0.83,
+    "brak_danych": 0.0
+   },
+   "ms": 227.64897346496582,
+   "meta": {
+    "dzien": "2026-10-02",
+    "termin": "2026-10-05",
+    "zgloszenie": "2026-10-06"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0020",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-9",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {
+    "w_terminie": 1.0,
+    "po_terminie": 0.0,
+    "brak_danych": 0.0
+   },
+   "ms": 237.35976219177246,
+   "meta": {
+    "dni": 2
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0074",
+   "family": "kradziez_policja_12h",
+   "group": "P12-8",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.43,
+   "probs": {
+    "w_terminie": 0.62,
+    "po_terminie": 0.37,
+    "brak_danych": 0.01
+   },
+   "ms": 220.16096115112305,
+   "meta": {
+    "minuty": 745
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0094",
+   "family": "kradziez_policja_12h",
+   "group": "P12-17",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.95,
+   "probs": {
+    "w_terminie": 0.97,
+    "po_terminie": 0.03,
+    "brak_danych": 0.0
+   },
+   "ms": 237.6708984375,
+   "meta": {
+    "minuty": 90
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0231",
+   "family": "szkoda_calkowita_70",
+   "group": "C-8",
+   "gold": "czesciowa",
+   "pred": "calkowita",
+   "conf": 0.24,
+   "probs": {
+    "calkowita": 0.62,
+    "czesciowa": 0.38
+   },
+   "ms": 210.51812171936035,
+   "meta": {
+    "W": 58000,
+    "S": 58000,
+    "K": 39400,
+    "proc": 67.9
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0069",
+   "family": "kradziez_policja_12h",
+   "group": "P12-6",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.74,
+   "probs": {
+    "w_terminie": 0.83,
+    "po_terminie": 0.17,
+    "brak_danych": 0.0
+   },
+   "ms": 219.18892860412598,
+   "meta": {
+    "minuty": 700
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0310",
+   "family": "wylaczenia_par4",
+   "group": "X-2-2",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 1.0,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 237.49780654907227,
+   "meta": {}
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0032",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-14",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.83,
+   "probs": {
+    "w_terminie": 0.89,
+    "po_terminie": 0.11,
+    "brak_danych": 0.0
+   },
+   "ms": 213.4537696838379,
+   "meta": {
+    "dni": 8
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0121",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-8",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.89,
+   "probs": {
+    "w_terminie": 0.93,
+    "po_terminie": 0.03,
+    "brak_danych": 0.04
+   },
+   "ms": 213.454008102417,
+   "meta": {
+    "dzien": "2026-07-08",
+    "termin": "2026-07-09",
+    "zgloszenie": "2026-07-09"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0314",
+   "family": "wylaczenia_par4",
+   "group": "X-4-2",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.91,
+   "probs": {
+    "objeta": 0.92,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.01,
+    "awaria": 0.07,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 219.50602531433105,
+   "meta": {}
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0129",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-12",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.51,
+   "probs": {
+    "w_terminie": 0.67,
+    "po_terminie": 0.32,
+    "brak_danych": 0.01
+   },
+   "ms": 232.52010345458984,
+   "meta": {
+    "dzien": "2026-08-08",
+    "termin": "2026-08-10",
+    "zgloszenie": "2026-08-10"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0085",
+   "family": "kradziez_policja_12h",
+   "group": "P12-13",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.86,
+   "probs": {
+    "w_terminie": 0.91,
+    "po_terminie": 0.08,
+    "brak_danych": 0.01
+   },
+   "ms": 218.30105781555176,
+   "meta": {
+    "minuty": 400
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0100",
+   "family": "kradziez_policja_12h",
+   "group": "P12-20",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.51,
+   "probs": {
+    "w_terminie": 0.67,
+    "po_terminie": 0.32,
+    "brak_danych": 0.01
+   },
+   "ms": 235.4898452758789,
+   "meta": {
+    "minuty": 700
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0036",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-16",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.91,
+   "probs": {
+    "w_terminie": 0.94,
+    "po_terminie": 0.06,
+    "brak_danych": 0.0
+   },
+   "ms": 241.41597747802734,
+   "meta": {
+    "dni": 7
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0262",
+   "family": "szkoda_calkowita_70",
+   "group": "C-23",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 0.82,
+   "probs": {
+    "calkowita": 0.91,
+    "czesciowa": 0.09
+   },
+   "ms": 221.36282920837402,
+   "meta": {
+    "W": 113000,
+    "S": 113000,
+    "K": 81300,
+    "proc": 71.9
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0170",
+   "family": "poczatek_ochrony",
+   "group": "O-2",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 0.95,
+   "probs": {
+    "objeta": 0.02,
+    "przed_ochrona": 0.97,
+    "brak_danych": 0.01
+   },
+   "ms": 222.3982810974121,
+   "meta": {
+    "zawarcie": "2026-07-22",
+    "zaplata": "2026-07-22",
+    "szkoda": "2026-07-22"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0056",
+   "family": "kradziez_policja_12h",
+   "group": "P12-0",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.73,
+   "probs": {
+    "w_terminie": 0.82,
+    "po_terminie": 0.18,
+    "brak_danych": 0.0
+   },
+   "ms": 243.15381050109863,
+   "meta": {
+    "minuty": 745
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0207",
+   "family": "poczatek_ochrony",
+   "group": "O-18",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.89,
+   "probs": {
+    "objeta": 0.93,
+    "przed_ochrona": 0.07,
+    "brak_danych": 0.0
+   },
+   "ms": 237.81108856201172,
+   "meta": {
+    "zawarcie": "2026-10-20",
+    "zaplata": "2026-10-25",
+    "szkoda": "2026-10-26"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0080",
+   "family": "kradziez_policja_12h",
+   "group": "P12-11",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.86,
+   "probs": {
+    "w_terminie": 0.91,
+    "po_terminie": 0.09,
+    "brak_danych": 0.0
+   },
+   "ms": 219.99883651733398,
+   "meta": {
+    "minuty": 400
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0233",
+   "family": "szkoda_calkowita_70",
+   "group": "C-9",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 0.68,
+   "probs": {
+    "calkowita": 0.84,
+    "czesciowa": 0.16
+   },
+   "ms": 256.67476654052734,
+   "meta": {
+    "W": 141000,
+    "S": 126900,
+    "K": 93700,
+    "proc": 73.8
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0162",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-28",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.38,
+   "probs": {
+    "w_terminie": 0.41,
+    "po_terminie": 0.59,
+    "brak_danych": 0.0
+   },
+   "ms": 220.06988525390625,
+   "meta": {
+    "dzien": "2026-11-14",
+    "termin": "2026-11-16",
+    "zgloszenie": "2026-11-17"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0304",
+   "family": "wylaczenia_par4",
+   "group": "X-9-1",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 1.0,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 228.06310653686523,
+   "meta": {}
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0013",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-5",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 0.67,
+   "probs": {
+    "w_terminie": 0.17,
+    "po_terminie": 0.05,
+    "brak_danych": 0.78
+   },
+   "ms": 229.16269302368164,
+   "meta": {
+    "dni": null
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0234",
+   "family": "szkoda_calkowita_70",
+   "group": "C-9",
+   "gold": "czesciowa",
+   "pred": "calkowita",
+   "conf": 0.56,
+   "probs": {
+    "calkowita": 0.78,
+    "czesciowa": 0.22
+   },
+   "ms": 243.6819076538086,
+   "meta": {
+    "W": 141000,
+    "S": 126900,
+    "K": 83700,
+    "proc": 66.0
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0291",
+   "family": "wylaczenia_par4",
+   "group": "X-3-1",
+   "gold": "woda",
+   "pred": "woda",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 0.0,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 1.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 222.63288497924805,
+   "meta": {}
+  },
+  {
+   "id": "kradziez_policja_12h-0078",
+   "family": "kradziez_policja_12h",
+   "group": "P12-10",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.58,
+   "probs": {
+    "w_terminie": 0.72,
+    "po_terminie": 0.28,
+    "brak_danych": 0.0
+   },
+   "ms": 232.84602165222168,
+   "meta": {
+    "minuty": 700
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0297",
+   "family": "wylaczenia_par4",
+   "group": "X-6-1",
+   "gold": "wyscigi",
+   "pred": "wyscigi",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 0.0,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 1.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 241.77193641662598,
+   "meta": {}
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0023",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-10",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.46,
+   "probs": {
+    "w_terminie": 0.64,
+    "po_terminie": 0.36,
+    "brak_danych": 0.0
+   },
+   "ms": 226.8691062927246,
+   "meta": {
+    "dni": 8
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0319",
+   "family": "wylaczenia_par4",
+   "group": "X-7-2",
+   "gold": "kluczyki",
+   "pred": "kluczyki",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 0.0,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 1.0,
+    "terytorium": 0.0
+   },
+   "ms": 217.4549102783203,
+   "meta": {}
+  },
+  {
+   "id": "wylaczenia_par4-0296",
+   "family": "wylaczenia_par4",
+   "group": "X-5-1",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.77,
+   "probs": {
+    "objeta": 0.79,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.21,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 237.17188835144043,
+   "meta": {}
+  },
+  {
+   "id": "kradziez_policja_12h-0060",
+   "family": "kradziez_policja_12h",
+   "group": "P12-2",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.73,
+   "probs": {
+    "w_terminie": 0.82,
+    "po_terminie": 0.18,
+    "brak_danych": 0.0
+   },
+   "ms": 292.29116439819336,
+   "meta": {
+    "minuty": 700
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0277",
+   "family": "wylaczenia_par4",
+   "group": "X-6-0",
+   "gold": "wyscigi",
+   "pred": "wyscigi",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 0.0,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 1.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 221.73810005187988,
+   "meta": {}
+  },
+  {
+   "id": "poczatek_ochrony-0200",
+   "family": "poczatek_ochrony",
+   "group": "O-15",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.82,
+   "probs": {
+    "objeta": 0.88,
+    "przed_ochrona": 0.12,
+    "brak_danych": 0.0
+   },
+   "ms": 219.49005126953125,
+   "meta": {
+    "zawarcie": "2026-08-04",
+    "zaplata": "2026-08-07",
+    "szkoda": "2026-08-08"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0320",
+   "family": "wylaczenia_par4",
+   "group": "X-7-2",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.96,
+   "probs": {
+    "objeta": 0.96,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.04,
+    "terytorium": 0.0
+   },
+   "ms": 248.1212615966797,
+   "meta": {}
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0125",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-10",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.89,
+   "probs": {
+    "w_terminie": 0.93,
+    "po_terminie": 0.02,
+    "brak_danych": 0.05
+   },
+   "ms": 233.5488796234131,
+   "meta": {
+    "dzien": "2026-11-25",
+    "termin": "2026-11-26",
+    "zgloszenie": "2026-11-26"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0281",
+   "family": "wylaczenia_par4",
+   "group": "X-8-0",
+   "gold": "terytorium",
+   "pred": "terytorium",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 0.0,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 1.0
+   },
+   "ms": 225.06999969482422,
+   "meta": {}
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0145",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-20",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.37,
+   "probs": {
+    "w_terminie": 0.58,
+    "po_terminie": 0.41,
+    "brak_danych": 0.01
+   },
+   "ms": 235.50987243652344,
+   "meta": {
+    "dzien": "2026-08-21",
+    "termin": "2026-08-24",
+    "zgloszenie": "2026-08-24"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0159",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-27",
+   "gold": "w_terminie",
+   "pred": "po_terminie",
+   "conf": 0.23,
+   "probs": {
+    "w_terminie": 0.49,
+    "po_terminie": 0.49,
+    "brak_danych": 0.02
+   },
+   "ms": 226.2415885925293,
+   "meta": {
+    "dzien": "2026-10-17",
+    "termin": "2026-10-19",
+    "zgloszenie": "2026-10-19"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0249",
+   "family": "szkoda_calkowita_70",
+   "group": "C-17",
+   "gold": "czesciowa",
+   "pred": "calkowita",
+   "conf": 0.52,
+   "probs": {
+    "calkowita": 0.76,
+    "czesciowa": 0.24
+   },
+   "ms": 223.41299057006836,
+   "meta": {
+    "W": 127000,
+    "S": 127000,
+    "K": 86300,
+    "proc": 68.0
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0110",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-2",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.41,
+   "probs": {
+    "w_terminie": 0.61,
+    "po_terminie": 0.38,
+    "brak_danych": 0.01
+   },
+   "ms": 249.2811679840088,
+   "meta": {
+    "dzien": "2026-11-08",
+    "termin": "2026-11-09",
+    "zgloszenie": "2026-11-10"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0033",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-15",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {
+    "w_terminie": 1.0,
+    "po_terminie": 0.0,
+    "brak_danych": 0.0
+   },
+   "ms": 360.7518672943115,
+   "meta": {
+    "dni": 1
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0186",
+   "family": "poczatek_ochrony",
+   "group": "O-9",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 0.58,
+   "probs": {
+    "objeta": 0.27,
+    "przed_ochrona": 0.72,
+    "brak_danych": 0.01
+   },
+   "ms": 241.68777465820312,
+   "meta": {
+    "zawarcie": "2026-12-02",
+    "zaplata": "2026-12-04",
+    "szkoda": "2026-12-04"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0163",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-29",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.76,
+   "probs": {
+    "w_terminie": 0.84,
+    "po_terminie": 0.03,
+    "brak_danych": 0.13
+   },
+   "ms": 234.07673835754395,
+   "meta": {
+    "dzien": "2026-10-29",
+    "termin": "2026-10-30",
+    "zgloszenie": "2026-10-30"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0208",
+   "family": "poczatek_ochrony",
+   "group": "O-19",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 0.98,
+   "probs": {
+    "objeta": 0.01,
+    "przed_ochrona": 0.99,
+    "brak_danych": 0.0
+   },
+   "ms": 214.19382095336914,
+   "meta": {
+    "zawarcie": "2026-09-08",
+    "zaplata": "2026-09-08",
+    "szkoda": "2026-09-08"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0256",
+   "family": "szkoda_calkowita_70",
+   "group": "C-20",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 0.7,
+   "probs": {
+    "calkowita": 0.85,
+    "czesciowa": 0.15
+   },
+   "ms": 251.77383422851562,
+   "meta": {
+    "W": 141000,
+    "S": 141000,
+    "K": 101500,
+    "proc": 72.0
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0187",
+   "family": "poczatek_ochrony",
+   "group": "O-9",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.79,
+   "probs": {
+    "objeta": 0.86,
+    "przed_ochrona": 0.14,
+    "brak_danych": 0.0
+   },
+   "ms": 245.76783180236816,
+   "meta": {
+    "zawarcie": "2026-12-02",
+    "zaplata": "2026-12-04",
+    "szkoda": "2026-12-05"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0055",
+   "family": "kradziez_policja_12h",
+   "group": "P12-0",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.77,
+   "probs": {
+    "w_terminie": 0.85,
+    "po_terminie": 0.15,
+    "brak_danych": 0.0
+   },
+   "ms": 219.16604042053223,
+   "meta": {
+    "minuty": 700
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0151",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-23",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.7,
+   "probs": {
+    "w_terminie": 0.8,
+    "po_terminie": 0.05,
+    "brak_danych": 0.15
+   },
+   "ms": 230.4542064666748,
+   "meta": {
+    "dzien": "2026-08-09",
+    "termin": "2026-08-10",
+    "zgloszenie": "2026-08-10"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0308",
+   "family": "wylaczenia_par4",
+   "group": "X-1-2",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.77,
+   "probs": {
+    "objeta": 0.79,
+    "alkohol": 0.0,
+    "uprawnienia": 0.21,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 234.52997207641602,
+   "meta": {}
+  },
+  {
+   "id": "szkoda_calkowita_70-0237",
+   "family": "szkoda_calkowita_70",
+   "group": "C-11",
+   "gold": "czesciowa",
+   "pred": "calkowita",
+   "conf": 0.12,
+   "probs": {
+    "calkowita": 0.56,
+    "czesciowa": 0.44
+   },
+   "ms": 239.87102508544922,
+   "meta": {
+    "W": 82000,
+    "S": 82000,
+    "K": 55700,
+    "proc": 67.9
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0116",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-5",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.25,
+   "probs": {
+    "w_terminie": 0.48,
+    "po_terminie": 0.5,
+    "brak_danych": 0.02
+   },
+   "ms": 234.57002639770508,
+   "meta": {
+    "dzien": "2026-10-06",
+    "termin": "2026-10-07",
+    "zgloszenie": "2026-10-08"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0084",
+   "family": "kradziez_policja_12h",
+   "group": "P12-12",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 0.7,
+   "probs": {
+    "w_terminie": 0.09,
+    "po_terminie": 0.11,
+    "brak_danych": 0.8
+   },
+   "ms": 228.87897491455078,
+   "meta": {
+    "minuty": null
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0149",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-22",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.94,
+   "probs": {
+    "w_terminie": 0.96,
+    "po_terminie": 0.03,
+    "brak_danych": 0.01
+   },
+   "ms": 221.8799591064453,
+   "meta": {
+    "dzien": "2026-10-01",
+    "termin": "2026-10-02",
+    "zgloszenie": "2026-10-02"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0246",
+   "family": "szkoda_calkowita_70",
+   "group": "C-15",
+   "gold": "czesciowa",
+   "pred": "calkowita",
+   "conf": 0.02,
+   "probs": {
+    "calkowita": 0.51,
+    "czesciowa": 0.49
+   },
+   "ms": 223.55914115905762,
+   "meta": {
+    "W": 93000,
+    "S": 83700,
+    "K": 55200,
+    "proc": 65.9
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0006",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-2",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.49,
+   "probs": {
+    "w_terminie": 0.66,
+    "po_terminie": 0.34,
+    "brak_danych": 0.0
+   },
+   "ms": 217.77606010437012,
+   "meta": {
+    "dni": 8
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0113",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-4",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.37,
+   "probs": {
+    "w_terminie": 0.58,
+    "po_terminie": 0.41,
+    "brak_danych": 0.01
+   },
+   "ms": 347.4540710449219,
+   "meta": {
+    "dzien": "2026-10-02",
+    "termin": "2026-10-05",
+    "zgloszenie": "2026-10-05"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0166",
+   "family": "poczatek_ochrony",
+   "group": "O-0",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.85,
+   "probs": {
+    "objeta": 0.9,
+    "przed_ochrona": 0.1,
+    "brak_danych": 0.0
+   },
+   "ms": 226.4571189880371,
+   "meta": {
+    "zawarcie": "2026-06-18",
+    "zaplata": "2026-06-19",
+    "szkoda": "2026-06-20"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0105",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-0",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.97,
+   "probs": {
+    "w_terminie": 0.98,
+    "po_terminie": 0.01,
+    "brak_danych": 0.01
+   },
+   "ms": 224.08294677734375,
+   "meta": {
+    "dzien": "2026-10-18",
+    "termin": "2026-10-19",
+    "zgloszenie": "2026-10-19"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0098",
+   "family": "kradziez_policja_12h",
+   "group": "P12-19",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {
+    "w_terminie": 1.0,
+    "po_terminie": 0.0,
+    "brak_danych": 0.0
+   },
+   "ms": 230.13782501220703,
+   "meta": {
+    "minuty": 30
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0322",
+   "family": "wylaczenia_par4",
+   "group": "X-8-2",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 1.0,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 231.32705688476562,
+   "meta": {}
+  },
+  {
+   "id": "poczatek_ochrony-0210",
+   "family": "poczatek_ochrony",
+   "group": "O-20",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 0.71,
+   "probs": {
+    "objeta": 0.18,
+    "przed_ochrona": 0.8099999999999999,
+    "brak_danych": 0.01
+   },
+   "ms": 226.15385055541992,
+   "meta": {
+    "zawarcie": "2026-07-18",
+    "zaplata": "2026-07-21",
+    "szkoda": "2026-07-21"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0072",
+   "family": "kradziez_policja_12h",
+   "group": "P12-7",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.33,
+   "probs": {
+    "w_terminie": 0.45,
+    "po_terminie": 0.55,
+    "brak_danych": 0.0
+   },
+   "ms": 238.4939193725586,
+   "meta": {
+    "minuty": 840
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0061",
+   "family": "kradziez_policja_12h",
+   "group": "P12-2",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.77,
+   "probs": {
+    "w_terminie": 0.85,
+    "po_terminie": 0.15,
+    "brak_danych": 0.0
+   },
+   "ms": 231.58693313598633,
+   "meta": {
+    "minuty": 745
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0318",
+   "family": "wylaczenia_par4",
+   "group": "X-6-2",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.81,
+   "probs": {
+    "objeta": 0.83,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.17,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 226.4258861541748,
+   "meta": {}
+  },
+  {
+   "id": "poczatek_ochrony-0180",
+   "family": "poczatek_ochrony",
+   "group": "O-6",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.86,
+   "probs": {
+    "objeta": 0.91,
+    "przed_ochrona": 0.09,
+    "brak_danych": 0.0
+   },
+   "ms": 220.23701667785645,
+   "meta": {
+    "zawarcie": "2026-08-06",
+    "zaplata": "2026-08-11",
+    "szkoda": "2026-08-12"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0002",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-0",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 0.74,
+   "probs": {
+    "w_terminie": 0.13,
+    "po_terminie": 0.04,
+    "brak_danych": 0.83
+   },
+   "ms": 218.24312210083008,
+   "meta": {
+    "dni": null
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0196",
+   "family": "poczatek_ochrony",
+   "group": "O-13",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.79,
+   "probs": {
+    "objeta": 0.86,
+    "przed_ochrona": 0.14,
+    "brak_danych": 0.0
+   },
+   "ms": 236.6020679473877,
+   "meta": {
+    "zawarcie": "2026-06-21",
+    "zaplata": "2026-06-26",
+    "szkoda": "2026-06-27"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0199",
+   "family": "poczatek_ochrony",
+   "group": "O-15",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 0.72,
+   "probs": {
+    "objeta": 0.18,
+    "przed_ochrona": 0.81,
+    "brak_danych": 0.01
+   },
+   "ms": 213.7010097503662,
+   "meta": {
+    "zawarcie": "2026-08-04",
+    "zaplata": "2026-08-07",
+    "szkoda": "2026-08-07"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0251",
+   "family": "szkoda_calkowita_70",
+   "group": "C-18",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 0.54,
+   "probs": {
+    "calkowita": 0.77,
+    "czesciowa": 0.23
+   },
+   "ms": 241.0428524017334,
+   "meta": {
+    "W": 71000,
+    "S": 56800,
+    "K": 44700,
+    "proc": 78.7
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0141",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-18",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.95,
+   "probs": {
+    "w_terminie": 0.97,
+    "po_terminie": 0.01,
+    "brak_danych": 0.02
+   },
+   "ms": 227.13375091552734,
+   "meta": {
+    "dzien": "2026-11-22",
+    "termin": "2026-11-23",
+    "zgloszenie": "2026-11-23"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0025",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-11",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.95,
+   "probs": {
+    "w_terminie": 0.97,
+    "po_terminie": 0.03,
+    "brak_danych": 0.0
+   },
+   "ms": 222.08809852600098,
+   "meta": {
+    "dni": 5
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0054",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-24",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.43,
+   "probs": {
+    "w_terminie": 0.62,
+    "po_terminie": 0.38,
+    "brak_danych": 0.0
+   },
+   "ms": 222.0320701599121,
+   "meta": {
+    "dni": 8
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0122",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-8",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.27,
+   "probs": {
+    "w_terminie": 0.48,
+    "po_terminie": 0.51,
+    "brak_danych": 0.01
+   },
+   "ms": 234.66014862060547,
+   "meta": {
+    "dzien": "2026-07-08",
+    "termin": "2026-07-09",
+    "zgloszenie": "2026-07-10"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0206",
+   "family": "poczatek_ochrony",
+   "group": "O-18",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 0.77,
+   "probs": {
+    "objeta": 0.14,
+    "przed_ochrona": 0.85,
+    "brak_danych": 0.01
+   },
+   "ms": 238.49105834960938,
+   "meta": {
+    "zawarcie": "2026-10-20",
+    "zaplata": "2026-10-25",
+    "szkoda": "2026-10-25"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0065",
+   "family": "kradziez_policja_12h",
+   "group": "P12-4",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.34,
+   "probs": {
+    "w_terminie": 0.56,
+    "po_terminie": 0.43,
+    "brak_danych": 0.01
+   },
+   "ms": 230.55267333984375,
+   "meta": {
+    "minuty": 745
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0311",
+   "family": "wylaczenia_par4",
+   "group": "X-3-2",
+   "gold": "woda",
+   "pred": "woda",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 0.0,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 1.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 220.98088264465332,
+   "meta": {}
+  },
+  {
+   "id": "kradziez_policja_12h-0099",
+   "family": "kradziez_policja_12h",
+   "group": "P12-19",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.4,
+   "probs": {
+    "w_terminie": 0.6,
+    "po_terminie": 0.4,
+    "brak_danych": 0.0
+   },
+   "ms": 218.4000015258789,
+   "meta": {
+    "minuty": 840
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0005",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-2",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.88,
+   "probs": {
+    "w_terminie": 0.92,
+    "po_terminie": 0.08,
+    "brak_danych": 0.0
+   },
+   "ms": 247.2071647644043,
+   "meta": {
+    "dni": 7
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0021",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-9",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.98,
+   "probs": {
+    "w_terminie": 0.01,
+    "po_terminie": 0.99,
+    "brak_danych": 0.0
+   },
+   "ms": 246.64807319641113,
+   "meta": {
+    "dni": 12
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0247",
+   "family": "szkoda_calkowita_70",
+   "group": "C-16",
+   "gold": "czesciowa",
+   "pred": "calkowita",
+   "conf": 0.56,
+   "probs": {
+    "calkowita": 0.78,
+    "czesciowa": 0.22
+   },
+   "ms": 314.2871856689453,
+   "meta": {
+    "W": 154000,
+    "S": 154000,
+    "K": 104700,
+    "proc": 68.0
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0261",
+   "family": "szkoda_calkowita_70",
+   "group": "C-23",
+   "gold": "czesciowa",
+   "pred": "calkowita",
+   "conf": 0.44,
+   "probs": {
+    "calkowita": 0.72,
+    "czesciowa": 0.28
+   },
+   "ms": 222.1391201019287,
+   "meta": {
+    "W": 113000,
+    "S": 113000,
+    "K": 76800,
+    "proc": 68.0
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0092",
+   "family": "kradziez_policja_12h",
+   "group": "P12-16",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.56,
+   "probs": {
+    "w_terminie": 0.71,
+    "po_terminie": 0.28,
+    "brak_danych": 0.01
+   },
+   "ms": 228.7611961364746,
+   "meta": {
+    "minuty": 745
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0179",
+   "family": "poczatek_ochrony",
+   "group": "O-6",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 0.76,
+   "probs": {
+    "objeta": 0.14,
+    "przed_ochrona": 0.84,
+    "brak_danych": 0.02
+   },
+   "ms": 241.07098579406738,
+   "meta": {
+    "zawarcie": "2026-08-06",
+    "zaplata": "2026-08-11",
+    "szkoda": "2026-08-11"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0271",
+   "family": "wylaczenia_par4",
+   "group": "X-3-0",
+   "gold": "woda",
+   "pred": "woda",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 0.0,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 1.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 228.62911224365234,
+   "meta": {}
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0133",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-14",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.94,
+   "probs": {
+    "w_terminie": 0.96,
+    "po_terminie": 0.01,
+    "brak_danych": 0.03
+   },
+   "ms": 212.50200271606445,
+   "meta": {
+    "dzien": "2026-09-15",
+    "termin": "2026-09-16",
+    "zgloszenie": "2026-09-16"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0323",
+   "family": "wylaczenia_par4",
+   "group": "X-9-2",
+   "gold": "terytorium",
+   "pred": "objeta",
+   "conf": 0.99,
+   "probs": {
+    "objeta": 0.99,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.01
+   },
+   "ms": 235.9459400177002,
+   "meta": {}
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0026",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-11",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.82,
+   "probs": {
+    "w_terminie": 0.12,
+    "po_terminie": 0.88,
+    "brak_danych": 0.0
+   },
+   "ms": 219.94996070861816,
+   "meta": {
+    "dni": 21
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0216",
+   "family": "szkoda_calkowita_70",
+   "group": "C-0",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 0.24,
+   "probs": {
+    "calkowita": 0.38,
+    "czesciowa": 0.62
+   },
+   "ms": 228.2731533050537,
+   "meta": {
+    "W": 63000,
+    "S": 56700,
+    "K": 37400,
+    "proc": 66.0
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0102",
+   "family": "kradziez_policja_12h",
+   "group": "P12-20",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 0.76,
+   "probs": {
+    "w_terminie": 0.07,
+    "po_terminie": 0.09,
+    "brak_danych": 0.84
+   },
+   "ms": 220.6878662109375,
+   "meta": {
+    "minuty": null
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0214",
+   "family": "poczatek_ochrony",
+   "group": "O-21",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.83,
+   "probs": {
+    "objeta": 0.89,
+    "przed_ochrona": 0.11,
+    "brak_danych": 0.0
+   },
+   "ms": 232.0077419281006,
+   "meta": {
+    "zawarcie": "2026-08-12",
+    "zaplata": "2026-08-14",
+    "szkoda": "2026-08-15"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0138",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-16",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.38,
+   "probs": {
+    "w_terminie": 0.41,
+    "po_terminie": 0.59,
+    "brak_danych": 0.0
+   },
+   "ms": 230.57103157043457,
+   "meta": {
+    "dzien": "2026-09-12",
+    "termin": "2026-09-14",
+    "zgloszenie": "2026-09-15"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0088",
+   "family": "kradziez_policja_12h",
+   "group": "P12-14",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.43,
+   "probs": {
+    "w_terminie": 0.62,
+    "po_terminie": 0.38,
+    "brak_danych": 0.0
+   },
+   "ms": 224.74288940429688,
+   "meta": {
+    "minuty": 745
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0153",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-24",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.34,
+   "probs": {
+    "w_terminie": 0.56,
+    "po_terminie": 0.44,
+    "brak_danych": 0.0
+   },
+   "ms": 237.25008964538574,
+   "meta": {
+    "dzien": "2026-09-04",
+    "termin": "2026-09-07",
+    "zgloszenie": "2026-09-07"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0171",
+   "family": "poczatek_ochrony",
+   "group": "O-2",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.91,
+   "probs": {
+    "objeta": 0.94,
+    "przed_ochrona": 0.05,
+    "brak_danych": 0.01
+   },
+   "ms": 248.41594696044922,
+   "meta": {
+    "zawarcie": "2026-07-22",
+    "zaplata": "2026-07-22",
+    "szkoda": "2026-07-23"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0309",
+   "family": "wylaczenia_par4",
+   "group": "X-2-2",
+   "gold": "ucieczka",
+   "pred": "ucieczka",
+   "conf": 0.99,
+   "probs": {
+    "objeta": 0.01,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.99,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 224.63011741638184,
+   "meta": {}
+  },
+  {
+   "id": "poczatek_ochrony-0190",
+   "family": "poczatek_ochrony",
+   "group": "O-11",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 0.66,
+   "probs": {
+    "objeta": 0.22,
+    "przed_ochrona": 0.77,
+    "brak_danych": 0.01
+   },
+   "ms": 222.90706634521484,
+   "meta": {
+    "zawarcie": "2026-11-13",
+    "zaplata": "2026-11-14",
+    "szkoda": "2026-11-14"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0063",
+   "family": "kradziez_policja_12h",
+   "group": "P12-3",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.56,
+   "probs": {
+    "w_terminie": 0.29,
+    "po_terminie": 0.71,
+    "brak_danych": 0.0
+   },
+   "ms": 226.87101364135742,
+   "meta": {
+    "minuty": 1200
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0101",
+   "family": "kradziez_policja_12h",
+   "group": "P12-20",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.61,
+   "probs": {
+    "w_terminie": 0.74,
+    "po_terminie": 0.26,
+    "brak_danych": 0.0
+   },
+   "ms": 211.7140293121338,
+   "meta": {
+    "minuty": 745
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0282",
+   "family": "wylaczenia_par4",
+   "group": "X-8-0",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 1.0,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 224.7161865234375,
+   "meta": {}
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0035",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-15",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 0.67,
+   "probs": {
+    "w_terminie": 0.16,
+    "po_terminie": 0.06,
+    "brak_danych": 0.78
+   },
+   "ms": 228.37305068969727,
+   "meta": {
+    "dni": null
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0197",
+   "family": "poczatek_ochrony",
+   "group": "O-14",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 0.69,
+   "probs": {
+    "objeta": 0.2,
+    "przed_ochrona": 0.79,
+    "brak_danych": 0.01
+   },
+   "ms": 223.09398651123047,
+   "meta": {
+    "zawarcie": "2026-08-26",
+    "zaplata": "2026-08-31",
+    "szkoda": "2026-08-31"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0316",
+   "family": "wylaczenia_par4",
+   "group": "X-5-2",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.68,
+   "probs": {
+    "objeta": 0.71,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.29,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 297.011137008667,
+   "meta": {}
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0134",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-14",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.55,
+   "probs": {
+    "w_terminie": 0.3,
+    "po_terminie": 0.7,
+    "brak_danych": 0.0
+   },
+   "ms": 226.7017364501953,
+   "meta": {
+    "dzien": "2026-09-15",
+    "termin": "2026-09-16",
+    "zgloszenie": "2026-09-17"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0082",
+   "family": "kradziez_policja_12h",
+   "group": "P12-12",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.41,
+   "probs": {
+    "w_terminie": 0.61,
+    "po_terminie": 0.39,
+    "brak_danych": 0.0
+   },
+   "ms": 216.26901626586914,
+   "meta": {
+    "minuty": 700
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0213",
+   "family": "poczatek_ochrony",
+   "group": "O-21",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 0.77,
+   "probs": {
+    "objeta": 0.14,
+    "przed_ochrona": 0.85,
+    "brak_danych": 0.01
+   },
+   "ms": 213.48309516906738,
+   "meta": {
+    "zawarcie": "2026-08-12",
+    "zaplata": "2026-08-14",
+    "szkoda": "2026-08-14"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0008",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-3",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.95,
+   "probs": {
+    "w_terminie": 0.03,
+    "po_terminie": 0.97,
+    "brak_danych": 0.0
+   },
+   "ms": 218.7347412109375,
+   "meta": {
+    "dni": 12
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0192",
+   "family": "poczatek_ochrony",
+   "group": "O-12",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 0.53,
+   "probs": {
+    "objeta": 0.3,
+    "przed_ochrona": 0.69,
+    "brak_danych": 0.01
+   },
+   "ms": 216.4318561553955,
+   "meta": {
+    "zawarcie": "2026-11-30",
+    "zaplata": "2026-12-01",
+    "szkoda": "2026-12-01"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0157",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-26",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.95,
+   "probs": {
+    "w_terminie": 0.97,
+    "po_terminie": 0.01,
+    "brak_danych": 0.02
+   },
+   "ms": 218.2939052581787,
+   "meta": {
+    "dzien": "2026-11-17",
+    "termin": "2026-11-18",
+    "zgloszenie": "2026-11-18"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0001",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-0",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.56,
+   "probs": {
+    "w_terminie": 0.71,
+    "po_terminie": 0.29,
+    "brak_danych": 0.0
+   },
+   "ms": 229.39801216125488,
+   "meta": {
+    "dni": 8
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0254",
+   "family": "szkoda_calkowita_70",
+   "group": "C-19",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 0.46,
+   "probs": {
+    "calkowita": 0.73,
+    "czesciowa": 0.27
+   },
+   "ms": 223.10566902160645,
+   "meta": {
+    "W": 106000,
+    "S": 106000,
+    "K": 76300,
+    "proc": 72.0
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0039",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-17",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.31,
+   "probs": {
+    "w_terminie": 0.46,
+    "po_terminie": 0.54,
+    "brak_danych": 0.0
+   },
+   "ms": 223.07205200195312,
+   "meta": {
+    "dni": 10
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0042",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-19",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {
+    "w_terminie": 1.0,
+    "po_terminie": 0.0,
+    "brak_danych": 0.0
+   },
+   "ms": 231.0049533843994,
+   "meta": {
+    "dni": 2
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0194",
+   "family": "poczatek_ochrony",
+   "group": "O-12",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 0.7,
+   "probs": {
+    "objeta": 0.16,
+    "przed_ochrona": 0.04,
+    "brak_danych": 0.8
+   },
+   "ms": 216.62402153015137,
+   "meta": {}
+  },
+  {
+   "id": "poczatek_ochrony-0185",
+   "family": "poczatek_ochrony",
+   "group": "O-8",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 0.8,
+   "probs": {
+    "objeta": 0.11,
+    "przed_ochrona": 0.02,
+    "brak_danych": 0.87
+   },
+   "ms": 228.363037109375,
+   "meta": {}
+  },
+  {
+   "id": "poczatek_ochrony-0172",
+   "family": "poczatek_ochrony",
+   "group": "O-3",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 0.77,
+   "probs": {
+    "objeta": 0.14,
+    "przed_ochrona": 0.85,
+    "brak_danych": 0.01
+   },
+   "ms": 215.78693389892578,
+   "meta": {
+    "zawarcie": "2026-06-11",
+    "zaplata": "2026-06-12",
+    "szkoda": "2026-06-12"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0041",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-18",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.27,
+   "probs": {
+    "w_terminie": 0.49,
+    "po_terminie": 0.51,
+    "brak_danych": 0.0
+   },
+   "ms": 216.38774871826172,
+   "meta": {
+    "dni": 8
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0211",
+   "family": "poczatek_ochrony",
+   "group": "O-20",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.89,
+   "probs": {
+    "objeta": 0.93,
+    "przed_ochrona": 0.07,
+    "brak_danych": 0.0
+   },
+   "ms": 232.21421241760254,
+   "meta": {
+    "zawarcie": "2026-07-18",
+    "zaplata": "2026-07-21",
+    "szkoda": "2026-07-22"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0124",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-9",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.86,
+   "probs": {
+    "w_terminie": 0.08,
+    "po_terminie": 0.91,
+    "brak_danych": 0.01
+   },
+   "ms": 218.9500331878662,
+   "meta": {
+    "dzien": "2026-08-21",
+    "termin": "2026-08-24",
+    "zgloszenie": "2026-08-25"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0022",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-10",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.92,
+   "probs": {
+    "w_terminie": 0.95,
+    "po_terminie": 0.05,
+    "brak_danych": 0.0
+   },
+   "ms": 243.93916130065918,
+   "meta": {
+    "dni": 7
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0317",
+   "family": "wylaczenia_par4",
+   "group": "X-6-2",
+   "gold": "wyscigi",
+   "pred": "wyscigi",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 0.0,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 1.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 227.7059555053711,
+   "meta": {}
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0031",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-14",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.91,
+   "probs": {
+    "w_terminie": 0.94,
+    "po_terminie": 0.06,
+    "brak_danych": 0.0
+   },
+   "ms": 211.11011505126953,
+   "meta": {
+    "dni": 7
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0229",
+   "family": "szkoda_calkowita_70",
+   "group": "C-7",
+   "gold": "czesciowa",
+   "pred": "calkowita",
+   "conf": 0.18,
+   "probs": {
+    "calkowita": 0.59,
+    "czesciowa": 0.41
+   },
+   "ms": 225.37970542907715,
+   "meta": {
+    "W": 52000,
+    "S": 52000,
+    "K": 35300,
+    "proc": 67.9
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0037",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-16",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.35,
+   "probs": {
+    "w_terminie": 0.57,
+    "po_terminie": 0.43,
+    "brak_danych": 0.0
+   },
+   "ms": 212.76378631591797,
+   "meta": {
+    "dni": 8
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0052",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-23",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.82,
+   "probs": {
+    "w_terminie": 0.12,
+    "po_terminie": 0.88,
+    "brak_danych": 0.0
+   },
+   "ms": 215.38782119750977,
+   "meta": {
+    "dni": 10
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0269",
+   "family": "wylaczenia_par4",
+   "group": "X-2-0",
+   "gold": "ucieczka",
+   "pred": "ucieczka",
+   "conf": 0.99,
+   "probs": {
+    "objeta": 0.01,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.99,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 260.01787185668945,
+   "meta": {}
+  },
+  {
+   "id": "szkoda_calkowita_70-0238",
+   "family": "szkoda_calkowita_70",
+   "group": "C-11",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 0.02,
+   "probs": {
+    "calkowita": 0.51,
+    "czesciowa": 0.49
+   },
+   "ms": 215.32702445983887,
+   "meta": {
+    "W": 82000,
+    "S": 82000,
+    "K": 59000,
+    "proc": 72.0
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0024",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-10",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 0.74,
+   "probs": {
+    "w_terminie": 0.12,
+    "po_terminie": 0.05,
+    "brak_danych": 0.83
+   },
+   "ms": 214.85209465026855,
+   "meta": {
+    "dni": null
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0205",
+   "family": "poczatek_ochrony",
+   "group": "O-17",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.86,
+   "probs": {
+    "objeta": 0.91,
+    "przed_ochrona": 0.08,
+    "brak_danych": 0.01
+   },
+   "ms": 216.2320613861084,
+   "meta": {
+    "zawarcie": "2026-11-29",
+    "zaplata": "2026-11-29",
+    "szkoda": "2026-11-30"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0003",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-1",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.88,
+   "probs": {
+    "w_terminie": 0.92,
+    "po_terminie": 0.08,
+    "brak_danych": 0.0
+   },
+   "ms": 212.9971981048584,
+   "meta": {
+    "dni": 5
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0265",
+   "family": "wylaczenia_par4",
+   "group": "X-0-0",
+   "gold": "alkohol",
+   "pred": "alkohol",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 0.0,
+    "alkohol": 1.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 277.19712257385254,
+   "meta": {}
+  },
+  {
+   "id": "wylaczenia_par4-0289",
+   "family": "wylaczenia_par4",
+   "group": "X-2-1",
+   "gold": "ucieczka",
+   "pred": "ucieczka",
+   "conf": 0.99,
+   "probs": {
+    "objeta": 0.01,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.99,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 252.70605087280273,
+   "meta": {}
+  },
+  {
+   "id": "wylaczenia_par4-0301",
+   "family": "wylaczenia_par4",
+   "group": "X-8-1",
+   "gold": "terytorium",
+   "pred": "terytorium",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 0.0,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 1.0
+   },
+   "ms": 233.66189002990723,
+   "meta": {}
+  },
+  {
+   "id": "wylaczenia_par4-0293",
+   "family": "wylaczenia_par4",
+   "group": "X-4-1",
+   "gold": "awaria",
+   "pred": "awaria",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 0.0,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 1.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 247.15685844421387,
+   "meta": {}
+  },
+  {
+   "id": "kradziez_policja_12h-0076",
+   "family": "kradziez_policja_12h",
+   "group": "P12-9",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {
+    "w_terminie": 1.0,
+    "po_terminie": 0.0,
+    "brak_danych": 0.0
+   },
+   "ms": 285.0208282470703,
+   "meta": {
+    "minuty": 30
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0148",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-21",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.59,
+   "probs": {
+    "w_terminie": 0.26,
+    "po_terminie": 0.73,
+    "brak_danych": 0.01
+   },
+   "ms": 275.3279209136963,
+   "meta": {
+    "dzien": "2026-09-26",
+    "termin": "2026-09-28",
+    "zgloszenie": "2026-09-29"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0209",
+   "family": "poczatek_ochrony",
+   "group": "O-19",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.89,
+   "probs": {
+    "objeta": 0.9299999999999999,
+    "przed_ochrona": 0.06,
+    "brak_danych": 0.01
+   },
+   "ms": 228.71088981628418,
+   "meta": {
+    "zawarcie": "2026-09-08",
+    "zaplata": "2026-09-08",
+    "szkoda": "2026-09-09"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0147",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-21",
+   "gold": "w_terminie",
+   "pred": "po_terminie",
+   "conf": 0.34,
+   "probs": {
+    "w_terminie": 0.42,
+    "po_terminie": 0.5599999999999999,
+    "brak_danych": 0.02
+   },
+   "ms": 216.71509742736816,
+   "meta": {
+    "dzien": "2026-09-26",
+    "termin": "2026-09-28",
+    "zgloszenie": "2026-09-28"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0276",
+   "family": "wylaczenia_par4",
+   "group": "X-5-0",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.73,
+   "probs": {
+    "objeta": 0.76,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.24,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 228.90615463256836,
+   "meta": {}
+  },
+  {
+   "id": "poczatek_ochrony-0201",
+   "family": "poczatek_ochrony",
+   "group": "O-16",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 0.95,
+   "probs": {
+    "objeta": 0.02,
+    "przed_ochrona": 0.97,
+    "brak_danych": 0.01
+   },
+   "ms": 222.1088409423828,
+   "meta": {
+    "zawarcie": "2026-07-05",
+    "zaplata": "2026-07-05",
+    "szkoda": "2026-07-05"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0266",
+   "family": "wylaczenia_par4",
+   "group": "X-0-0",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.96,
+   "probs": {
+    "objeta": 0.96,
+    "alkohol": 0.04,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 233.5348129272461,
+   "meta": {}
+  },
+  {
+   "id": "poczatek_ochrony-0167",
+   "family": "poczatek_ochrony",
+   "group": "O-0",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 0.76,
+   "probs": {
+    "objeta": 0.12,
+    "przed_ochrona": 0.04,
+    "brak_danych": 0.84
+   },
+   "ms": 214.48922157287598,
+   "meta": {}
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0142",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-18",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.52,
+   "probs": {
+    "w_terminie": 0.68,
+    "po_terminie": 0.31,
+    "brak_danych": 0.01
+   },
+   "ms": 233.2777976989746,
+   "meta": {
+    "dzien": "2026-11-22",
+    "termin": "2026-11-23",
+    "zgloszenie": "2026-11-24"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0117",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-6",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.43,
+   "probs": {
+    "w_terminie": 0.62,
+    "po_terminie": 0.37,
+    "brak_danych": 0.01
+   },
+   "ms": 216.54391288757324,
+   "meta": {
+    "dzien": "2026-07-03",
+    "termin": "2026-07-06",
+    "zgloszenie": "2026-07-06"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0004",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-1",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.91,
+   "probs": {
+    "w_terminie": 0.06,
+    "po_terminie": 0.9400000000000001,
+    "brak_danych": 0.0
+   },
+   "ms": 215.69013595581055,
+   "meta": {
+    "dni": 21
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0219",
+   "family": "szkoda_calkowita_70",
+   "group": "C-2",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 0.7,
+   "probs": {
+    "calkowita": 0.15,
+    "czesciowa": 0.85
+   },
+   "ms": 220.16310691833496,
+   "meta": {
+    "W": 97000,
+    "S": 97000,
+    "K": 65900,
+    "proc": 67.9
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0062",
+   "family": "kradziez_policja_12h",
+   "group": "P12-3",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {
+    "w_terminie": 1.0,
+    "po_terminie": 0.0,
+    "brak_danych": 0.0
+   },
+   "ms": 224.64823722839355,
+   "meta": {
+    "minuty": 30
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0158",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-26",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.41,
+   "probs": {
+    "w_terminie": 0.38,
+    "po_terminie": 0.61,
+    "brak_danych": 0.01
+   },
+   "ms": 217.61202812194824,
+   "meta": {
+    "dzien": "2026-11-17",
+    "termin": "2026-11-18",
+    "zgloszenie": "2026-11-19"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0027",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-12",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.97,
+   "probs": {
+    "w_terminie": 0.98,
+    "po_terminie": 0.02,
+    "brak_danych": 0.0
+   },
+   "ms": 228.58500480651855,
+   "meta": {
+    "dni": 7
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0109",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-2",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.97,
+   "probs": {
+    "w_terminie": 0.98,
+    "po_terminie": 0.01,
+    "brak_danych": 0.01
+   },
+   "ms": 236.2041473388672,
+   "meta": {
+    "dzien": "2026-11-08",
+    "termin": "2026-11-09",
+    "zgloszenie": "2026-11-09"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0103",
+   "family": "kradziez_policja_12h",
+   "group": "P12-21",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {
+    "w_terminie": 1.0,
+    "po_terminie": 0.0,
+    "brak_danych": 0.0
+   },
+   "ms": 222.49078750610352,
+   "meta": {
+    "minuty": 90
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0302",
+   "family": "wylaczenia_par4",
+   "group": "X-8-1",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 1.0,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 232.14221000671387,
+   "meta": {}
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0000",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-0",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.85,
+   "probs": {
+    "w_terminie": 0.9,
+    "po_terminie": 0.1,
+    "brak_danych": 0.0
+   },
+   "ms": 289.20602798461914,
+   "meta": {
+    "dni": 7
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0241",
+   "family": "szkoda_calkowita_70",
+   "group": "C-13",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 0.04,
+   "probs": {
+    "calkowita": 0.48,
+    "czesciowa": 0.52
+   },
+   "ms": 332.4098587036133,
+   "meta": {
+    "W": 86000,
+    "S": 86000,
+    "K": 58400,
+    "proc": 67.9
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0226",
+   "family": "szkoda_calkowita_70",
+   "group": "C-5",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 0.56,
+   "probs": {
+    "calkowita": 0.78,
+    "czesciowa": 0.22
+   },
+   "ms": 216.08614921569824,
+   "meta": {
+    "W": 55000,
+    "S": 55000,
+    "K": 39600,
+    "proc": 72.0
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0128",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-11",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.77,
+   "probs": {
+    "w_terminie": 0.15,
+    "po_terminie": 0.85,
+    "brak_danych": 0.0
+   },
+   "ms": 217.50402450561523,
+   "meta": {
+    "dzien": "2026-11-26",
+    "termin": "2026-11-27",
+    "zgloszenie": "2026-11-30"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0034",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-15",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.98,
+   "probs": {
+    "w_terminie": 0.01,
+    "po_terminie": 0.99,
+    "brak_danych": 0.0
+   },
+   "ms": 221.36902809143066,
+   "meta": {
+    "dni": 21
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0252",
+   "family": "szkoda_calkowita_70",
+   "group": "C-18",
+   "gold": "czesciowa",
+   "pred": "calkowita",
+   "conf": 0.14,
+   "probs": {
+    "calkowita": 0.57,
+    "czesciowa": 0.43
+   },
+   "ms": 214.95509147644043,
+   "meta": {
+    "W": 71000,
+    "S": 56800,
+    "K": 37400,
+    "proc": 65.8
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0202",
+   "family": "poczatek_ochrony",
+   "group": "O-16",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.89,
+   "probs": {
+    "objeta": 0.93,
+    "przed_ochrona": 0.06,
+    "brak_danych": 0.01
+   },
+   "ms": 213.9871120452881,
+   "meta": {
+    "zawarcie": "2026-07-05",
+    "zaplata": "2026-07-05",
+    "szkoda": "2026-07-06"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0108",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-1",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.27,
+   "probs": {
+    "w_terminie": 0.51,
+    "po_terminie": 0.47,
+    "brak_danych": 0.02
+   },
+   "ms": 226.18913650512695,
+   "meta": {
+    "dzien": "2026-05-30",
+    "termin": "2026-06-01",
+    "zgloszenie": "2026-06-02"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0150",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-22",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.59,
+   "probs": {
+    "w_terminie": 0.27,
+    "po_terminie": 0.73,
+    "brak_danych": 0.0
+   },
+   "ms": 226.81403160095215,
+   "meta": {
+    "dzien": "2026-10-01",
+    "termin": "2026-10-02",
+    "zgloszenie": "2026-10-05"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0176",
+   "family": "poczatek_ochrony",
+   "group": "O-4",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 0.77,
+   "probs": {
+    "objeta": 0.11,
+    "przed_ochrona": 0.04,
+    "brak_danych": 0.85
+   },
+   "ms": 221.52400016784668,
+   "meta": {}
+  },
+  {
+   "id": "poczatek_ochrony-0168",
+   "family": "poczatek_ochrony",
+   "group": "O-1",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 0.76,
+   "probs": {
+    "objeta": 0.15,
+    "przed_ochrona": 0.84,
+    "brak_danych": 0.01
+   },
+   "ms": 225.8009910583496,
+   "meta": {
+    "zawarcie": "2026-05-26",
+    "zaplata": "2026-05-29",
+    "szkoda": "2026-05-29"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0048",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-21",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.35,
+   "probs": {
+    "w_terminie": 0.43,
+    "po_terminie": 0.57,
+    "brak_danych": 0.0
+   },
+   "ms": 243.90506744384766,
+   "meta": {
+    "dni": 15
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0275",
+   "family": "wylaczenia_par4",
+   "group": "X-5-0",
+   "gold": "ogumienie",
+   "pred": "ogumienie",
+   "conf": 0.96,
+   "probs": {
+    "objeta": 0.04,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.96,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 234.06577110290527,
+   "meta": {}
+  },
+  {
+   "id": "poczatek_ochrony-0169",
+   "family": "poczatek_ochrony",
+   "group": "O-1",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.77,
+   "probs": {
+    "objeta": 0.85,
+    "przed_ochrona": 0.14,
+    "brak_danych": 0.01
+   },
+   "ms": 233.4442138671875,
+   "meta": {
+    "zawarcie": "2026-05-26",
+    "zaplata": "2026-05-29",
+    "szkoda": "2026-05-30"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0285",
+   "family": "wylaczenia_par4",
+   "group": "X-0-1",
+   "gold": "alkohol",
+   "pred": "alkohol",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 0.0,
+    "alkohol": 1.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 230.77869415283203,
+   "meta": {}
+  },
+  {
+   "id": "wylaczenia_par4-0270",
+   "family": "wylaczenia_par4",
+   "group": "X-2-0",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 1.0,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 234.52997207641602,
+   "meta": {}
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0012",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-5",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.67,
+   "probs": {
+    "w_terminie": 0.22,
+    "po_terminie": 0.78,
+    "brak_danych": 0.0
+   },
+   "ms": 225.87299346923828,
+   "meta": {
+    "dni": 10
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0303",
+   "family": "wylaczenia_par4",
+   "group": "X-9-1",
+   "gold": "terytorium",
+   "pred": "objeta",
+   "conf": 0.99,
+   "probs": {
+    "objeta": 0.99,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.01
+   },
+   "ms": 240.59796333312988,
+   "meta": {}
+  },
+  {
+   "id": "szkoda_calkowita_70-0228",
+   "family": "szkoda_calkowita_70",
+   "group": "C-6",
+   "gold": "czesciowa",
+   "pred": "calkowita",
+   "conf": 0.58,
+   "probs": {
+    "calkowita": 0.79,
+    "czesciowa": 0.21
+   },
+   "ms": 220.83806991577148,
+   "meta": {
+    "W": 159000,
+    "S": 143100,
+    "K": 94400,
+    "proc": 66.0
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0090",
+   "family": "kradziez_policja_12h",
+   "group": "P12-15",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.52,
+   "probs": {
+    "w_terminie": 0.32,
+    "po_terminie": 0.68,
+    "brak_danych": 0.0
+   },
+   "ms": 242.095947265625,
+   "meta": {
+    "minuty": 1200
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0292",
+   "family": "wylaczenia_par4",
+   "group": "X-3-1",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.84,
+   "probs": {
+    "objeta": 0.86,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.14,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 239.93611335754395,
+   "meta": {}
+  },
+  {
+   "id": "poczatek_ochrony-0173",
+   "family": "poczatek_ochrony",
+   "group": "O-3",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.79,
+   "probs": {
+    "objeta": 0.86,
+    "przed_ochrona": 0.13,
+    "brak_danych": 0.01
+   },
+   "ms": 225.70323944091797,
+   "meta": {
+    "zawarcie": "2026-06-11",
+    "zaplata": "2026-06-12",
+    "szkoda": "2026-06-13"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0156",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-25",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.4,
+   "probs": {
+    "w_terminie": 0.38,
+    "po_terminie": 0.6,
+    "brak_danych": 0.02
+   },
+   "ms": 217.23079681396484,
+   "meta": {
+    "dzien": "2026-10-04",
+    "termin": "2026-10-05",
+    "zgloszenie": "2026-10-06"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0118",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-6",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.28,
+   "probs": {
+    "w_terminie": 0.47,
+    "po_terminie": 0.52,
+    "brak_danych": 0.01
+   },
+   "ms": 223.30284118652344,
+   "meta": {
+    "dzien": "2026-07-03",
+    "termin": "2026-07-06",
+    "zgloszenie": "2026-07-07"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0193",
+   "family": "poczatek_ochrony",
+   "group": "O-12",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.73,
+   "probs": {
+    "objeta": 0.82,
+    "przed_ochrona": 0.18,
+    "brak_danych": 0.0
+   },
+   "ms": 217.97704696655273,
+   "meta": {
+    "zawarcie": "2026-11-30",
+    "zaplata": "2026-12-01",
+    "szkoda": "2026-12-02"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0075",
+   "family": "kradziez_policja_12h",
+   "group": "P12-8",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 0.69,
+   "probs": {
+    "w_terminie": 0.14,
+    "po_terminie": 0.07,
+    "brak_danych": 0.79
+   },
+   "ms": 211.31491661071777,
+   "meta": {
+    "minuty": null
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0267",
+   "family": "wylaczenia_par4",
+   "group": "X-1-0",
+   "gold": "uprawnienia",
+   "pred": "uprawnienia",
+   "conf": 0.93,
+   "probs": {
+    "objeta": 0.06,
+    "alkohol": 0.0,
+    "uprawnienia": 0.9400000000000001,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 238.541841506958,
+   "meta": {}
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0115",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-5",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.73,
+   "probs": {
+    "w_terminie": 0.82,
+    "po_terminie": 0.03,
+    "brak_danych": 0.15
+   },
+   "ms": 218.90735626220703,
+   "meta": {
+    "dzien": "2026-10-06",
+    "termin": "2026-10-07",
+    "zgloszenie": "2026-10-07"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0215",
+   "family": "szkoda_calkowita_70",
+   "group": "C-0",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 0.5,
+   "probs": {
+    "calkowita": 0.75,
+    "czesciowa": 0.25
+   },
+   "ms": 222.40018844604492,
+   "meta": {
+    "W": 63000,
+    "S": 56700,
+    "K": 41800,
+    "proc": 73.7
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0111",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-3",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.61,
+   "probs": {
+    "w_terminie": 0.74,
+    "po_terminie": 0.21,
+    "brak_danych": 0.05
+   },
+   "ms": 230.3321361541748,
+   "meta": {
+    "dzien": "2026-05-30",
+    "termin": "2026-06-01",
+    "zgloszenie": "2026-06-01"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0274",
+   "family": "wylaczenia_par4",
+   "group": "X-4-0",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.91,
+   "probs": {
+    "objeta": 0.92,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.08,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 239.3028736114502,
+   "meta": {}
+  },
+  {
+   "id": "szkoda_calkowita_70-0222",
+   "family": "szkoda_calkowita_70",
+   "group": "C-3",
+   "gold": "czesciowa",
+   "pred": "calkowita",
+   "conf": 0.16,
+   "probs": {
+    "calkowita": 0.58,
+    "czesciowa": 0.42
+   },
+   "ms": 245.96786499023438,
+   "meta": {
+    "W": 76000,
+    "S": 64600,
+    "K": 42600,
+    "proc": 65.9
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0248",
+   "family": "szkoda_calkowita_70",
+   "group": "C-16",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 0.6,
+   "probs": {
+    "calkowita": 0.8,
+    "czesciowa": 0.2
+   },
+   "ms": 221.64630889892578,
+   "meta": {
+    "W": 154000,
+    "S": 154000,
+    "K": 110800,
+    "proc": 71.9
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0223",
+   "family": "szkoda_calkowita_70",
+   "group": "C-4",
+   "gold": "czesciowa",
+   "pred": "calkowita",
+   "conf": 0.62,
+   "probs": {
+    "calkowita": 0.81,
+    "czesciowa": 0.19
+   },
+   "ms": 240.75603485107422,
+   "meta": {
+    "W": 27000,
+    "S": 27000,
+    "K": 18300,
+    "proc": 67.8
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0016",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-7",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {
+    "w_terminie": 1.0,
+    "po_terminie": 0.0,
+    "brak_danych": 0.0
+   },
+   "ms": 233.69097709655762,
+   "meta": {
+    "dni": 1
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0112",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-3",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.33,
+   "probs": {
+    "w_terminie": 0.55,
+    "po_terminie": 0.43,
+    "brak_danych": 0.02
+   },
+   "ms": 212.47196197509766,
+   "meta": {
+    "dzien": "2026-05-30",
+    "termin": "2026-06-01",
+    "zgloszenie": "2026-06-02"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0011",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-5",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {
+    "w_terminie": 1.0,
+    "po_terminie": 0.0,
+    "brak_danych": 0.0
+   },
+   "ms": 219.1448211669922,
+   "meta": {
+    "dni": 2
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0295",
+   "family": "wylaczenia_par4",
+   "group": "X-5-1",
+   "gold": "ogumienie",
+   "pred": "ogumienie",
+   "conf": 0.97,
+   "probs": {
+    "objeta": 0.03,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.97,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 224.7781753540039,
+   "meta": {}
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0029",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-13",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.94,
+   "probs": {
+    "w_terminie": 0.96,
+    "po_terminie": 0.04,
+    "brak_danych": 0.0
+   },
+   "ms": 228.14106941223145,
+   "meta": {
+    "dni": 5
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0161",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-28",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.52,
+   "probs": {
+    "w_terminie": 0.68,
+    "po_terminie": 0.31,
+    "brak_danych": 0.01
+   },
+   "ms": 221.4341163635254,
+   "meta": {
+    "dzien": "2026-11-14",
+    "termin": "2026-11-16",
+    "zgloszenie": "2026-11-16"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0259",
+   "family": "szkoda_calkowita_70",
+   "group": "C-22",
+   "gold": "czesciowa",
+   "pred": "calkowita",
+   "conf": 0.2,
+   "probs": {
+    "calkowita": 0.6,
+    "czesciowa": 0.4
+   },
+   "ms": 226.90677642822266,
+   "meta": {
+    "W": 113000,
+    "S": 113000,
+    "K": 76800,
+    "proc": 68.0
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0191",
+   "family": "poczatek_ochrony",
+   "group": "O-11",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.77,
+   "probs": {
+    "objeta": 0.85,
+    "przed_ochrona": 0.15,
+    "brak_danych": 0.0
+   },
+   "ms": 222.3668098449707,
+   "meta": {
+    "zawarcie": "2026-11-13",
+    "zaplata": "2026-11-14",
+    "szkoda": "2026-11-15"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0164",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-29",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.4,
+   "probs": {
+    "w_terminie": 0.39,
+    "po_terminie": 0.6,
+    "brak_danych": 0.01
+   },
+   "ms": 217.00024604797363,
+   "meta": {
+    "dzien": "2026-10-29",
+    "termin": "2026-10-30",
+    "zgloszenie": "2026-11-02"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0287",
+   "family": "wylaczenia_par4",
+   "group": "X-1-1",
+   "gold": "uprawnienia",
+   "pred": "uprawnienia",
+   "conf": 0.96,
+   "probs": {
+    "objeta": 0.04,
+    "alkohol": 0.0,
+    "uprawnienia": 0.96,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 238.30509185791016,
+   "meta": {}
+  },
+  {
+   "id": "szkoda_calkowita_70-0232",
+   "family": "szkoda_calkowita_70",
+   "group": "C-8",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 0.5,
+   "probs": {
+    "calkowita": 0.75,
+    "czesciowa": 0.25
+   },
+   "ms": 240.5080795288086,
+   "meta": {
+    "W": 58000,
+    "S": 58000,
+    "K": 41700,
+    "proc": 71.9
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0203",
+   "family": "poczatek_ochrony",
+   "group": "O-16",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 0.79,
+   "probs": {
+    "objeta": 0.11,
+    "przed_ochrona": 0.03,
+    "brak_danych": 0.86
+   },
+   "ms": 238.70205879211426,
+   "meta": {}
+  },
+  {
+   "id": "szkoda_calkowita_70-0243",
+   "family": "szkoda_calkowita_70",
+   "group": "C-14",
+   "gold": "czesciowa",
+   "pred": "calkowita",
+   "conf": 0.38,
+   "probs": {
+    "calkowita": 0.69,
+    "czesciowa": 0.31
+   },
+   "ms": 229.25615310668945,
+   "meta": {
+    "W": 148000,
+    "S": 148000,
+    "K": 100600,
+    "proc": 68.0
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0299",
+   "family": "wylaczenia_par4",
+   "group": "X-7-1",
+   "gold": "kluczyki",
+   "pred": "kluczyki",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 0.0,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 1.0,
+    "terytorium": 0.0
+   },
+   "ms": 228.07598114013672,
+   "meta": {}
+  },
+  {
+   "id": "wylaczenia_par4-0280",
+   "family": "wylaczenia_par4",
+   "group": "X-7-0",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.96,
+   "probs": {
+    "objeta": 0.96,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.04,
+    "terytorium": 0.0
+   },
+   "ms": 225.35014152526855,
+   "meta": {}
+  },
+  {
+   "id": "kradziez_policja_12h-0067",
+   "family": "kradziez_policja_12h",
+   "group": "P12-5",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {
+    "w_terminie": 1.0,
+    "po_terminie": 0.0,
+    "brak_danych": 0.0
+   },
+   "ms": 227.22291946411133,
+   "meta": {
+    "minuty": 30
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0130",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-12",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.3,
+   "probs": {
+    "w_terminie": 0.47,
+    "po_terminie": 0.53,
+    "brak_danych": 0.0
+   },
+   "ms": 235.2612018585205,
+   "meta": {
+    "dzien": "2026-08-08",
+    "termin": "2026-08-10",
+    "zgloszenie": "2026-08-11"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0049",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-22",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.77,
+   "probs": {
+    "w_terminie": 0.85,
+    "po_terminie": 0.15,
+    "brak_danych": 0.0
+   },
+   "ms": 220.75319290161133,
+   "meta": {
+    "dni": 7
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0290",
+   "family": "wylaczenia_par4",
+   "group": "X-2-1",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 1.0,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 231.48202896118164,
+   "meta": {}
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0007",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-3",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {
+    "w_terminie": 1.0,
+    "po_terminie": 0.0,
+    "brak_danych": 0.0
+   },
+   "ms": 231.0328483581543,
+   "meta": {
+    "dni": 3
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0146",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-20",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.64,
+   "probs": {
+    "w_terminie": 0.24,
+    "po_terminie": 0.76,
+    "brak_danych": 0.0
+   },
+   "ms": 216.2477970123291,
+   "meta": {
+    "dzien": "2026-08-21",
+    "termin": "2026-08-24",
+    "zgloszenie": "2026-08-25"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0071",
+   "family": "kradziez_policja_12h",
+   "group": "P12-7",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {
+    "w_terminie": 1.0,
+    "po_terminie": 0.0,
+    "brak_danych": 0.0
+   },
+   "ms": 229.74514961242676,
+   "meta": {
+    "minuty": 30
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0224",
+   "family": "szkoda_calkowita_70",
+   "group": "C-4",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 0.68,
+   "probs": {
+    "calkowita": 0.84,
+    "czesciowa": 0.16
+   },
+   "ms": 237.4119758605957,
+   "meta": {
+    "W": 27000,
+    "S": 27000,
+    "K": 19400,
+    "proc": 71.9
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0136",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-15",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.67,
+   "probs": {
+    "w_terminie": 0.21,
+    "po_terminie": 0.78,
+    "brak_danych": 0.01
+   },
+   "ms": 231.58502578735352,
+   "meta": {
+    "dzien": "2026-09-05",
+    "termin": "2026-09-07",
+    "zgloszenie": "2026-09-08"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0188",
+   "family": "poczatek_ochrony",
+   "group": "O-10",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 0.73,
+   "probs": {
+    "objeta": 0.17,
+    "przed_ochrona": 0.82,
+    "brak_danych": 0.01
+   },
+   "ms": 226.28307342529297,
+   "meta": {
+    "zawarcie": "2026-06-15",
+    "zaplata": "2026-06-17",
+    "szkoda": "2026-06-17"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0089",
+   "family": "kradziez_policja_12h",
+   "group": "P12-15",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {
+    "w_terminie": 1.0,
+    "po_terminie": 0.0,
+    "brak_danych": 0.0
+   },
+   "ms": 218.3370590209961,
+   "meta": {
+    "minuty": 90
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0131",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-13",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.77,
+   "probs": {
+    "w_terminie": 0.85,
+    "po_terminie": 0.02,
+    "brak_danych": 0.13
+   },
+   "ms": 209.35726165771484,
+   "meta": {
+    "dzien": "2026-10-26",
+    "termin": "2026-10-27",
+    "zgloszenie": "2026-10-27"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0095",
+   "family": "kradziez_policja_12h",
+   "group": "P12-17",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.31,
+   "probs": {
+    "w_terminie": 0.54,
+    "po_terminie": 0.45,
+    "brak_danych": 0.01
+   },
+   "ms": 214.5369052886963,
+   "meta": {
+    "minuty": 1200
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0189",
+   "family": "poczatek_ochrony",
+   "group": "O-10",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.8,
+   "probs": {
+    "objeta": 0.87,
+    "przed_ochrona": 0.13,
+    "brak_danych": 0.0
+   },
+   "ms": 261.25311851501465,
+   "meta": {
+    "zawarcie": "2026-06-15",
+    "zaplata": "2026-06-17",
+    "szkoda": "2026-06-18"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0195",
+   "family": "poczatek_ochrony",
+   "group": "O-13",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 0.8,
+   "probs": {
+    "objeta": 0.12,
+    "przed_ochrona": 0.87,
+    "brak_danych": 0.01
+   },
+   "ms": 218.49298477172852,
+   "meta": {
+    "zawarcie": "2026-06-21",
+    "zaplata": "2026-06-26",
+    "szkoda": "2026-06-26"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0135",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-15",
+   "gold": "w_terminie",
+   "pred": "po_terminie",
+   "conf": 0.23,
+   "probs": {
+    "w_terminie": 0.48,
+    "po_terminie": 0.49,
+    "brak_danych": 0.03
+   },
+   "ms": 224.71880912780762,
+   "meta": {
+    "dzien": "2026-09-05",
+    "termin": "2026-09-07",
+    "zgloszenie": "2026-09-07"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0077",
+   "family": "kradziez_policja_12h",
+   "group": "P12-9",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.49,
+   "probs": {
+    "w_terminie": 0.34,
+    "po_terminie": 0.66,
+    "brak_danych": 0.0
+   },
+   "ms": 212.40806579589844,
+   "meta": {
+    "minuty": 1200
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0086",
+   "family": "kradziez_policja_12h",
+   "group": "P12-13",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.79,
+   "probs": {
+    "w_terminie": 0.86,
+    "po_terminie": 0.14,
+    "brak_danych": 0.0
+   },
+   "ms": 216.7668342590332,
+   "meta": {
+    "minuty": 840
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0079",
+   "family": "kradziez_policja_12h",
+   "group": "P12-10",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.59,
+   "probs": {
+    "w_terminie": 0.73,
+    "po_terminie": 0.27,
+    "brak_danych": 0.0
+   },
+   "ms": 218.35708618164062,
+   "meta": {
+    "minuty": 745
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0227",
+   "family": "szkoda_calkowita_70",
+   "group": "C-6",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 0.58,
+   "probs": {
+    "calkowita": 0.79,
+    "czesciowa": 0.21
+   },
+   "ms": 220.444917678833,
+   "meta": {
+    "W": 159000,
+    "S": 143100,
+    "K": 105700,
+    "proc": 73.9
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0057",
+   "family": "kradziez_policja_12h",
+   "group": "P12-0",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 0.73,
+   "probs": {
+    "w_terminie": 0.12,
+    "po_terminie": 0.06,
+    "brak_danych": 0.82
+   },
+   "ms": 227.49996185302734,
+   "meta": {
+    "minuty": null
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0010",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-4",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.79,
+   "probs": {
+    "w_terminie": 0.86,
+    "po_terminie": 0.14,
+    "brak_danych": 0.0
+   },
+   "ms": 342.242956161499,
+   "meta": {
+    "dni": 8
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0257",
+   "family": "szkoda_calkowita_70",
+   "group": "C-21",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 0.6,
+   "probs": {
+    "calkowita": 0.8,
+    "czesciowa": 0.2
+   },
+   "ms": 225.06308555603027,
+   "meta": {
+    "W": 142000,
+    "S": 113600,
+    "K": 89400,
+    "proc": 78.7
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0152",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-23",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.25,
+   "probs": {
+    "w_terminie": 0.49,
+    "po_terminie": 0.5,
+    "brak_danych": 0.01
+   },
+   "ms": 222.98192977905273,
+   "meta": {
+    "dzien": "2026-08-09",
+    "termin": "2026-08-10",
+    "zgloszenie": "2026-08-11"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0321",
+   "family": "wylaczenia_par4",
+   "group": "X-8-2",
+   "gold": "terytorium",
+   "pred": "terytorium",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 0.0,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 1.0
+   },
+   "ms": 235.37206649780273,
+   "meta": {}
+  },
+  {
+   "id": "poczatek_ochrony-0212",
+   "family": "poczatek_ochrony",
+   "group": "O-20",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 0.82,
+   "probs": {
+    "objeta": 0.1,
+    "przed_ochrona": 0.02,
+    "brak_danych": 0.88
+   },
+   "ms": 230.2689552307129,
+   "meta": {}
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0127",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-11",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.76,
+   "probs": {
+    "w_terminie": 0.84,
+    "po_terminie": 0.02,
+    "brak_danych": 0.14
+   },
+   "ms": 224.85804557800293,
+   "meta": {
+    "dzien": "2026-11-26",
+    "termin": "2026-11-27",
+    "zgloszenie": "2026-11-27"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0139",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-17",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.67,
+   "probs": {
+    "w_terminie": 0.78,
+    "po_terminie": 0.07,
+    "brak_danych": 0.15
+   },
+   "ms": 210.73293685913086,
+   "meta": {
+    "dzien": "2026-06-11",
+    "termin": "2026-06-12",
+    "zgloszenie": "2026-06-12"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0081",
+   "family": "kradziez_policja_12h",
+   "group": "P12-11",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.48,
+   "probs": {
+    "w_terminie": 0.65,
+    "po_terminie": 0.35,
+    "brak_danych": 0.0
+   },
+   "ms": 218.11509132385254,
+   "meta": {
+    "minuty": 840
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0030",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-13",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.72,
+   "probs": {
+    "w_terminie": 0.19,
+    "po_terminie": 0.81,
+    "brak_danych": 0.0
+   },
+   "ms": 221.71807289123535,
+   "meta": {
+    "dni": 21
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0154",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-24",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.74,
+   "probs": {
+    "w_terminie": 0.17,
+    "po_terminie": 0.83,
+    "brak_danych": 0.0
+   },
+   "ms": 219.11311149597168,
+   "meta": {
+    "dzien": "2026-09-04",
+    "termin": "2026-09-07",
+    "zgloszenie": "2026-09-08"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0096",
+   "family": "kradziez_policja_12h",
+   "group": "P12-18",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.56,
+   "probs": {
+    "w_terminie": 0.71,
+    "po_terminie": 0.29,
+    "brak_danych": 0.0
+   },
+   "ms": 225.45909881591797,
+   "meta": {
+    "minuty": 700
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0091",
+   "family": "kradziez_policja_12h",
+   "group": "P12-16",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.66,
+   "probs": {
+    "w_terminie": 0.77,
+    "po_terminie": 0.23,
+    "brak_danych": 0.0
+   },
+   "ms": 229.86388206481934,
+   "meta": {
+    "minuty": 700
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0236",
+   "family": "szkoda_calkowita_70",
+   "group": "C-10",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 0.08,
+   "probs": {
+    "calkowita": 0.54,
+    "czesciowa": 0.46
+   },
+   "ms": 241.97769165039062,
+   "meta": {
+    "W": 51000,
+    "S": 51000,
+    "K": 36700,
+    "proc": 72.0
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0268",
+   "family": "wylaczenia_par4",
+   "group": "X-1-0",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.83,
+   "probs": {
+    "objeta": 0.85,
+    "alkohol": 0.0,
+    "uprawnienia": 0.15,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 237.9617691040039,
+   "meta": {}
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0009",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-4",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.85,
+   "probs": {
+    "w_terminie": 0.9,
+    "po_terminie": 0.1,
+    "brak_danych": 0.0
+   },
+   "ms": 227.0500659942627,
+   "meta": {
+    "dni": 7
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0240",
+   "family": "szkoda_calkowita_70",
+   "group": "C-12",
+   "gold": "czesciowa",
+   "pred": "calkowita",
+   "conf": 0.26,
+   "probs": {
+    "calkowita": 0.63,
+    "czesciowa": 0.37
+   },
+   "ms": 212.874174118042,
+   "meta": {
+    "W": 71000,
+    "S": 63900,
+    "K": 42100,
+    "proc": 65.9
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0298",
+   "family": "wylaczenia_par4",
+   "group": "X-6-1",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.83,
+   "probs": {
+    "objeta": 0.85,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.15,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 223.70100021362305,
+   "meta": {}
+  },
+  {
+   "id": "wylaczenia_par4-0315",
+   "family": "wylaczenia_par4",
+   "group": "X-5-2",
+   "gold": "ogumienie",
+   "pred": "ogumienie",
+   "conf": 0.98,
+   "probs": {
+    "objeta": 0.02,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.98,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 227.0519733428955,
+   "meta": {}
+  },
+  {
+   "id": "wylaczenia_par4-0312",
+   "family": "wylaczenia_par4",
+   "group": "X-3-2",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.87,
+   "probs": {
+    "objeta": 0.88,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.12,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 224.3940830230713,
+   "meta": {}
+  },
+  {
+   "id": "poczatek_ochrony-0177",
+   "family": "poczatek_ochrony",
+   "group": "O-5",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 0.69,
+   "probs": {
+    "objeta": 0.2,
+    "przed_ochrona": 0.79,
+    "brak_danych": 0.01
+   },
+   "ms": 226.8538475036621,
+   "meta": {
+    "zawarcie": "2026-10-26",
+    "zaplata": "2026-10-29",
+    "szkoda": "2026-10-29"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0278",
+   "family": "wylaczenia_par4",
+   "group": "X-6-0",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.82,
+   "probs": {
+    "objeta": 0.84,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.16,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 234.8480224609375,
+   "meta": {}
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0107",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-1",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.61,
+   "probs": {
+    "w_terminie": 0.74,
+    "po_terminie": 0.18,
+    "brak_danych": 0.08
+   },
+   "ms": 238.39783668518066,
+   "meta": {
+    "dzien": "2026-05-30",
+    "termin": "2026-06-01",
+    "zgloszenie": "2026-06-01"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0064",
+   "family": "kradziez_policja_12h",
+   "group": "P12-4",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.34,
+   "probs": {
+    "w_terminie": 0.56,
+    "po_terminie": 0.43,
+    "brak_danych": 0.01
+   },
+   "ms": 233.01005363464355,
+   "meta": {
+    "minuty": 700
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0106",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-0",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.55,
+   "probs": {
+    "w_terminie": 0.7,
+    "po_terminie": 0.29,
+    "brak_danych": 0.01
+   },
+   "ms": 217.33975410461426,
+   "meta": {
+    "dzien": "2026-10-18",
+    "termin": "2026-10-19",
+    "zgloszenie": "2026-10-20"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0245",
+   "family": "szkoda_calkowita_70",
+   "group": "C-15",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 0.26,
+   "probs": {
+    "calkowita": 0.63,
+    "czesciowa": 0.37
+   },
+   "ms": 221.83609008789062,
+   "meta": {
+    "W": 93000,
+    "S": 83700,
+    "K": 61800,
+    "proc": 73.8
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0255",
+   "family": "szkoda_calkowita_70",
+   "group": "C-20",
+   "gold": "czesciowa",
+   "pred": "calkowita",
+   "conf": 0.52,
+   "probs": {
+    "calkowita": 0.76,
+    "czesciowa": 0.24
+   },
+   "ms": 258.342981338501,
+   "meta": {
+    "W": 141000,
+    "S": 141000,
+    "K": 95800,
+    "proc": 67.9
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0155",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-25",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.74,
+   "probs": {
+    "w_terminie": 0.83,
+    "po_terminie": 0.04,
+    "brak_danych": 0.13
+   },
+   "ms": 215.75284004211426,
+   "meta": {
+    "dzien": "2026-10-04",
+    "termin": "2026-10-05",
+    "zgloszenie": "2026-10-05"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0279",
+   "family": "wylaczenia_par4",
+   "group": "X-7-0",
+   "gold": "kluczyki",
+   "pred": "kluczyki",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 0.0,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 1.0,
+    "terytorium": 0.0
+   },
+   "ms": 240.54193496704102,
+   "meta": {}
+  },
+  {
+   "id": "kradziez_policja_12h-0073",
+   "family": "kradziez_policja_12h",
+   "group": "P12-8",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.45,
+   "probs": {
+    "w_terminie": 0.63,
+    "po_terminie": 0.37,
+    "brak_danych": 0.0
+   },
+   "ms": 241.3158416748047,
+   "meta": {
+    "minuty": 700
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0043",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-19",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.97,
+   "probs": {
+    "w_terminie": 0.02,
+    "po_terminie": 0.98,
+    "brak_danych": 0.0
+   },
+   "ms": 232.680082321167,
+   "meta": {
+    "dni": 15
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0273",
+   "family": "wylaczenia_par4",
+   "group": "X-4-0",
+   "gold": "awaria",
+   "pred": "awaria",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 0.0,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 1.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 218.98484230041504,
+   "meta": {}
+  },
+  {
+   "id": "szkoda_calkowita_70-0250",
+   "family": "szkoda_calkowita_70",
+   "group": "C-17",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 0.78,
+   "probs": {
+    "calkowita": 0.89,
+    "czesciowa": 0.11
+   },
+   "ms": 216.64905548095703,
+   "meta": {
+    "W": 127000,
+    "S": 127000,
+    "K": 91400,
+    "proc": 72.0
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0165",
+   "family": "poczatek_ochrony",
+   "group": "O-0",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 0.66,
+   "probs": {
+    "objeta": 0.22,
+    "przed_ochrona": 0.77,
+    "brak_danych": 0.01
+   },
+   "ms": 244.8110580444336,
+   "meta": {
+    "zawarcie": "2026-06-18",
+    "zaplata": "2026-06-19",
+    "szkoda": "2026-06-19"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0028",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-12",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.7,
+   "probs": {
+    "w_terminie": 0.8,
+    "po_terminie": 0.2,
+    "brak_danych": 0.0
+   },
+   "ms": 227.82468795776367,
+   "meta": {
+    "dni": 8
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0132",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-13",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.37,
+   "probs": {
+    "w_terminie": 0.41,
+    "po_terminie": 0.58,
+    "brak_danych": 0.01
+   },
+   "ms": 240.74602127075195,
+   "meta": {
+    "dzien": "2026-10-26",
+    "termin": "2026-10-27",
+    "zgloszenie": "2026-10-28"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0242",
+   "family": "szkoda_calkowita_70",
+   "group": "C-13",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 0.5,
+   "probs": {
+    "calkowita": 0.75,
+    "czesciowa": 0.25
+   },
+   "ms": 220.17693519592285,
+   "meta": {
+    "W": 86000,
+    "S": 86000,
+    "K": 61900,
+    "proc": 72.0
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0047",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-21",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {
+    "w_terminie": 1.0,
+    "po_terminie": 0.0,
+    "brak_danych": 0.0
+   },
+   "ms": 346.6529846191406,
+   "meta": {
+    "dni": 2
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0119",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-7",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.79,
+   "probs": {
+    "w_terminie": 0.86,
+    "po_terminie": 0.02,
+    "brak_danych": 0.12
+   },
+   "ms": 215.6350612640381,
+   "meta": {
+    "dzien": "2026-09-17",
+    "termin": "2026-09-18",
+    "zgloszenie": "2026-09-18"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0017",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-7",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.79,
+   "probs": {
+    "w_terminie": 0.14,
+    "po_terminie": 0.86,
+    "brak_danych": 0.0
+   },
+   "ms": 229.07400131225586,
+   "meta": {
+    "dni": 21
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0126",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-10",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.31,
+   "probs": {
+    "w_terminie": 0.54,
+    "po_terminie": 0.45,
+    "brak_danych": 0.01
+   },
+   "ms": 230.31878471374512,
+   "meta": {
+    "dzien": "2026-11-25",
+    "termin": "2026-11-26",
+    "zgloszenie": "2026-11-27"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0044",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-20",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.86,
+   "probs": {
+    "w_terminie": 0.91,
+    "po_terminie": 0.09,
+    "brak_danych": 0.0
+   },
+   "ms": 218.15228462219238,
+   "meta": {
+    "dni": 7
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0087",
+   "family": "kradziez_policja_12h",
+   "group": "P12-14",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.46,
+   "probs": {
+    "w_terminie": 0.64,
+    "po_terminie": 0.36,
+    "brak_danych": 0.0
+   },
+   "ms": 212.1868133544922,
+   "meta": {
+    "minuty": 700
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0059",
+   "family": "kradziez_policja_12h",
+   "group": "P12-1",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.33,
+   "probs": {
+    "w_terminie": 0.55,
+    "po_terminie": 0.45,
+    "brak_danych": 0.0
+   },
+   "ms": 219.09618377685547,
+   "meta": {
+    "minuty": 1200
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0160",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-27",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.62,
+   "probs": {
+    "w_terminie": 0.24,
+    "po_terminie": 0.75,
+    "brak_danych": 0.01
+   },
+   "ms": 229.09307479858398,
+   "meta": {
+    "dzien": "2026-10-17",
+    "termin": "2026-10-19",
+    "zgloszenie": "2026-10-20"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0220",
+   "family": "szkoda_calkowita_70",
+   "group": "C-2",
+   "gold": "calkowita",
+   "pred": "czesciowa",
+   "conf": 0.92,
+   "probs": {
+    "calkowita": 0.04,
+    "czesciowa": 0.96
+   },
+   "ms": 246.57297134399414,
+   "meta": {
+    "W": 97000,
+    "S": 97000,
+    "K": 69800,
+    "proc": 72.0
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0284",
+   "family": "wylaczenia_par4",
+   "group": "X-9-0",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 1.0,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 224.3340015411377,
+   "meta": {}
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0046",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-20",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 0.7,
+   "probs": {
+    "w_terminie": 0.15,
+    "po_terminie": 0.05,
+    "brak_danych": 0.8
+   },
+   "ms": 217.24414825439453,
+   "meta": {
+    "dni": null
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0272",
+   "family": "wylaczenia_par4",
+   "group": "X-3-0",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.9,
+   "probs": {
+    "objeta": 0.91,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.09,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 239.13335800170898,
+   "meta": {}
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0019",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-8",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.67,
+   "probs": {
+    "w_terminie": 0.78,
+    "po_terminie": 0.22,
+    "brak_danych": 0.0
+   },
+   "ms": 254.68921661376953,
+   "meta": {
+    "dni": 8
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0182",
+   "family": "poczatek_ochrony",
+   "group": "O-7",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.77,
+   "probs": {
+    "objeta": 0.85,
+    "przed_ochrona": 0.14,
+    "brak_danych": 0.01
+   },
+   "ms": 235.3529930114746,
+   "meta": {
+    "zawarcie": "2026-12-02",
+    "zaplata": "2026-12-03",
+    "szkoda": "2026-12-04"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0066",
+   "family": "kradziez_policja_12h",
+   "group": "P12-4",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 0.8,
+   "probs": {
+    "w_terminie": 0.06,
+    "po_terminie": 0.07,
+    "brak_danych": 0.87
+   },
+   "ms": 227.13303565979004,
+   "meta": {
+    "minuty": null
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0181",
+   "family": "poczatek_ochrony",
+   "group": "O-7",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 0.77,
+   "probs": {
+    "objeta": 0.14,
+    "przed_ochrona": 0.85,
+    "brak_danych": 0.01
+   },
+   "ms": 248.7649917602539,
+   "meta": {
+    "zawarcie": "2026-12-02",
+    "zaplata": "2026-12-03",
+    "szkoda": "2026-12-03"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0120",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-7",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.85,
+   "probs": {
+    "w_terminie": 0.09,
+    "po_terminie": 0.9,
+    "brak_danych": 0.01
+   },
+   "ms": 216.3829803466797,
+   "meta": {
+    "dzien": "2026-09-17",
+    "termin": "2026-09-18",
+    "zgloszenie": "2026-09-21"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0313",
+   "family": "wylaczenia_par4",
+   "group": "X-4-2",
+   "gold": "awaria",
+   "pred": "awaria",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 0.0,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 1.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 222.9611873626709,
+   "meta": {}
+  },
+  {
+   "id": "kradziez_policja_12h-0058",
+   "family": "kradziez_policja_12h",
+   "group": "P12-1",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.98,
+   "probs": {
+    "w_terminie": 0.99,
+    "po_terminie": 0.01,
+    "brak_danych": 0.0
+   },
+   "ms": 217.56792068481445,
+   "meta": {
+    "minuty": 90
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0143",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-19",
+   "gold": "w_terminie",
+   "pred": "po_terminie",
+   "conf": 0.43,
+   "probs": {
+    "w_terminie": 0.37,
+    "po_terminie": 0.62,
+    "brak_danych": 0.01
+   },
+   "ms": 220.3230857849121,
+   "meta": {
+    "dzien": "2026-07-10",
+    "termin": "2026-07-13",
+    "zgloszenie": "2026-07-13"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0018",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-8",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.76,
+   "probs": {
+    "w_terminie": 0.84,
+    "po_terminie": 0.16,
+    "brak_danych": 0.0
+   },
+   "ms": 216.9630527496338,
+   "meta": {
+    "dni": 7
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0015",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-6",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.79,
+   "probs": {
+    "w_terminie": 0.86,
+    "po_terminie": 0.14,
+    "brak_danych": 0.0
+   },
+   "ms": 220.5512523651123,
+   "meta": {
+    "dni": 8
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0253",
+   "family": "szkoda_calkowita_70",
+   "group": "C-19",
+   "gold": "czesciowa",
+   "pred": "calkowita",
+   "conf": 0.68,
+   "probs": {
+    "calkowita": 0.84,
+    "czesciowa": 0.16
+   },
+   "ms": 210.43705940246582,
+   "meta": {
+    "W": 106000,
+    "S": 106000,
+    "K": 72000,
+    "proc": 67.9
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0300",
+   "family": "wylaczenia_par4",
+   "group": "X-7-1",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.96,
+   "probs": {
+    "objeta": 0.96,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.04,
+    "terytorium": 0.0
+   },
+   "ms": 234.05003547668457,
+   "meta": {}
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0045",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-20",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.56,
+   "probs": {
+    "w_terminie": 0.71,
+    "po_terminie": 0.29,
+    "brak_danych": 0.0
+   },
+   "ms": 228.85727882385254,
+   "meta": {
+    "dni": 8
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0286",
+   "family": "wylaczenia_par4",
+   "group": "X-0-1",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.97,
+   "probs": {
+    "objeta": 0.97,
+    "alkohol": 0.03,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 225.03185272216797,
+   "meta": {}
+  },
+  {
+   "id": "wylaczenia_par4-0306",
+   "family": "wylaczenia_par4",
+   "group": "X-0-2",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.98,
+   "probs": {
+    "objeta": 0.98,
+    "alkohol": 0.02,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 237.36095428466797,
+   "meta": {}
+  },
+  {
+   "id": "szkoda_calkowita_70-0218",
+   "family": "szkoda_calkowita_70",
+   "group": "C-1",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 0.56,
+   "probs": {
+    "calkowita": 0.78,
+    "czesciowa": 0.22
+   },
+   "ms": 212.86821365356445,
+   "meta": {
+    "W": 45000,
+    "S": 45000,
+    "K": 32400,
+    "proc": 72.0
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0051",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-23",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.95,
+   "probs": {
+    "w_terminie": 0.97,
+    "po_terminie": 0.03,
+    "brak_danych": 0.0
+   },
+   "ms": 215.32487869262695,
+   "meta": {
+    "dni": 5
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0244",
+   "family": "szkoda_calkowita_70",
+   "group": "C-14",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 0.6,
+   "probs": {
+    "calkowita": 0.8,
+    "czesciowa": 0.2
+   },
+   "ms": 218.16301345825195,
+   "meta": {
+    "W": 148000,
+    "S": 148000,
+    "K": 106500,
+    "proc": 72.0
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0307",
+   "family": "wylaczenia_par4",
+   "group": "X-1-2",
+   "gold": "uprawnienia",
+   "pred": "uprawnienia",
+   "conf": 0.98,
+   "probs": {
+    "objeta": 0.02,
+    "alkohol": 0.0,
+    "uprawnienia": 0.98,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 248.6262321472168,
+   "meta": {}
+  },
+  {
+   "id": "wylaczenia_par4-0283",
+   "family": "wylaczenia_par4",
+   "group": "X-9-0",
+   "gold": "terytorium",
+   "pred": "objeta",
+   "conf": 0.99,
+   "probs": {
+    "objeta": 0.99,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.01
+   },
+   "ms": 263.380765914917,
+   "meta": {}
+  },
+  {
+   "id": "kradziez_policja_12h-0083",
+   "family": "kradziez_policja_12h",
+   "group": "P12-12",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.3,
+   "probs": {
+    "w_terminie": 0.47,
+    "po_terminie": 0.53,
+    "brak_danych": 0.0
+   },
+   "ms": 220.11685371398926,
+   "meta": {
+    "minuty": 745
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0038",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-17",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 1.0,
+   "probs": {
+    "w_terminie": 1.0,
+    "po_terminie": 0.0,
+    "brak_danych": 0.0
+   },
+   "ms": 267.0929431915283,
+   "meta": {
+    "dni": 1
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0263",
+   "family": "szkoda_calkowita_70",
+   "group": "C-24",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 0.22,
+   "probs": {
+    "calkowita": 0.61,
+    "czesciowa": 0.39
+   },
+   "ms": 229.4020652770996,
+   "meta": {
+    "W": 87000,
+    "S": 73900,
+    "K": 56300,
+    "proc": 76.2
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0230",
+   "family": "szkoda_calkowita_70",
+   "group": "C-7",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 0.58,
+   "probs": {
+    "calkowita": 0.79,
+    "czesciowa": 0.21
+   },
+   "ms": 231.9202423095703,
+   "meta": {
+    "W": 52000,
+    "S": 52000,
+    "K": 37400,
+    "proc": 71.9
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0040",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-18",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.67,
+   "probs": {
+    "w_terminie": 0.78,
+    "po_terminie": 0.22,
+    "brak_danych": 0.0
+   },
+   "ms": 227.90980339050293,
+   "meta": {
+    "dni": 7
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0140",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-17",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.88,
+   "probs": {
+    "w_terminie": 0.08,
+    "po_terminie": 0.92,
+    "brak_danych": 0.0
+   },
+   "ms": 225.39401054382324,
+   "meta": {
+    "dzien": "2026-06-11",
+    "termin": "2026-06-12",
+    "zgloszenie": "2026-06-15"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0050",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-22",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.52,
+   "probs": {
+    "w_terminie": 0.68,
+    "po_terminie": 0.32,
+    "brak_danych": 0.0
+   },
+   "ms": 216.98617935180664,
+   "meta": {
+    "dni": 8
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0070",
+   "family": "kradziez_policja_12h",
+   "group": "P12-6",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.53,
+   "probs": {
+    "w_terminie": 0.69,
+    "po_terminie": 0.31,
+    "brak_danych": 0.0
+   },
+   "ms": 214.60294723510742,
+   "meta": {
+    "minuty": 745
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0123",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-9",
+   "gold": "w_terminie",
+   "pred": "po_terminie",
+   "conf": 0.27,
+   "probs": {
+    "w_terminie": 0.48,
+    "po_terminie": 0.51,
+    "brak_danych": 0.01
+   },
+   "ms": 214.4157886505127,
+   "meta": {
+    "dzien": "2026-08-21",
+    "termin": "2026-08-24",
+    "zgloszenie": "2026-08-24"
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0174",
+   "family": "poczatek_ochrony",
+   "group": "O-4",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 0.97,
+   "probs": {
+    "objeta": 0.01,
+    "przed_ochrona": 0.98,
+    "brak_danych": 0.01
+   },
+   "ms": 221.297025680542,
+   "meta": {
+    "zawarcie": "2026-12-06",
+    "zaplata": "2026-12-06",
+    "szkoda": "2026-12-06"
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0324",
+   "family": "wylaczenia_par4",
+   "group": "X-9-2",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 1.0,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 227.41198539733887,
+   "meta": {}
+  },
+  {
+   "id": "szkoda_calkowita_70-0260",
+   "family": "szkoda_calkowita_70",
+   "group": "C-22",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 0.8,
+   "probs": {
+    "calkowita": 0.9,
+    "czesciowa": 0.1
+   },
+   "ms": 282.46116638183594,
+   "meta": {
+    "W": 113000,
+    "S": 113000,
+    "K": 81300,
+    "proc": 71.9
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0178",
+   "family": "poczatek_ochrony",
+   "group": "O-5",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.85,
+   "probs": {
+    "objeta": 0.9,
+    "przed_ochrona": 0.1,
+    "brak_danych": 0.0
+   },
+   "ms": 220.9646701812744,
+   "meta": {
+    "zawarcie": "2026-10-26",
+    "zaplata": "2026-10-29",
+    "szkoda": "2026-10-30"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0097",
+   "family": "kradziez_policja_12h",
+   "group": "P12-18",
+   "gold": "po_terminie",
+   "pred": "w_terminie",
+   "conf": 0.43,
+   "probs": {
+    "w_terminie": 0.62,
+    "po_terminie": 0.38,
+    "brak_danych": 0.0
+   },
+   "ms": 270.1001167297363,
+   "meta": {
+    "minuty": 745
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0184",
+   "family": "poczatek_ochrony",
+   "group": "O-8",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.77,
+   "probs": {
+    "objeta": 0.85,
+    "przed_ochrona": 0.15,
+    "brak_danych": 0.0
+   },
+   "ms": 231.20880126953125,
+   "meta": {
+    "zawarcie": "2026-08-09",
+    "zaplata": "2026-08-10",
+    "szkoda": "2026-08-11"
+   }
+  },
+  {
+   "id": "kradziez_policja_12h-0093",
+   "family": "kradziez_policja_12h",
+   "group": "P12-16",
+   "gold": "brak_danych",
+   "pred": "brak_danych",
+   "conf": 0.64,
+   "probs": {
+    "w_terminie": 0.1,
+    "po_terminie": 0.14,
+    "brak_danych": 0.76
+   },
+   "ms": 218.63412857055664,
+   "meta": {
+    "minuty": null
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0288",
+   "family": "wylaczenia_par4",
+   "group": "X-1-1",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.74,
+   "probs": {
+    "objeta": 0.77,
+    "alkohol": 0.0,
+    "uprawnienia": 0.23,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 220.95584869384766,
+   "meta": {}
+  },
+  {
+   "id": "poczatek_ochrony-0183",
+   "family": "poczatek_ochrony",
+   "group": "O-8",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 0.85,
+   "probs": {
+    "objeta": 0.09,
+    "przed_ochrona": 0.9,
+    "brak_danych": 0.01
+   },
+   "ms": 220.3829288482666,
+   "meta": {
+    "zawarcie": "2026-08-09",
+    "zaplata": "2026-08-10",
+    "szkoda": "2026-08-10"
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0053",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-24",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.85,
+   "probs": {
+    "w_terminie": 0.9,
+    "po_terminie": 0.1,
+    "brak_danych": 0.0
+   },
+   "ms": 223.53386878967285,
+   "meta": {
+    "dni": 7
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0258",
+   "family": "szkoda_calkowita_70",
+   "group": "C-21",
+   "gold": "czesciowa",
+   "pred": "calkowita",
+   "conf": 0.26,
+   "probs": {
+    "calkowita": 0.63,
+    "czesciowa": 0.37
+   },
+   "ms": 241.74809455871582,
+   "meta": {
+    "W": 142000,
+    "S": 113600,
+    "K": 74900,
+    "proc": 65.9
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0225",
+   "family": "szkoda_calkowita_70",
+   "group": "C-5",
+   "gold": "czesciowa",
+   "pred": "calkowita",
+   "conf": 0.5,
+   "probs": {
+    "calkowita": 0.75,
+    "czesciowa": 0.25
+   },
+   "ms": 215.44289588928223,
+   "meta": {
+    "W": 55000,
+    "S": 55000,
+    "K": 37400,
+    "proc": 68.0
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0175",
+   "family": "poczatek_ochrony",
+   "group": "O-4",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.92,
+   "probs": {
+    "objeta": 0.95,
+    "przed_ochrona": 0.05,
+    "brak_danych": 0.0
+   },
+   "ms": 226.17077827453613,
+   "meta": {
+    "zawarcie": "2026-12-06",
+    "zaplata": "2026-12-06",
+    "szkoda": "2026-12-07"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0264",
+   "family": "szkoda_calkowita_70",
+   "group": "C-24",
+   "gold": "czesciowa",
+   "pred": "czesciowa",
+   "conf": 0.08,
+   "probs": {
+    "calkowita": 0.46,
+    "czesciowa": 0.54
+   },
+   "ms": 217.423677444458,
+   "meta": {
+    "W": 87000,
+    "S": 73900,
+    "K": 48700,
+    "proc": 65.9
+   }
+  },
+  {
+   "id": "poczatek_ochrony-0204",
+   "family": "poczatek_ochrony",
+   "group": "O-17",
+   "gold": "przed_ochrona",
+   "pred": "przed_ochrona",
+   "conf": 0.97,
+   "probs": {
+    "objeta": 0.01,
+    "przed_ochrona": 0.98,
+    "brak_danych": 0.01
+   },
+   "ms": 248.50988388061523,
+   "meta": {
+    "zawarcie": "2026-11-29",
+    "zaplata": "2026-11-29",
+    "szkoda": "2026-11-29"
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia-0137",
+   "family": "kradziez_warta_dzien_roboczy_z_dniem_tygodnia",
+   "group": "W1-16",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.59,
+   "probs": {
+    "w_terminie": 0.73,
+    "po_terminie": 0.27,
+    "brak_danych": 0.0
+   },
+   "ms": 224.49779510498047,
+   "meta": {
+    "dzien": "2026-09-12",
+    "termin": "2026-09-14",
+    "zgloszenie": "2026-09-14"
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0239",
+   "family": "szkoda_calkowita_70",
+   "group": "C-12",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 0.4,
+   "probs": {
+    "calkowita": 0.7,
+    "czesciowa": 0.3
+   },
+   "ms": 226.20105743408203,
+   "meta": {
+    "W": 71000,
+    "S": 63900,
+    "K": 47200,
+    "proc": 73.9
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0235",
+   "family": "szkoda_calkowita_70",
+   "group": "C-10",
+   "gold": "czesciowa",
+   "pred": "calkowita",
+   "conf": 0.4,
+   "probs": {
+    "calkowita": 0.7,
+    "czesciowa": 0.3
+   },
+   "ms": 227.70214080810547,
+   "meta": {
+    "W": 51000,
+    "S": 51000,
+    "K": 34600,
+    "proc": 67.8
+   }
+  },
+  {
+   "id": "termin_zgloszenia_7dni-0014",
+   "family": "termin_zgloszenia_7dni",
+   "group": "T7-6",
+   "gold": "w_terminie",
+   "pred": "w_terminie",
+   "conf": 0.94,
+   "probs": {
+    "w_terminie": 0.96,
+    "po_terminie": 0.04,
+    "brak_danych": 0.0
+   },
+   "ms": 227.30422019958496,
+   "meta": {
+    "dni": 7
+   }
+  },
+  {
+   "id": "szkoda_calkowita_70-0221",
+   "family": "szkoda_calkowita_70",
+   "group": "C-3",
+   "gold": "calkowita",
+   "pred": "calkowita",
+   "conf": 0.58,
+   "probs": {
+    "calkowita": 0.79,
+    "czesciowa": 0.21
+   },
+   "ms": 236.42516136169434,
+   "meta": {
+    "W": 76000,
+    "S": 64600,
+    "K": 49200,
+    "proc": 76.2
+   }
+  },
+  {
+   "id": "wylaczenia_par4-0305",
+   "family": "wylaczenia_par4",
+   "group": "X-0-2",
+   "gold": "alkohol",
+   "pred": "alkohol",
+   "conf": 1.0,
+   "probs": {
+    "objeta": 0.0,
+    "alkohol": 1.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.0,
+    "awaria": 0.0,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 242.75779724121094,
+   "meta": {}
+  },
+  {
+   "id": "wylaczenia_par4-0294",
+   "family": "wylaczenia_par4",
+   "group": "X-4-1",
+   "gold": "objeta",
+   "pred": "objeta",
+   "conf": 0.92,
+   "probs": {
+    "objeta": 0.9299999999999999,
+    "alkohol": 0.0,
+    "uprawnienia": 0.0,
+    "ucieczka": 0.0,
+    "woda": 0.01,
+    "awaria": 0.06,
+    "ogumienie": 0.0,
+    "wyscigi": 0.0,
+    "kluczyki": 0.0,
+    "terytorium": 0.0
+   },
+   "ms": 236.18006706237793,
+   "meta": {}
+  },
+  {
+   "id": "szkoda_calkowita_70-0217",
+   "family": "szkoda_calkowita_70",
+   "group": "C-1",
+   "gold": "czesciowa",
+   "pred": "calkowita",
+   "conf": 0.32,
+   "probs": {
+    "calkowita": 0.66,
+    "czesciowa": 0.34
+   },
+   "ms": 226.15694999694824,
+   "meta": {
+    "W": 45000,
+    "S": 45000,
+    "K": 30600,
+    "proc": 68.0
+   }
+  },
+  {
+   "id": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia-0144",
+   "family": "kradziez_warta_dzien_roboczy_bez_dnia_tygodnia",
+   "group": "W1-19",
+   "gold": "po_terminie",
+   "pred": "po_terminie",
+   "conf": 0.89,
+   "probs": {
+    "w_terminie": 0.07,
+    "po_terminie": 0.93,
+    "brak_danych": 0.0
+   },
+   "ms": 221.01092338562012,
+   "meta": {
+    "dzien": "2026-07-10",
+    "termin": "2026-07-13",
+    "zgloszenie": "2026-07-14"
+   }
+  }
+ ]
+}
