@@ -1,5 +1,7 @@
 # Jev vs Basal na decyzjach ubezpieczeniowych
 
+> **v2 (16.10.2026): dane treningowe z odczytu dokumentów** — 3042 rekordy (3636 pytań) w 8 rodzinach NNW i szkód domowych, tylko pytania, których nie da się policzyć kodem; wyniki Basal-2.0 max-FP8 (87,2%) i gemini-3.8-flash (98,8%). Szczegóły: [`v2/README.md`](v2/README.md).
+
 ## Wyniki (trafne decyzje na 325)
 
 | Rodzina | n | gemini-3.8-flash | gemini-3.1-pro-preview | gemini-3.5-flash-lite | Jev | Basal-2.0 max-FP8 | Basal-2.0 max-FP8 + `facts: auto` | Basal-2.0 mini |
